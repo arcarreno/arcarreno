@@ -4,7 +4,7 @@
 
 <div align="center">
 
-### 👾 Hola, yo soy **Armando Carreño** 👾
+###  Hola, yo soy **Armando Carreño** 
 **Ingeniero en Ciencias de la Computación · BUAP · Puebla, México**
 
 *Amo resolver problemas difíciles de **software, hardware, APIs y bases de datos**,
@@ -27,21 +27,21 @@ y convertir ideas un poco locas en sistemas que funcionan de verdad.*
 <p align="center"><img src="assets/pixel-divider.svg" alt="Divisor pixel art" width="100%"></p>
 <br>
 
-### 🕹️ UN POCO SOBRE MÍ
+###  UN POCO SOBRE MÍ
 
 <div align="center" style="background-color:#141a3e;border:2px solid #00e5cc;border-radius:14px;padding:18px 22px;max-width:880px;margin:0 auto;color:#cfe9ff;text-align:left;line-height:1.6;font-size:15px;">
 
-- 🧠 **Me obsesiona** resolver problemas que nadie más puede entender a la primera.
-- 🔌 **Suelo meterme** con hardware, robótica, visión por computadora y sistemas en tiempo real.
-- 🗄️ Diseño **bases de datos y APIs** que aguantan el uso del mundo real.
-- 🎯 Creo en el código **limpio, legible y que se pueda mantener** — programo para la siguiente persona que lo relea.
-- ⚙️ Stack que juego a diario: **TypeScript, Python, React, Node.js** y herramientas de visión artificial con **YOLO / OpenCV**.
+-  **Me obsesiona** resolver problemas que nadie más puede entender a la primera.
+-  **Suelo meterme** con hardware, robótica, visión por computadora y sistemas en tiempo real.
+-  Diseño **bases de datos y APIs** que aguantan el uso del mundo real.
+-  Creo en el código **limpio, legible y que se pueda mantener** — programo para la siguiente persona que lo relea.
+-  Stack que juego a diario: **TypeScript, Python, React, Node.js** y herramientas de visión artificial con **YOLO / OpenCV**.
 
 </div>
 
 ---
 
-### 🧰 STACK TECNOLÓGICO
+###  STACK TECNOLÓGICO
 
 <div align="center">
 
@@ -75,7 +75,7 @@ y convertir ideas un poco locas en sistemas que funcionan de verdad.*
 
 ---
 
-### 🚀 PROYECTOS DESTACADOS
+### PROYECTOS DESTACADOS
 
 <div align="center">
 
@@ -91,7 +91,7 @@ y convertir ideas un poco locas en sistemas que funcionan de verdad.*
 
 <div align="center">
 
-  ☢️ **¿Quieres ver más?** Explora mi perfil completo en GitHub para descubrir proyectos de robótica, visión computacional, ciencia de datos y más.
+   **¿Quieres ver más?** Explora mi perfil completo en GitHub para descubrir proyectos de robótica, visión computacional, ciencia de datos y más.
   <br><br>
   <a href="https://github.com/arcarreno?tab=repositories">
     <img src="https://img.shields.io/badge/Ver_todos_los_Proyectos-0B3A66?style=for-the-badge&logo=github&logoColor=7CE7FF">
@@ -104,7 +104,7 @@ y convertir ideas un poco locas en sistemas que funcionan de verdad.*
 
 ---
 
-### 📊 ESTADÍSTICAS DE GITHUB
+###  ESTADÍSTICAS DE GITHUB
 
 <div align="center">
 
@@ -121,8 +121,6 @@ y convertir ideas un poco locas en sistemas que funcionan de verdad.*
 
 <div align="center" style="color:#9fd8ff;font-size:13px;line-height:1.6;">
 
-  ⚡ *"Si puedes describir el problema, ya tienes el 80% de la solución."* — Armando Carreño
-
   <br><br>
 
   [![linkedin](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arcarreno)
@@ -130,6 +128,6 @@ y convertir ideas un poco locas en sistemas que funcionan de verdad.*
   [![github](https://img.shields.io/badge/-arcarreno-141A3E?style=flat-square&logo=github&logoColor=white)](https://github.com/arcarreno)
 
   <br>
-  🕹️ <b>Presiona START</b> · Repositorio de perfil · © 2026
+   <b>Presiona START</b> · Repositorio de perfil · © 2026
 
 </div>
