@@ -35,64 +35,43 @@
 
 <br>
 
-<table width="100%">
-  <tr>
-    <td align="center" width="50%" style="padding: 20px;">
-      <i class="fas fa-robot" style="font-size: 40px; color: #3178C6;"></i>
-      <br><br>
-      <b><i class="fas fa-car"></i> Robot-Car-system</b>
-      <br><br>
-      <i>Sistema de control para robot carro</i>
-      <br><br>
-      <a href="https://github.com/arcarreno/Robot-Car-system">
-        <img src="https://img.shields.io/badge/Ver_Código-181717?style=flat&logo=github&logoColor=white">
-      </a>
-    </td>
-    <td align="center" width="50%" style="padding: 20px;">
-      <i class="fas fa-gamepad" style="font-size: 40px; color: #3776AB;"></i>
-      <br><br>
-      <b><i class="fas fa-dice"></i> Palillos</b>
-      <br><br>
-      <i>Juego implementado con Q-Learning (Machine Learning)</i>
-      <br><br>
-      <a href="https://github.com/arcarreno/Palillos">
-        <img src="https://img.shields.io/badge/Ver_Código-181717?style=flat&logo=github&logoColor=white">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" style="padding: 20px;">
-      <i class="fas fa-file-invoice" style="font-size: 40px; color: #F7DF1E;"></i>
-      <br><br>
-      <b><i class="fas fa-eye"></i> OCR_Nominas</b>
-      <br><br>
-      <i>Reconocimiento óptico de caracteres para nóminas</i>
-      <br><br>
-      <a href="https://github.com/arcarreno/OCR_Nominas">
-        <img src="https://img.shields.io/badge/Ver_Código-181717?style=flat&logo=github&logoColor=white">
-      </a>
-    </td>
-    <td align="center" width="50%" style="padding: 20px;">
-      <i class="fas fa-landmark" style="font-size: 40px; color: #E34F26;"></i>
-      <br><br>
-      <b><i class="fas fa-users"></i> Plataforma-Ciudadana</b>
-      <br><br>
-      <i>Plataforma de transparencia ciudadana</i>
-      <br><br>
-      <a href="https://github.com/arcarreno/Plataforma-Ciudadana">
-        <img src="https://img.shields.io/badge/Ver_Código-181717?style=flat&logo=github&logoColor=white">
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+#### <i class="fas fa-car"></i> Robot-Car-system
+
+<i>Sistema de control para robot carro con Python</i>
+
+[![Ver Código](https://img.shields.io/badge/Ver_Código-181717?style=flat&logo=github&logoColor=white)](https://github.com/arcarreno/Robot-Car-system)
 
 <br>
+
+#### <i class="fas fa-dice"></i> Palillos
+
+<i>Juego implementado con Q-Learning (Machine Learning)</i>
+
+[![Ver Código](https://img.shields.io/badge/Ver_Código-181717?style=flat&logo=github&logoColor=white)](https://github.com/arcarreno/Palillos)
+
+<br>
+
+#### <i class="fas fa-eye"></i> OCR_Nominas
+
+<i>Reconocimiento óptico de caracteres para nóminas</i>
+
+[![Ver Código](https://img.shields.io/badge/Ver_Código-181717?style=flat&logo=github&logoColor=white)](https://github.com/arcarreno/OCR_Nominas)
+
+<br>
+
+#### <i class="fas fa-users"></i> Plataforma-Ciudadana
+
+<i>Plataforma de transparencia ciudadana</i>
+
+[![Ver Código](https://img.shields.io/badge/Ver_Código-181717?style=flat&logo=github&logoColor=white)](https://github.com/arcarreno/Plataforma-Ciudadana)
+
+</div>
 
 ---
 
 ## <i class="fas fa-chart-line"></i> GitHub Stats
-
-<br>
 
 <div align="center">
 
@@ -105,19 +84,5 @@
 <br>
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=arcarreno&theme=radical&hide_border=true)
-
-</div>
-
----
-
-<div align="center">
-
-<i class="fas fa-eye"></i> **Visitas al perfil**
-
-![Visitors](https://komarev.com/ghpvc/?username=arcarreno&color=blueviolet&style=flat-square)
-
-<br><br>
-
-<i class="fas fa-heart"></i> Hecho con passion por Armando Carreño
 
 </div>
