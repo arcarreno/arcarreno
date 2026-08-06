@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Banner pixel art con bosque y cascada de Armando Carreño">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Banner pixel art 8-bit: bosque profundo con cascada, de Armando Carreño">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0a0f24"/>
-      <stop offset="0.55" stop-color="#141a3e"/>
-      <stop offset="1" stop-color="#1c2a52"/>
+      <stop offset="0" stop-color="#05070f"/>
+      <stop offset="0.45" stop-color="#0c1530"/>
+      <stop offset="0.8" stop-color="#16324f"/>
+      <stop offset="1" stop-color="#23415c"/>
     </linearGradient>
     <linearGradient id="nameGlow" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00e5cc"/>
@@ -11,155 +12,228 @@
       <stop offset="1" stop-color="#ff5ca8"/>
     </linearGradient>
     <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#9eecff"/>
-      <stop offset="1" stop-color="#3ec6e0"/>
+      <stop offset="0" stop-color="#bfefff"/>
+      <stop offset="0.5" stop-color="#57cfe8"/>
+      <stop offset="1" stop-color="#2f8fb0"/>
     </linearGradient>
+    <radialGradient id="poolGlow" cx="0.5" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#9feaff"/>
+      <stop offset="0.55" stop-color="#1f6d7b"/>
+      <stop offset="1" stop-color="#0b3c4d"/>
+    </radialGradient>
 
-    <!-- Pino de la forest: centro en (0,0), copa a la arriba -->
-    <g id="pine">
-      <rect x="-3" y="-14" width="6" height="15" fill="#33261a"/>
-      <rect x="-16" y="-9" width="34" height="7" fill="#17833f"/>
-      <rect x="-13" y="-15" width="28" height="7" fill="#1b8f47"/>
-      <rect x="-10" y="-21" width="22" height="7" fill="#209c50"/>
-      <rect x="-7" y="-27" width="16" height="7" fill="#27ab5c"/>
-      <rect x="-4" y="-33" width="10" height="7" fill="#2fb968"/>
+    <!-- Pino alto / marca bir foco -->
+    <g id="pineFar">
+      <rect x="-2" y="-8" width="4" height="9" fill="#1c3a2c"/>
+      <rect x="-10" y="-5" width="20" height="5" fill="#1f4431"/>
+      <rect x="-8" y="-10" width="16" height="5" fill="#245038"/>
+      <rect x="-6" y="-15" width="12" height="5" fill="#275c3f"/>
+      <rect x="-4" y="-20" width="8" height="5" fill="#2b6546"/>
     </g>
-    <g id="pine-dark">
-      <rect x="-3" y="-14" width="6" height="15" fill="#1f170e"/>
-      <rect x="-20" y="-9" width="42" height="8" fill="#0c3f22"/>
-      <rect x="-17" y="-16" width="36" height="8" fill="#0e4c28"/>
-      <rect x="-14" y="-23" width="30" height="8" fill="#105830"/>
-      <rect x="-11" y="-30" width="24" height="8" fill="#126438"/>
-      <rect x="-8" y="-37" width="18" height="8" fill="#147040"/>
-      <rect x="-5" y="-44" width="12" height="8" fill="#167c48"/>
+
+    <!-- Pino bosque medio -->
+    <g id="pineMid">
+      <rect x="-6" y="-22" width="12" height="22" fill="#0e2a1c"/>
+      <rect x="-22" y="-13" width="44" height="8" fill="#1b7a44"/>
+      <rect x="-17" y="-20" width="36" height="8" fill="#21894e"/>
+      <rect x="-13" y="-27" width="28" height="8" fill="#279758"/>
+      <rect x="-9" y="-34" width="20" height="8" fill="#2fa662"/>
     </g>
+
+    <!-- Pino frontal gigante (silueta alta y estrecha, alta como el banner) -->
+    <g id="pineFrame">
+      <rect x="-11" y="-10" width="22" height="12" fill="#09190f"/>
+      <rect x="-22" y="-22" width="44" height="10" fill="#1b2e1a"/>
+      <rect x="-19" y="-30" width="38" height="9" fill="#0e2d1b"/>
+      <rect x="-16" y="-38" width="32" height="9" fill="#113621"/>
+      <rect x="-13" y="-46" width="26" height="9" fill="#143f26"/>
+      <rect x="-10" y="-54" width="20" height="9" fill="#174b2b"/>
+      <rect x="-7" y="-62" width="14" height="9" fill="#1a4f30"/>
+      <rect x="-5" y="-70" width="10" height="9" fill="#1c5834"/>
+      <rect x="-3" y="-78" width="6" height="9" fill="#1f5f38"/>
+      <rect x="-2" y="-86" width="4" height="9" fill="#21683d"/>
+      <!-- luz / volumen en el lado derecho -->
+      <rect x="13" y="-22" width="9" height="10" fill="#2f7d48"/>
+      <rect x="11" y="-30" width="8" height="9" fill="#2f7d48"/>
+      <rect x="8" y="-38" width="8" height="9" fill="#2f7d48"/>
+      <rect x="6" y="-46" width="7" height="9" fill="#2f7d48"/>
+      <rect x="4" y="-54" width="6" height="9" fill="#2f7d48"/>
+      <rect x="3" y="-62" width="4" height="9" fill="#2f7d48"/>
+      <rect x="2" y="-70" width="3" height="9" fill="#2f7d48"/>
+    </g>
+
+    <!-- Juncos / pastizal -->
+    <g id="reed">
+      <rect x="-1" y="-34" width="2" height="34" fill="#103a24"/>
+      <rect x="-4" y="-40" width="3" height="8" fill="#2fa35c"/>
+      <rect x="1" y="-44" width="3" height="8" fill="#2fa35c"/>
+    </g>
+
+    <!-- Bruma -->
     <g id="mist">
-      <rect x="0" y="0" width="10" height="4" fill="#bfefff" opacity="0.5"/>
+      <rect x="-30" y="0" width="60" height="7" fill="#bfefff"/>
     </g>
   </defs>
 
   <rect width="960" height="360" fill="url(#sky)"/>
 
-  <!-- Estrellas parpadeantes -->
+  <!-- Estrellas parpadeantes (arriba) -->
   <g fill="#ffffff">
-    <rect x="60" y="30" width="5" height="5"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></rect>
-    <rect x="170" y="70" width="4" height="4"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></rect>
-    <rect x="250" y="25" width="5" height="5"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/></rect>
-    <rect x="360" y="90" width="4" height="4"><animate attributeName="opacity" values="1;0.3;1" dur="2.1s" repeatCount="indefinite"/></rect>
-    <rect x="440" y="45" width="5" height="5"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></rect>
-    <rect x="520" y="28" width="4" height="4"><animate attributeName="opacity" values="1;0.2;1" dur="2.7s" repeatCount="indefinite"/></rect>
-    <rect x="600" y="80" width="5" height="5"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/></rect>
-    <rect x="680" y="38" width="4" height="4"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></rect>
-    <rect x="770" y="66" width="5" height="5"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.9s" repeatCount="indefinite"/></rect>
-    <rect x="860" y="34" width="5" height="5"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></rect>
-    <rect x="915" y="95" width="4" height="4"><animate attributeName="opacity" values="1;0.2;1" dur="1.7s" repeatCount="indefinite"/></rect>
+    <rect x="70" y="26" width="4" height="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="170" y="52" width="3" height="3"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></rect>
+    <rect x="250" y="20" width="4" height="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="360" y="62" width="3" height="3"><animate attributeName="opacity" values="1;0.3;1" dur="2.1s" repeatCount="indefinite"/></rect>
+    <rect x="440" y="34" width="4" height="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></rect>
+    <rect x="540" y="22" width="3" height="3"><animate attributeName="opacity" values="1;0.2;1" dur="2.7s" repeatCount="indefinite"/></rect>
+    <rect x="640" y="66" width="4" height="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/></rect>
+    <rect x="740" y="30" width="3" height="3"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></rect>
+    <rect x="830" y="54" width="4" height="4"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.9s" repeatCount="indefinite"/></rect>
+    <rect x="912" y="36" width="3" height="3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></rect>
   </g>
 
-  <!-- Sol pixel (arriba-izquierda) -->
+  <!-- Sol pixel (arriba-izq) -->
   <g shape-rendering="crispEdges">
-    <rect x="66" y="40" width="18" height="18" fill="#ffd166"/>
-    <rect x="84" y="40" width="12" height="18" fill="#ffd166"/>
-    <rect x="66" y="58" width="18" height="12" fill="#ffc84a"/>
-    <rect x="84" y="58" width="12" height="12" fill="#ffb52e"/>
-    <rect x="56" y="56" width="8" height="8" fill="#ffd166"><animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/></rect>
-    <rect x="100" y="50" width="8" height="8" fill="#ffd166"><animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="58" y="34" width="16" height="16" fill="#ffd166"/>
+    <rect x="74" y="34" width="10" height="16" fill="#ffc84a"/>
+    <rect x="58" y="50" width="16" height="10" fill="#ffb52e"/>
+    <rect x="74" y="50" width="10" height="10" fill="#ffa71f"/>
+    <rect x="48" y="48" width="8" height="8" fill="#ffd166"><animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="88" y="40" width="8" height="8" fill="#ffd166"><animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/></rect>
   </g>
 
-  <!-- Montañas lejanas -->
+  <!-- NUBE DISTANTE / BAJO NIEBLA horizonte -->
   <g shape-rendering="crispEdges">
-    <rect x="0" y="212" width="960" height="14" fill="#16203e"/>
-    <polygon points="0,212 120,168 240,212" fill="#17223f"/>
-    <polygon points="820,212 920,160 960,212" fill="#16203e"/>
-    <rect x="0" y="222" width="960" height="12" fill="#12354c"/>
+    <rect x="0" y="196" width="960" height="14" fill="#2a4a63" opacity="0.6"/>
+    <rect x="0" y="204" width="960" height="10" fill="#315370" opacity="0.4"/>
   </g>
 
-  <!-- Bosque trasero (pinos oscuros, perfil) -->
+  <!-- Plano 1 (lejano): cresta de picos conv (pequeños) -->
   <g>
-    <use href="#pine-dark" transform="translate(60,300) scale(1.5)"/>
-    <use href="#pine-dark" transform="translate(150,300) scale(1.3)"/>
-    <use href="#pine-dark" transform="translate(230,300) scale(1.6)"/>
-    <use href="#pine-dark" transform="translate(300,300) scale(1.35)"/>
-    <use href="#pine-dark" transform="translate(700,300) scale(1.35)"/>
-    <use href="#pine-dark" transform="translate(790,300) scale(1.6)"/>
-    <use href="#pine-dark" transform="translate(880,300) scale(1.3)"/>
-    <use href="#pine-dark" transform="translate(945,300) scale(1.5)"/>
+    <use href="#pineFar" transform="translate(110,206) scale(1.2)"/>
+    <use href="#pineFar" transform="translate(170,206) scale(1.0)"/>
+    <use href="#pineFar" transform="translate(230,206) scale(1.3)"/>
+    <use href="#pineFar" transform="translate(300,206) scale(1.1)"/>
+    <use href="#pineFar" transform="translate(360,206) scale(1.4)"/>
+    <use href="#pineFar" transform="translate(560,206) scale(1.4)"/>
+    <use href="#pineFar" transform="translate(630,206) scale(1.1)"/>
+    <use href="#pineFar" transform="translate(690,206) scale(1.3)"/>
+    <use href="#pineFar" transform="translate(760,206) scale(1.0)"/>
+    <use href="#pineFar" transform="translate(820,206) scale(1.2)"/>
+    <use href="#pineFar" transform="translate(880,206) scale(1.1)"/>
   </g>
 
-  <!-- Cascada -->
+  <!-- El cañón oscuro detrás de la cascada (profundidad) -->
   <g>
-    <rect x="434" y="196" width="12" height="140" fill="#2f3556"/>
-    <rect x="536" y="196" width="12" height="140" fill="#2f3556"/>
-    <rect x="446" y="196" width="90" height="140" fill="url(#water)"/>
+    <polygon points="300,120 700,120 760,330 260,330" fill="#08141a"/>
+  </g>
 
-    <!-- gotas cayendo -->
-    <g fill="#bfefff">
-      <rect x="452" y="200" width="4" height="16"><animateTransform attributeName="transform" type="translate" values="0,0;0,130" dur="1.0s" repeatCount="indefinite"/></rect>
-      <rect x="470" y="200" width="4" height="16"><animateTransform attributeName="transform" type="translate" values="0,0;0,130" dur="0.9s" repeatCount="indefinite" begin="0.2s"/></rect>
-      <rect x="488" y="200" width="4" height="16"><animateTransform attributeName="transform" type="translate" values="0,0;0,130" dur="1.1s" repeatCount="indefinite" begin="0.5s"/></rect>
-      <rect x="506" y="200" width="4" height="16"><animateTransform attributeName="transform" type="translate" values="0,0;0,130" dur="0.95s" repeatCount="indefinite" begin="0.1s"/></rect>
-      <rect x="524" y="200" width="4" height="14"><animateTransform attributeName="transform" type="translate" values="0,0;0,130" dur="1.05s" repeatCount="indefinite" begin="0.6s"/></rect>
+  <!-- Cascada: caño que se ensancha hacia el frente (trapezoide) -->
+  <g>
+    <!-- cuerpo de agua -->
+    <polygon points="420,122 560,122 676,336 344,336" fill="url(#water)"/>
+
+    <!-- pliegues / nervaduras verticales (volumen) -->
+    <polygon points="448,122 468,122 540,336 400,336" fill="#66bfe0" opacity="0.55"/>
+    <polygon points="478,122 492,122 580,336 470,336" fill="#cdf2ff" opacity="0.6"/>
+    <polygon points="500,122 512,122 600,336 520,336" fill="#3a96b5" opacity="0.6"/>
+    <polygon points="524,122 540,122 628,336 588,336" fill="#8fe0f5" opacity="0.5"/>
+
+    <!-- gotas / chorros cayendo (animación SMIL) -->
+    <g fill="#eafcff">
+      <rect x="455" y="126" width="4" height="18"><animateTransform attributeName="transform" type="translate" values="0,0;0,210" dur="0.9s" repeatCount="indefinite" begin="0.2s"/></rect>
+      <rect x="478" y="126" width="4" height="18"><animateTransform attributeName="transform" type="translate" values="0,0;0,210" dur="1.1s" repeatCount="indefinite" begin="0.5s"/></rect>
+      <rect x="508" y="126" width="4" height="18"><animateTransform attributeName="transform" type="translate" values="0,0;0,210" dur="0.95s" repeatCount="indefinite" begin="0.4s"/></rect>
+      <rect x="536" y="126" width="4" height="18"><animateTransform attributeName="transform" type="translate" values="0,0;0,210" dur="1.05s" repeatCount="indefinite" begin="0.7s"/></rect>
+      <rect x="474" y="126" width="3" height="14"><animateTransform attributeName="transform" type="translate" values="0,0;0,210" dur="0.85s" repeatCount="indefinite" begin="0.1s"/></rect>
+      <rect x="524" y="126" width="3" height="14"><animateTransform attributeName="transform" type="translate" values="0,0;0,210" dur="1.15s" repeatCount="indefinite" begin="0.3s"/></rect>
     </g>
-    <g fill="#7ce7ff">
-      <rect x="462" y="200" width="3" height="12"><animateTransform attributeName="transform" type="translate" values="0,0;0,130" dur="0.85s" repeatCount="indefinite" begin="0.4s"/></rect>
-      <rect x="497" y="200" width="3" height="12"><animateTransform attributeName="transform" type="translate" values="0,0;0,130" dur="1.15s" repeatCount="indefinite" begin="0.3s"/></rect>
+
+    <!-- rocío / salpique en la caída -->
+    <g fill="#ffffff">
+      <rect x="405" y="150" width="6" height="6" opacity="0.6"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="556" y="158" width="6" height="6" opacity="0.6"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.3s" repeatCount="indefinite"/></rect>
+      <rect x="466" y="180" width="5" height="5" opacity="0.6"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.1s" repeatCount="indefinite"/></rect>
     </g>
 
-    <!-- Charco abajo -->
-    <rect x="430" y="336" width="20" height="22" fill="#2b3557"/>
-    <rect x="532" y="336" width="20" height="22" fill="#2b3557"/>
-    <rect x="450" y="336" width="84" height="24" fill="#2fa7c4"/>
-    <rect x="454" y="338" width="12" height="6" fill="#eafcff">
-      <animate attributeName="opacity" values="1;0.2;1" dur="0.7s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="480" y="340" width="12" height="6" fill="#eafcff">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="506" y="338" width="12" height="6" fill="#eafcff">
-      <animate attributeName="opacity" values="1;0.3;1" dur="0.9s" repeatCount="indefinite"/>
-    </rect>
+    <!-- haz de luz que atraviesa la cascada -->
+    <polygon points="470,120 520,120 600,330 410,330" fill="#dff8ff" opacity="0.12">
+      <animate attributeName="opacity" values="0.06;0.16;0.06" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
 
-    <!-- Bruma -->
-    <g fill="#bfefff">
-      <rect x="448" y="330" width="8" height="4" opacity="0.5"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="1.4s" repeatCount="indefinite"/></rect>
-      <rect x="466" y="336" width="8" height="4" opacity="0.5"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.6s" repeatCount="indefinite"/></rect>
-      <rect x="520" y="332" width="8" height="4" opacity="0.5"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="1.5s" repeatCount="indefinite"/></rect>
+  <!-- Plano medio: lomo de pino sobre la poza (cresta del charco) -->
+  <g>
+    <use href="#pineMid" transform="translate(140,344) scale(1.5)"/>
+    <use href="#pineMid" transform="translate(205,344) scale(1.8)"/>
+    <use href="#pineMid" transform="translate(285,344) scale(1.5)"/>
+    <use href="#pineMid" transform="translate(620,344) scale(1.5)"/>
+    <use href="#pineMid" transform="translate(690,344) scale(1.8)"/>
+    <use href="#pineMid" transform="translate(765,344) scale(1.5)"/>
+    <use href="#pineMid" transform="translate(90,344) scale(1.3)"/>
+    <use href="#pineMid" transform="translate(880,344) scale(1.3)"/>
+  </g>
+
+  <!-- La poza / estanque ancho al frente (foam + brillos) -->
+  <g>
+    <polygon points="250,330 710,330 820,360 900,360 60,360 140,330" fill="url(#poolGlow)"/>
+    <!-- foam en la caída -->
+    <g fill="#eafcff">
+      <rect x="380" y="330" width="70" height="8"><animate attributeName="opacity" values="1;0.2;1" dur="0.7s" repeatCount="indefinite"/></rect>
+      <rect x="430" y="326" width="40" height="6" opacity="0.8"><animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite"/></rect>
     </g>
+    <!-- brillos / olas del pozo -->
+    <g fill="#bff2ff">
+      <rect x="300" y="340" width="26" height="4" opacity="0.7"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="420" y="346" width="22" height="4" opacity="0.6"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.3s" repeatCount="indefinite"/></rect>
+      <rect x="540" y="342" width="18" height="4" opacity="0.6"><animate attributeName="opacity" values="0.4;0.9;0.4" dur="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="240" y="352" width="16" height="4" opacity="0.5"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.4s" repeatCount="indefinite"/></rect>
+      <rect x="620" y="352" width="14" height="4" opacity="0.5"><animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.5s" repeatCount="indefinite"/></rect>
+    </g>
+    <!-- bruma elevándose -->
+    <g opacity="0.5">
+      <use href="#mist" transform="translate(430,300)"/><animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.5">
+      <use href="#mist" transform="translate(520,288)"/><animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- juncos a los lados de la poza -->
+    <use href="#reed" transform="translate(176,360)"/>
+    <use href="#reed" transform="translate(196,360)"/>
+    <use href="#reed" transform="translate(762,360)"/>
+    <use href="#reed" transform="translate(782,360)"/>
   </g>
 
-  <!-- Bosque frontal (pinos claros) -->
+  <!-- PLANO FRENTE: árboles enmarcando, alcanzan la altura total del banner -->
   <g>
-    <use href="#pine" transform="translate(40,300) scale(1.7)"/>
-    <use href="#pine" transform="translate(110,300) scale(1.5)"/>
-    <use href="#pine" transform="translate(190,300) scale(1.9)"/>
-    <use href="#pine" transform="translate(258,300) scale(1.6)"/>
-    <use href="#pine" transform="translate(620,300) scale(1.6)"/>
-    <use href="#pine" transform="translate(690,300) scale(1.9)"/>
-    <use href="#pine" transform="translate(770,300) scale(1.5)"/>
-    <use href="#pine" transform="translate(850,300) scale(1.7)"/>
-    <use href="#pine" transform="translate(925,300) scale(1.4)"/>
+    <use href="#pineFrame" transform="translate(30,360) scale(3.8)"/>
+    <use href="#pineFrame" transform="translate(96,360) scale(2.8)"/>
+    <use href="#pineFrame" transform="translate(858,360) scale(2.8)"/>
+    <use href="#pineFrame" transform="translate(930,360) scale(3.8)"/>
   </g>
 
-  <!-- Bruma de fondo arriba de la forest -->
+  <!-- Tierra/pastizal en el borde inferior -->
   <g>
-    <rect x="0" y="250" width="960" height="10" fill="#0b2c22" opacity="0.55"/>
+    <rect x="0" y="352" width="150" height="8" fill="#07180f"/>
+    <rect x="820" y="352" width="140" height="8" fill="#07180f"/>
   </g>
 
   <!-- Texto central -->
-  <text x="482" y="132" text-anchor="middle" font-family="'Courier New', monospace" font-size="50" font-weight="bold" fill="#0a0f24">
+  <text x="482" y="102" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="#03050c">
     <animate attributeName="opacity" values="0;1;1" dur="0.6s" fill="freeze" begin="0.2s"/>
     ARMANDO CARREÑO
   </text>
-  <text x="480" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="50" font-weight="bold" fill="url(#nameGlow)">
-    <animate attributeName="opacity" values="0;0.75;0.75" dur="0.6s" fill="freeze" begin="0.2s"/>
+  <text x="480" y="100" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="url(#nameGlow)">
+    <animate attributeName="opacity" values="0;0.85;0.85" dur="0.6s" fill="freeze" begin="0.2s"/>
     ARMANDO CARREÑO
   </text>
-  <text x="480" y="186" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" letter-spacing="3" fill="#ffffff">
+  <text x="480" y="146" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" letter-spacing="2" fill="#ffffff">
     <animate attributeName="opacity" values="0;1;1" dur="0.8s" fill="freeze" begin="0.6s"/>
     INGENIERO EN CIENCIAS DE LA COMPUTACIÓN
   </text>
 
   <!-- Cursor de texto parpadeante -->
-  <rect x="815" y="102" width="8" height="38" fill="#7ce7ff">
+  <rect x="808" y="72" width="7" height="32" fill="#7ce7ff">
     <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
   </rect>
 </svg>
