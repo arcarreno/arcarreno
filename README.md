@@ -108,7 +108,7 @@ y convertir ideas un poco locas en sistemas que funcionan de verdad.*
 
 <div align="center">
 
-  <img src="https://github-stats-extended.vercel.app/api?username=arcarreno&show_icons=true&theme=radical&hide_border=true" width="48%">
+ 
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=arcarreno&layout=compact&theme=radical&hide_border=true" width="42%">
 
   <br><br>
