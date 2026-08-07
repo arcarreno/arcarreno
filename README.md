@@ -123,11 +123,11 @@ y convertir ideas un poco locas en sistemas que funcionan de verdad.*
 
   <br><br>
 
-  [![linkedin](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arcarreno)
+  
   [![email](https://img.shields.io/badge/-arancago24@gmail.com-FF5CA8?style=flat-square&logo=gmail&logoColor=white)](mailto:arancago24@gmail.com)
   [![github](https://img.shields.io/badge/-arcarreno-141A3E?style=flat-square&logo=github&logoColor=white)](https://github.com/arcarreno)
 
   <br>
-   <b>Presiona START</b> · Repositorio de perfil · © 2026
+ 
 
 </div>
