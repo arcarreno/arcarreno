@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Banner pixel art 8-bit: cabaña en el atardecer de Armando Carreño">
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Banner pixel art 8-bit: cabaña en el bosque montañoso de Armando Carreño">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0d0a2a"/>
-      <stop offset="0.25" stop-color="#1a1050"/>
-      <stop offset="0.45" stop-color="#3c2870"/>
-      <stop offset="0.6" stop-color="#6f4398"/>
-      <stop offset="0.78" stop-color="#a8579b"/>
-      <stop offset="0.9" stop-color="#cf6b92"/>
+      <stop offset="0" stop-color="#060418"/>
+      <stop offset="0.15" stop-color="#0d0a2a"/>
+      <stop offset="0.35" stop-color="#1a1050"/>
+      <stop offset="0.5" stop-color="#3c2870"/>
+      <stop offset="0.65" stop-color="#6f4398"/>
+      <stop offset="0.8" stop-color="#a8579b"/>
+      <stop offset="0.92" stop-color="#cf6b92"/>
       <stop offset="1" stop-color="#e27c8c"/>
     </linearGradient>
     <linearGradient id="nameGlow" x1="0" y1="0" x2="1" y2="0">
@@ -15,38 +16,30 @@
       <stop offset="1" stop-color="#f08f4f"/>
     </linearGradient>
     <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a2550"/>
-      <stop offset="0.3" stop-color="#2a1a40"/>
-      <stop offset="1" stop-color="#1a0f2c"/>
+      <stop offset="0" stop-color="#1a2a1a"/>
+      <stop offset="0.4" stop-color="#142014"/>
+      <stop offset="1" stop-color="#0a120a"/>
     </linearGradient>
     <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#d98aa0"/>
-      <stop offset="0.5" stop-color="#b06a9e"/>
-      <stop offset="1" stop-color="#5e3f86"/>
-    </linearGradient>
-    <linearGradient id="woodWall" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5a3520"/>
-      <stop offset="0.3" stop-color="#6b4228"/>
-      <stop offset="0.5" stop-color="#5a3520"/>
-      <stop offset="0.7" stop-color="#6b4228"/>
-      <stop offset="1" stop-color="#4a2a18"/>
-    </linearGradient>
-    <linearGradient id="roofShingle" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3a2518"/>
-      <stop offset="0.5" stop-color="#4a3020"/>
-      <stop offset="1" stop-color="#3a2518"/>
+      <stop offset="0" stop-color="#6090b0"/>
+      <stop offset="0.5" stop-color="#4a7090"/>
+      <stop offset="1" stop-color="#2a4060"/>
     </linearGradient>
     <linearGradient id="windowGlow" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffe6a0"/>
       <stop offset="0.5" stop-color="#ffb76e"/>
       <stop offset="1" stop-color="#e8943a"/>
     </linearGradient>
-    <linearGradient id="stoneBase" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4a4050"/>
-      <stop offset="1" stop-color="#352d3a"/>
+    <linearGradient id="mtnFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1e48"/>
+      <stop offset="0.4" stop-color="#1e1538"/>
+      <stop offset="1" stop-color="#140e28"/>
     </linearGradient>
-
-    <!-- ========== SVG FILTERS ========== -->
+    <linearGradient id="mtnMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e2a1e"/>
+      <stop offset="0.5" stop-color="#142014"/>
+      <stop offset="1" stop-color="#0e180e"/>
+    </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
@@ -63,14 +56,6 @@
       <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
-    <filter id="chromatic" x="-5%" y="-5%" width="110%" height="110%">
-      <feOffset in="SourceGraphic" dx="2" dy="0" result="red"/>
-      <feColorMatrix in="red" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="redOnly"/>
-      <feOffset in="SourceGraphic" dx="-2" dy="0" result="cyan"/>
-      <feColorMatrix in="cyan" type="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" result="cyanOnly"/>
-      <feBlend in="redOnly" in2="cyanOnly" mode="screen" result="shifted"/>
-      <feBlend in="shifted" in2="SourceGraphic" mode="screen"/>
-    </filter>
     <pattern id="scanlines" patternUnits="userSpaceOnUse" width="4" height="4">
       <rect width="4" height="2" fill="transparent"/>
       <rect y="2" width="4" height="2" fill="rgba(0,0,0,0.12)"/>
@@ -80,10 +65,6 @@
       <rect x="2" y="1" width="1" height="1" fill="rgba(0,0,0,0.04)"/>
       <rect x="1" y="2" width="1" height="1" fill="rgba(0,0,0,0.03)"/>
       <rect x="3" y="3" width="1" height="1" fill="rgba(255,255,255,0.04)"/>
-      <rect x="1" y="0" width="1" height="1" fill="rgba(0,0,0,0.02)"/>
-      <rect x="3" y="1" width="1" height="1" fill="rgba(255,255,255,0.03)"/>
-      <rect x="0" y="2" width="1" height="1" fill="rgba(255,255,255,0.02)"/>
-      <rect x="2" y="3" width="1" height="1" fill="rgba(0,0,0,0.03)"/>
     </pattern>
     <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
       <stop offset="0" stop-color="transparent"/>
@@ -96,534 +77,222 @@
       <rect y="4" width="960" height="2" fill="rgba(0,0,255,0.04)"/>
       <rect y="6" width="960" height="2" fill="transparent"/>
     </pattern>
-
-    <!-- ========== SYMBOLS ========== -->
-
-    <!-- Estrella -->
-    <g id="star">
-      <rect x="-2" y="-2" width="4" height="4" fill="#fff6d8" filter="url(#glowFirefly)">
-        <animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <g id="starSmall">
-      <rect x="-1" y="-1" width="2" height="2" fill="#e8dcf5">
-        <animate attributeName="opacity" values="0.3;0.95;0.3" dur="1.8s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-
-    <!-- Nube esponjosa clara -->
-    <g id="cloudA">
-      <rect x="-34" y="0"   width="26" height="8"  fill="#e9b7d0"/>
-      <rect x="-26" y="-8"  width="20" height="8"  fill="#eec2d8"/>
-      <rect x="-6"  y="-12" width="18" height="10" fill="#f4cbe0"/>
-      <rect x="12"  y="-6"  width="22" height="8"  fill="#f0c5dc"/>
-      <rect x="-22" y="-5"  width="44" height="7"  fill="#fbd9ea"/>
-      <rect x="-4"  y="-13" width="8" height="5"   fill="#ffe3f0"/>
-    </g>
-    <g id="cloudB">
-      <rect x="-30" y="0"  width="22" height="8" fill="#9c6298"/>
-      <rect x="-22" y="-10" width="24" height="9" fill="#ac6fa6"/>
-      <rect x="6"   y="-8"  width="26" height="9" fill="#a565a2"/>
-      <rect x="-8"  y="2"   width="40" height="7" fill="#bc7eb0"/>
-    </g>
-
-    <!-- Ave volando -->
-    <g id="bird">
-      <path d="M -7,0 Q -3,-5 0,0 Q 3,-5 7,0" fill="none" stroke="#2a1750" stroke-width="2" stroke-linecap="round"/>
-    </g>
-
-    <!-- Estrella fugaz -->
+    <g id="star"><rect x="-2" y="-2" width="4" height="4" fill="#fff6d8" filter="url(#glowFirefly)"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/></rect></g>
+    <g id="starSmall"><rect x="-1" y="-1" width="2" height="2" fill="#e8dcf5"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="1.8s" repeatCount="indefinite"/></rect></g>
+    <g id="cloudA"><rect x="-34" y="0" width="26" height="8" fill="#e9b7d0"/><rect x="-26" y="-8" width="20" height="8" fill="#eec2d8"/><rect x="-6" y="-12" width="18" height="10" fill="#f4cbe0"/><rect x="12" y="-6" width="22" height="8" fill="#f0c5dc"/><rect x="-22" y="-5" width="44" height="7" fill="#fbd9ea"/><rect x="-4" y="-13" width="8" height="5" fill="#ffe3f0"/></g>
+    <g id="cloudB"><rect x="-30" y="0" width="22" height="8" fill="#9c6298"/><rect x="-22" y="-10" width="24" height="9" fill="#ac6fa6"/><rect x="6" y="-8" width="26" height="9" fill="#a565a2"/><rect x="-8" y="2" width="40" height="7" fill="#bc7eb0"/></g>
+    <g id="bird"><path d="M -7,0 Q -3,-5 0,0 Q 3,-5 7,0" fill="none" stroke="#1a1030" stroke-width="2" stroke-linecap="round"/></g>
     <g id="meteor">
-      <line x1="0" y1="0" x2="-26" y2="13" stroke="#fff3d0" stroke-width="3" filter="url(#glow)">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 90,-48" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/>
-      </line>
-      <circle cx="0" cy="0" r="2" fill="#fff6d8" filter="url(#glowFirefly)">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 90,-48" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/>
-        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/>
-      </circle>
+      <line x1="0" y1="0" x2="-26" y2="13" stroke="#fff3d0" stroke-width="3" filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0,0; 90,-48" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/></line>
+      <circle cx="0" cy="0" r="2" fill="#fff6d8" filter="url(#glowFirefly)"><animateTransform attributeName="transform" type="translate" values="0,0; 90,-48" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/></circle>
     </g>
-
-    <!-- ========== CABAÑA DE MADERA DETALLADA ========== -->
     <g id="cabin">
-      <!-- Sombra de la cabaña en el suelo -->
-      <ellipse cx="70" cy="8" rx="90" ry="8" fill="#1a0f2c" opacity="0.4"/>
-
-      <!-- Cimientos de piedra -->
-      <g fill="url(#stoneBase)">
-        <rect x="-2" y="-6" width="144" height="14" rx="2"/>
-        <rect x="4" y="-4" width="12" height="10" fill="#4a4050"/>
-        <rect x="20" y="-4" width="14" height="10" fill="#3d3545"/>
-        <rect x="38" y="-4" width="10" height="10" fill="#4a4050"/>
-        <rect x="52" y="-4" width="16" height="10" fill="#3d3545"/>
-        <rect x="72" y="-4" width="12" height="10" fill="#4a4050"/>
-        <rect x="88" y="-4" width="14" height="10" fill="#3d3545"/>
-        <rect x="106" y="-4" width="10" height="10" fill="#4a4050"/>
-        <rect x="120" y="-4" width="16" height="10" fill="#3d3545"/>
-        <rect x="138" y="-4" width="4" height="10" fill="#4a4050"/>
-      </g>
-
-      <!-- Paredes de troncos (horizontal logs) -->
-      <g>
-        <!-- Fila de troncos base -->
-        <rect x="6" y="-56" width="128" height="50" fill="#5a3520"/>
-        <!-- Textura de troncos horizontales -->
-        <rect x="6" y="-56" width="128" height="7" fill="#6b4228"/>
-        <rect x="6" y="-49" width="128" height="1" fill="#4a2a18" opacity="0.6"/>
-        <rect x="6" y="-42" width="128" height="7" fill="#5a3520"/>
-        <rect x="6" y="-35" width="128" height="1" fill="#4a2a18" opacity="0.6"/>
-        <rect x="6" y="-28" width="128" height="7" fill="#6b4228"/>
-        <rect x="6" y="-21" width="128" height="1" fill="#4a2a18" opacity="0.6"/>
-        <rect x="6" y="-14" width="128" height="7" fill="#5a3520"/>
-        <rect x="6" y="-7" width="128" height="1" fill="#4a2a18" opacity="0.6"/>
-        <!-- Nudos de madera -->
-        <rect x="22" y="-50" width="4" height="3" fill="#4a2a18" opacity="0.5"/>
-        <rect x="58" y="-36" width="5" height="3" fill="#4a2a18" opacity="0.5"/>
-        <rect x="95" y="-48" width="4" height="3" fill="#4a2a18" opacity="0.5"/>
-        <rect x="118" y="-30" width="5" height="3" fill="#4a2a18" opacity="0.5"/>
-        <rect x="40" y="-16" width="4" height="3" fill="#4a2a18" opacity="0.5"/>
-        <!-- Esquina izquierda (troncos verticales de empalme) -->
-        <rect x="2" y="-56" width="6" height="50" fill="#4a2a18"/>
-        <rect x="3" y="-56" width="4" height="50" fill="#5a3520" opacity="0.7"/>
-        <!-- Esquina derecha -->
-        <rect x="134" y="-56" width="6" height="50" fill="#4a2a18"/>
-        <rect x="135" y="-56" width="4" height="50" fill="#5a3520" opacity="0.7"/>
-      </g>
-
-      <!-- Techo A-frame con tejas de madera -->
-      <g>
-        <!-- Estructura principal del techo -->
-        <polygon points="-14,-56 70,-96 154,-56" fill="url(#roofShingle)"/>
-        <!-- Tejas horizontales -->
-        <rect x="-6" y="-72" width="152" height="2" fill="#2a1a10" opacity="0.4"/>
-        <rect x="2" y="-78" width="136" height="2" fill="#2a1a10" opacity="0.4"/>
-        <rect x="10" y="-84" width="120" height="2" fill="#2a1a10" opacity="0.4"/>
-        <rect x="18" y="-90" width="104" height="2" fill="#2a1a10" opacity="0.4"/>
-        <rect x="26" y="-96" width="88" height="2" fill="#2a1a10" opacity="0.4"/>
-        <!-- Borde del techo (alero) -->
-        <rect x="-16" y="-56" width="172" height="4" fill="#3a2518"/>
-        <rect x="-14" y="-54" width="168" height="2" fill="#2a1a10"/>
-        <!-- Cumbrera -->
-        <rect x="58" y="-98" width="24" height="4" fill="#3a2518"/>
-        <rect x="60" y="-97" width="20" height="2" fill="#4a3020"/>
-        <!-- Detalle de sombra bajo el alero -->
-        <rect x="-10" y="-56" width="160" height="3" fill="#1a0f0a" opacity="0.3"/>
-      </g>
-
-      <!-- Chimenea de piedra -->
-      <g>
-        <rect x="100" y="-108" width="22" height="20" fill="#4a4050"/>
-        <rect x="102" y="-106" width="18" height="16" fill="#3d3545"/>
-        <!-- Piedras de la chimenea -->
-        <rect x="102" y="-106" width="8" height="7" fill="#4a4050"/>
-        <rect x="112" y="-106" width="6" height="7" fill="#3d3545"/>
-        <rect x="102" y="-98" width="6" height="7" fill="#3d3545"/>
-        <rect x="110" y="-98" width="8" height="7" fill="#4a4050"/>
-        <rect x="104" y="-90" width="7" height="4" fill="#4a4050"/>
-        <rect x="113" y="-90" width="5" height="4" fill="#3d3545"/>
-        <!-- Boca de la chimenea -->
-        <rect x="104" y="-110" width="14" height="4" fill="#2a1a10"/>
-        <rect x="106" y="-111" width="10" height="2" fill="#3a2518"/>
-      </g>
-
-      <!-- Ventana grande con marco y repulgo -->
+      <ellipse cx="70" cy="8" rx="90" ry="8" fill="#0a120a" opacity="0.4"/>
+      <rect x="-2" y="-6" width="144" height="14" rx="2" fill="#352d3a"/>
+      <rect x="6" y="-56" width="128" height="50" fill="#5a3520"/>
+      <rect x="6" y="-56" width="128" height="7" fill="#6b4228"/><rect x="6" y="-49" width="128" height="1" fill="#4a2a18" opacity="0.6"/>
+      <rect x="6" y="-42" width="128" height="7" fill="#5a3520"/><rect x="6" y="-35" width="128" height="1" fill="#4a2a18" opacity="0.6"/>
+      <rect x="6" y="-28" width="128" height="7" fill="#6b4228"/><rect x="6" y="-21" width="128" height="1" fill="#4a2a18" opacity="0.6"/>
+      <rect x="6" y="-14" width="128" height="7" fill="#5a3520"/><rect x="6" y="-7" width="128" height="1" fill="#4a2a18" opacity="0.6"/>
+      <rect x="2" y="-56" width="6" height="50" fill="#4a2a18"/><rect x="3" y="-56" width="4" height="50" fill="#5a3520" opacity="0.7"/>
+      <rect x="134" y="-56" width="6" height="50" fill="#4a2a18"/><rect x="135" y="-56" width="4" height="50" fill="#5a3520" opacity="0.7"/>
+      <polygon points="-14,-56 70,-96 154,-56" fill="#3a2518"/>
+      <polygon points="-10,-56 70,-92 150,-56" fill="#4a3020"/>
+      <rect x="-16" y="-56" width="172" height="4" fill="#3a2518"/>
+      <rect x="58" y="-98" width="24" height="4" fill="#3a2518"/><rect x="60" y="-97" width="20" height="2" fill="#4a3020"/>
+      <rect x="100" y="-108" width="22" height="20" fill="#4a4050"/>
+      <rect x="102" y="-106" width="18" height="16" fill="#3d3545"/>
+      <rect x="104" y="-110" width="14" height="4" fill="#2a1a10"/>
       <g filter="url(#glowWindow)">
-        <!-- Marco de madera -->
         <rect x="24" y="-48" width="36" height="32" fill="#4a2a18"/>
         <rect x="26" y="-46" width="32" height="28" fill="#3a1e10"/>
-        <!-- Cristal con brillo interior -->
-        <rect x="28" y="-44" width="13" height="12" fill="url(#windowGlow)">
-          <animate attributeName="opacity" values="0.85;1;0.9;1" dur="3.2s" repeatCount="indefinite"/>
-        </rect>
-        <rect x="43" y="-44" width="13" height="12" fill="url(#windowGlow)">
-          <animate attributeName="opacity" values="0.9;0.8;0.95;0.85" dur="3.8s" repeatCount="indefinite"/>
-        </rect>
-        <rect x="28" y="-32" width="13" height="12" fill="url(#windowGlow)">
-          <animate attributeName="opacity" values="0.8;0.95;0.85;1" dur="3.5s" repeatCount="indefinite"/>
-        </rect>
-        <rect x="43" y="-32" width="13" height="12" fill="url(#windowGlow)">
-          <animate attributeName="opacity" values="1;0.85;0.9;0.8" dur="4s" repeatCount="indefinite"/>
-        </rect>
-        <!-- Repulgo de la ventana (cruz) -->
-        <rect x="40" y="-46" width="2" height="28" fill="#4a2a18"/>
-        <rect x="26" y="-33" width="32" height="2" fill="#4a2a18"/>
-        <!-- Cortinas internas (sutil) -->
-        <rect x="28" y="-44" width="4" height="12" fill="#e8c880" opacity="0.15"/>
-        <rect x="52" y="-44" width="4" height="12" fill="#e8c880" opacity="0.15"/>
+        <rect x="28" y="-44" width="13" height="12" fill="url(#windowGlow)"><animate attributeName="opacity" values="0.85;1;0.9;1" dur="3.2s" repeatCount="indefinite"/></rect>
+        <rect x="43" y="-44" width="13" height="12" fill="url(#windowGlow)"><animate attributeName="opacity" values="0.9;0.8;0.95;0.85" dur="3.8s" repeatCount="indefinite"/></rect>
+        <rect x="28" y="-32" width="13" height="12" fill="url(#windowGlow)"><animate attributeName="opacity" values="0.8;0.95;0.85;1" dur="3.5s" repeatCount="indefinite"/></rect>
+        <rect x="43" y="-32" width="13" height="12" fill="url(#windowGlow)"><animate attributeName="opacity" values="1;0.85;0.9;0.8" dur="4s" repeatCount="indefinite"/></rect>
+        <rect x="40" y="-46" width="2" height="28" fill="#4a2a18"/><rect x="26" y="-33" width="32" height="2" fill="#4a2a18"/>
       </g>
-      <!-- Reflejo de la ventana en el suelo -->
-      <g filter="url(#glowFirefly)">
-        <polygon points="24,-14 60,-14 68,8 16,8" fill="#ffb76e" opacity="0.08">
-          <animate attributeName="opacity" values="0.05;0.12;0.05" dur="3.5s" repeatCount="indefinite"/>
-        </polygon>
-      </g>
-
-      <!-- Puerta de madera -->
-      <g>
-        <rect x="80" y="-44" width="22" height="38" fill="#4a2a18"/>
-        <rect x="82" y="-42" width="18" height="34" fill="#5a3520"/>
-        <!-- Tablones verticales -->
-        <rect x="82" y="-42" width="5" height="34" fill="#5a3520"/>
-        <rect x="88" y="-42" width="6" height="34" fill="#6b4228"/>
-        <rect x="95" y="-42" width="5" height="34" fill="#5a3520"/>
-        <!-- Barras horizontales -->
-        <rect x="80" y="-36" width="22" height="2" fill="#3a1e10"/>
-        <rect x="80" y="-22" width="22" height="2" fill="#3a1e10"/>
-        <!-- Manija -->
-        <rect x="97" y="-32" width="3" height="4" fill="#c8a050"/>
-        <rect x="98" y="-31" width="2" height="2" fill="#e8c060"/>
-        <!-- Marco de la puerta -->
-        <rect x="78" y="-46" width="26" height="2" fill="#3a1e10"/>
-        <rect x="78" y="-44" width="2" height="38" fill="#3a1e10"/>
-        <rect x="102" y="-44" width="2" height="38" fill="#3a1e10"/>
-      </g>
-
-      <!-- Porche / entrada con postes -->
-      <g>
-        <!-- Techo del porche -->
-        <polygon points="70,-56 110,-72 150,-56" fill="#3a2518" opacity="0.7"/>
-        <rect x="68" y="-56" width="84" height="3" fill="#2a1a10"/>
-        <!-- Postes -->
-        <rect x="74" y="-56" width="4" height="50" fill="#4a2a18"/>
-        <rect x="75" y="-56" width="2" height="50" fill="#5a3520" opacity="0.6"/>
-        <rect x="142" y="-56" width="4" height="50" fill="#4a2a18"/>
-        <rect x="143" y="-56" width="2" height="50" fill="#5a3520" opacity="0.6"/>
-        <!-- Barandal -->
-        <rect x="74" y="-14" width="72" height="2" fill="#4a2a18"/>
-        <rect x="80" y="-14" width="2" height="8" fill="#4a2a18"/>
-        <rect x="90" y="-14" width="2" height="8" fill="#4a2a18"/>
-        <rect x="100" y="-14" width="2" height="8" fill="#4a2a18"/>
-        <rect x="110" y="-14" width="2" height="8" fill="#4a2a18"/>
-        <rect x="120" y="-14" width="2" height="8" fill="#4a2a18"/>
-        <rect x="130" y="-14" width="2" height="8" fill="#4a2a18"/>
-        <rect x="140" y="-14" width="2" height="8" fill="#4a2a18"/>
-      </g>
-
-      <!-- Farol colgante en el porche -->
-      <g filter="url(#glow)">
-        <rect x="108" y="-68" width="1" height="6" fill="#4a2a18"/>
-        <rect x="105" y="-62" width="7" height="5" fill="#c8a050"/>
-        <rect x="106" y="-61" width="5" height="3" fill="#ffe6a0">
-          <animate attributeName="opacity" values="0.8;1;0.85;1" dur="2.8s" repeatCount="indefinite"/>
-        </rect>
-        <!-- Brillo del farol -->
-        <circle cx="108" cy="-59" r="8" fill="#ffe6a0" opacity="0.08">
-          <animate attributeName="opacity" values="0.05;0.12;0.05" dur="2.8s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="108" cy="-59" r="14" fill="#ffe6a0" opacity="0.04">
-          <animate attributeName="opacity" values="0.02;0.06;0.02" dur="2.8s" repeatCount="indefinite"/>
-        </circle>
-      </g>
-
-      <!-- Leña apilada junto a la cabaña -->
-      <g>
-        <rect x="-18" y="-8" width="18" height="6" fill="#4a2a18"/>
-        <rect x="-16" y="-12" width="14" height="5" fill="#5a3520"/>
-        <rect x="-14" y="-16" width="10" height="5" fill="#4a2a18"/>
-        <!-- Troncos redondos -->
-        <circle cx="-10" cy="-5" r="3" fill="#5a3520" stroke="#4a2a18" stroke-width="1"/>
-        <circle cx="-4" cy="-5" r="3" fill="#6b4228" stroke="#4a2a18" stroke-width="1"/>
-        <circle cx="-12" cy="-10" r="2.5" fill="#5a3520" stroke="#4a2a18" stroke-width="0.8"/>
-        <circle cx="-6" cy="-10" r="2.5" fill="#6b4228" stroke="#4a2a18" stroke-width="0.8"/>
-        <circle cx="-9" cy="-14" r="2" fill="#5a3520" stroke="#4a2a18" stroke-width="0.8"/>
-      </g>
-
-      <!-- Maceta con planta -->
-      <g>
-        <rect x="148" y="-10" width="8" height="8" fill="#8a4a2a"/>
-        <rect x="149" y="-11" width="6" height="2" fill="#9a5a3a"/>
-        <rect x="150" y="-16" width="4" height="7" fill="#3a6a3a"/>
-        <rect x="148" y="-18" width="3" height="4" fill="#4a7a4a"/>
-        <rect x="153" y="-17" width="3" height="3" fill="#4a7a4a"/>
-      </g>
+      <rect x="80" y="-44" width="22" height="38" fill="#4a2a18"/>
+      <rect x="82" y="-42" width="18" height="34" fill="#5a3520"/>
+      <rect x="88" y="-42" width="6" height="34" fill="#6b4228"/>
+      <rect x="97" y="-32" width="3" height="4" fill="#c8a050"/>
+      <rect x="78" y="-46" width="26" height="2" fill="#3a1e10"/>
+      <polygon points="70,-56 110,-72 150,-56" fill="#3a2518" opacity="0.7"/>
+      <rect x="68" y="-56" width="84" height="3" fill="#2a1a10"/>
+      <rect x="74" y="-56" width="4" height="50" fill="#4a2a18"/>
+      <rect x="142" y="-56" width="4" height="50" fill="#4a2a18"/>
+      <rect x="74" y="-14" width="72" height="2" fill="#4a2a18"/>
+      <g filter="url(#glow)"><rect x="108" y="-68" width="1" height="6" fill="#4a2a18"/><rect x="105" y="-62" width="7" height="5" fill="#c8a050"/><rect x="106" y="-61" width="5" height="3" fill="#ffe6a0"><animate attributeName="opacity" values="0.8;1;0.85;1" dur="2.8s" repeatCount="indefinite"/></rect><circle cx="108" cy="-59" r="10" fill="#ffe6a0" opacity="0.06"><animate attributeName="opacity" values="0.03;0.08;0.03" dur="2.8s" repeatCount="indefinite"/></circle></g>
+      <circle cx="-10" cy="-5" r="3" fill="#5a3520" stroke="#4a2a18" stroke-width="1"/><circle cx="-4" cy="-5" r="3" fill="#6b4228" stroke="#4a2a18" stroke-width="1"/>
+      <circle cx="-12" cy="-10" r="2.5" fill="#5a3520" stroke="#4a2a18" stroke-width="0.8"/><circle cx="-6" cy="-10" r="2.5" fill="#6b4228" stroke="#4a2a18" stroke-width="0.8"/>
+      <rect x="148" y="-10" width="8" height="8" fill="#8a4a2a"/><rect x="150" y="-16" width="4" height="7" fill="#2a5a2a"/>
     </g>
-
-    <!-- Humo de chimenea -->
-    <g id="puff">
-      <rect x="-6" y="-4" width="12" height="7" fill="#d8c8cf" opacity="0.7">
-        <animateTransform attributeName="transform" type="translate" values="0,0; -8,-80" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="width" values="8;16;24" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="height" values="5;8;12" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.7;0.35;0" dur="4s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-
-    <!-- Reflejo del sol en el agua -->
-    <g id="shine">
-      <rect x="-70" y="0" width="140" height="3" fill="#ffe0ae" filter="url(#glowFirefly)">
-        <animate attributeName="opacity" values="0.15;0.8;0.15" dur="1.4s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-
-    <!-- Luciérnaga con glow -->
-    <g id="firefly">
-      <rect x="-1" y="-1" width="3" height="3" fill="#ffd9a8" filter="url(#glowFirefly)">
-        <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0; 6,-8; 0,0" dur="5.5s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-
-    <!-- Arbusto -->
-    <g id="bush">
-      <rect x="-14" y="-6" width="28" height="7" fill="#2a4a2a"/>
-      <rect x="-10" y="-10" width="20" height="6" fill="#345a34"/>
-      <rect x="-5" y="-13" width="10" height="5" fill="#3a6a3a"/>
-    </g>
-
-    <!-- Nenúfar -->
-    <g id="lily">
-      <rect x="-6" y="-2" width="12" height="4" fill="#3f5f58"/>
-      <rect x="-3" y="-1" width="6" height="2" fill="#9a4a66"/>
-    </g>
-
-    <!-- Árbol lejano -->
-    <g id="treeSil">
-      <rect x="-1" y="-12" width="2" height="12" fill="#1a1030"/>
-      <rect x="-8" y="-20" width="16" height="9" fill="#241a40"/>
-      <rect x="-5" y="-28" width="10" height="9" fill="#2a2048"/>
-      <rect x="-2" y="-34" width="4" height="7" fill="#302650"/>
-    </g>
-
-    <!-- Pináceas (árboles de pino) -->
+    <g id="puff"><rect x="-6" y="-4" width="12" height="7" fill="#c0b8c4" opacity="0.6"><animateTransform attributeName="transform" type="translate" values="0,0; -8,-80" dur="4s" repeatCount="indefinite"/><animate attributeName="width" values="8;16;24" dur="4s" repeatCount="indefinite"/><animate attributeName="height" values="5;8;12" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0.3;0" dur="4s" repeatCount="indefinite"/></rect></g>
+    <g id="shine"><rect x="-70" y="0" width="140" height="3" fill="#ffe0ae" filter="url(#glowFirefly)"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="1.4s" repeatCount="indefinite"/></rect></g>
+    <g id="firefly"><rect x="-1" y="-1" width="3" height="3" fill="#ffd9a8" filter="url(#glowFirefly)"><animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 6,-8; 0,0" dur="5.5s" repeatCount="indefinite"/></rect></g>
     <g id="pine">
-      <rect x="-1" y="-10" width="3" height="14" fill="#1a2818"/>
-      <polygon points="0,-34 -10,-18 10,-18" fill="#1a3a1a"/>
-      <polygon points="0,-28 -8,-16 8,-16" fill="#224a22"/>
-      <polygon points="0,-22 -6,-14 6,-14" fill="#1a3a1a"/>
+      <rect x="-2" y="-8" width="4" height="12" fill="#3a2010"/>
+      <polygon points="0,-42 -14,-22 14,-22" fill="#0e2a0e"/><polygon points="0,-38 -12,-20 12,-20" fill="#143a14"/>
+      <polygon points="0,-34 -16,-24 16,-24" fill="#0e2a0e"/><polygon points="0,-30 -10,-18 10,-18" fill="#143a14"/>
+      <polygon points="0,-26 -12,-16 12,-16" fill="#0e2a0e"/><polygon points="0,-22 -8,-14 8,-14" fill="#143a14"/>
+      <polygon points="0,-42 -4,-34 4,-34" fill="#d0d8e0" opacity="0.7"/>
+      <polygon points="-6,-28 0,-32 6,-28" fill="#d0d8e0" opacity="0.5"/>
     </g>
+    <g id="pineSmall">
+      <rect x="-1" y="-6" width="3" height="8" fill="#3a2010"/>
+      <polygon points="0,-28 -8,-14 8,-14" fill="#0e2a0e"/><polygon points="0,-24 -6,-12 6,-12" fill="#143a14"/>
+      <polygon points="0,-20 -7,-14 7,-14" fill="#0e2a0e"/>
+      <polygon points="0,-30 -3,-24 3,-24" fill="#d0d8e0" opacity="0.6"/>
+    </g>
+    <g id="pineLarge">
+      <rect x="-3" y="-10" width="6" height="14" fill="#2a1808"/>
+      <polygon points="0,-56 -18,-30 18,-30" fill="#0a200a"/><polygon points="0,-50 -15,-26 15,-26" fill="#0e2a0e"/>
+      <polygon points="0,-44 -20,-32 20,-32" fill="#0a200a"/><polygon points="0,-38 -12,-24 12,-24" fill="#0e2a0e"/>
+      <polygon points="0,-32 -16,-26 16,-26" fill="#0a200a"/><polygon points="0,-26 -10,-20 10,-20" fill="#0e2a0e"/>
+      <polygon points="0,-56 -5,-46 5,-46" fill="#c0c8d0" opacity="0.7"/>
+      <polygon points="-8,-36 0,-42 8,-36" fill="#c0c8d0" opacity="0.5"/>
+    </g>
+    <g id="bush"><rect x="-14" y="-6" width="28" height="7" fill="#1a3a1a"/><rect x="-10" y="-10" width="20" height="6" fill="#1e441e"/><rect x="-5" y="-13" width="10" height="5" fill="#224a22"/></g>
+    <g id="lily"><rect x="-6" y="-2" width="12" height="4" fill="#2a4a5a"/><rect x="-3" y="-1" width="6" height="2" fill="#6a4a5a"/></g>
   </defs>
-
-  <!-- ========== MAIN SCENE ========== -->
   <g>
     <animate attributeName="opacity" values="1;0.985;1;0.99;1" dur="0.15s" repeatCount="indefinite"/>
     <rect width="960" height="360" fill="url(#sky)"/>
-
-    <!-- Cielo estrellado abundante -->
     <g>
-      <use href="#star" transform="translate(50,30)"/>
-      <use href="#starSmall" transform="translate(90,64)"/>
-      <use href="#starSmall" transform="translate(120,22)"/>
-      <use href="#star" transform="translate(160,78)"/>
-      <use href="#starSmall" transform="translate(200,40)"/>
-      <use href="#starSmall" transform="translate(235,90)"/>
-      <use href="#star" transform="translate(270,26)"/>
-      <use href="#starSmall" transform="translate(305,60)"/>
-      <use href="#starSmall" transform="translate(340,20)"/>
-      <use href="#star" transform="translate(375,84)"/>
-      <use href="#starSmall" transform="translate(410,44)"/>
-      <use href="#starSmall" transform="translate(450,16)"/>
-      <use href="#star" transform="translate(488,66)"/>
-      <use href="#starSmall" transform="translate(520,30)"/>
-      <use href="#starSmall" transform="translate(560,80)"/>
-      <use href="#star" transform="translate(600,22)"/>
-      <use href="#starSmall" transform="translate(640,56)"/>
-      <use href="#starSmall" transform="translate(680,30)"/>
-      <use href="#star" transform="translate(720,72)"/>
-      <use href="#starSmall" transform="translate(760,24)"/>
-      <use href="#starSmall" transform="translate(795,60)"/>
-      <use href="#star" transform="translate(830,90)"/>
-      <use href="#starSmall" transform="translate(865,34)"/>
-      <use href="#star" transform="translate(905,68)"/>
+      <use href="#star" transform="translate(50,20)"/><use href="#starSmall" transform="translate(90,50)"/>
+      <use href="#starSmall" transform="translate(120,15)"/><use href="#star" transform="translate(160,65)"/>
+      <use href="#starSmall" transform="translate(200,32)"/><use href="#starSmall" transform="translate(235,78)"/>
+      <use href="#star" transform="translate(270,18)"/><use href="#starSmall" transform="translate(305,48)"/>
+      <use href="#starSmall" transform="translate(340,12)"/><use href="#star" transform="translate(375,72)"/>
+      <use href="#starSmall" transform="translate(410,36)"/><use href="#starSmall" transform="translate(450,10)"/>
+      <use href="#star" transform="translate(488,55)"/><use href="#starSmall" transform="translate(520,24)"/>
+      <use href="#starSmall" transform="translate(560,68)"/><use href="#star" transform="translate(600,16)"/>
+      <use href="#starSmall" transform="translate(640,44)"/><use href="#starSmall" transform="translate(680,22)"/>
+      <use href="#star" transform="translate(720,60)"/><use href="#starSmall" transform="translate(760,18)"/>
+      <use href="#starSmall" transform="translate(795,48)"/><use href="#star" transform="translate(830,78)"/>
+      <use href="#starSmall" transform="translate(865,28)"/><use href="#star" transform="translate(905,56)"/>
+      <use href="#star" transform="translate(530,14)"/><use href="#star" transform="translate(820,20)"/>
     </g>
-
-    <use href="#meteor" transform="translate(220,60)"/>
-    <use href="#meteor" transform="translate(700,90)"/>
-
-    <!-- Nubes -->
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="-220,0; 1180,0" dur="70s" repeatCount="indefinite"/>
-      <use href="#cloudA" transform="translate(0,126)"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="1180,0; -260,0" dur="85s" repeatCount="indefinite"/>
-      <use href="#cloudB" transform="translate(0,158)"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="-320,0; 1240,0" dur="95s" repeatCount="indefinite"/>
-      <use href="#cloudA" transform="translate(0,102)"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="1240,0; -300,0" dur="78s" repeatCount="indefinite"/>
-      <use href="#cloudA" transform="translate(0,182)" opacity="0.8"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="-260,0; 1200,0" dur="110s" repeatCount="indefinite"/>
-      <use href="#cloudB" transform="translate(0,140)" opacity="0.85"/>
-    </g>
-
-    <!-- Aves -->
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="90,92; 620,60" dur="18s" repeatCount="indefinite"/>
-      <use href="#bird"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="130,110; 640,84" dur="21s" repeatCount="indefinite" begin="4s"/>
-      <use href="#bird" transform="scale(0.8)"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="860,70; 300,96" dur="19s" repeatCount="indefinite" begin="9s"/>
-      <use href="#bird" transform="scale(-1,1)"/>
-    </g>
-
-    <!-- SOL -->
+    <use href="#meteor" transform="translate(180,45)"/>
+    <use href="#meteor" transform="translate(750,70)"/>
+    <g><animateTransform attributeName="transform" type="translate" values="-220,0; 1180,0" dur="70s" repeatCount="indefinite"/><use href="#cloudA" transform="translate(0,95)"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="1180,0; -260,0" dur="85s" repeatCount="indefinite"/><use href="#cloudB" transform="translate(0,120)"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="-320,0; 1240,0" dur="95s" repeatCount="indefinite"/><use href="#cloudA" transform="translate(0,80)"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="1240,0; -300,0" dur="78s" repeatCount="indefinite"/><use href="#cloudA" transform="translate(0,145)" opacity="0.7"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="-260,0; 1200,0" dur="110s" repeatCount="indefinite"/><use href="#cloudB" transform="translate(0,108)" opacity="0.8"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="60,70; 580,50" dur="20s" repeatCount="indefinite"/><use href="#bird"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="100,88; 600,68" dur="23s" repeatCount="indefinite" begin="5s"/><use href="#bird" transform="scale(0.7)"/></g>
+    <g><animateTransform attributeName="transform" type="translate" values="880,55; 350,75" dur="21s" repeatCount="indefinite" begin="10s"/><use href="#bird" transform="scale(-1,1)"/></g>
     <g filter="url(#glowStrong)">
-      <circle cx="780" cy="196" r="96" fill="#ffd9a0" opacity="0.10">
-        <animate attributeName="opacity" values="0.06;0.17;0.06" dur="5s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="780" cy="196" r="66" fill="#ffdca6" opacity="0.17">
-        <animate attributeName="opacity" values="0.11;0.23;0.11" dur="5s" repeatCount="indefinite"/>
-      </circle>
+      <circle cx="800" cy="170" r="100" fill="#ffd9a0" opacity="0.08"><animate attributeName="opacity" values="0.05;0.14;0.05" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="800" cy="170" r="70" fill="#ffdca6" opacity="0.14"><animate attributeName="opacity" values="0.09;0.2;0.09" dur="5s" repeatCount="indefinite"/></circle>
     </g>
-    <polygon points="780,92 780,196 826,182 826,86" fill="#ffd9a0" opacity="0.18"><animate attributeName="opacity" values="0.1;0.26;0.1" dur="4.4s" repeatCount="indefinite"/></polygon>
-    <polygon points="710,136 780,196 736,244 650,180" fill="#ffd9a0" opacity="0.12"><animate attributeName="opacity" values="0.06;0.2;0.06" dur="5.2s" repeatCount="indefinite"/></polygon>
-    <polygon points="848,132 780,196 820,246 900,182" fill="#ffd9a0" opacity="0.1"><animate attributeName="opacity" values="0.05;0.18;0.05" dur="5.8s" repeatCount="indefinite"/></polygon>
+    <polygon points="800,60 800,170 850,155 850,55" fill="#ffd9a0" opacity="0.16"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="4.4s" repeatCount="indefinite"/></polygon>
+    <polygon points="720,110 800,170 750,220 660,155" fill="#ffd9a0" opacity="0.10"><animate attributeName="opacity" values="0.05;0.16;0.05" dur="5.2s" repeatCount="indefinite"/></polygon>
+    <polygon points="870,105 800,170 845,222 920,157" fill="#ffd9a0" opacity="0.08"><animate attributeName="opacity" values="0.04;0.14;0.04" dur="5.8s" repeatCount="indefinite"/></polygon>
     <g filter="url(#glow)">
-      <rect x="750" y="164" width="18" height="18" fill="#ffca8c"/>
-      <rect x="768" y="164" width="18" height="18" fill="#ffd9a0"/>
-      <rect x="786" y="164" width="18" height="18" fill="#ffd9a0"/>
-      <rect x="750" y="182" width="18" height="18" fill="#ffd9a0"/>
-      <rect x="768" y="182" width="18" height="18" fill="#ffe6b3"/>
-      <rect x="786" y="182" width="18" height="18" fill="#ffe6b3"/>
-      <rect x="750" y="200" width="18" height="18" fill="#ffd9a0"/>
-      <rect x="768" y="200" width="18" height="18" fill="#ffe0ae"/>
-      <rect x="786" y="200" width="18" height="18" fill="#ffd9a0"/>
+      <rect x="770" y="140" width="16" height="16" fill="#ffca8c"/><rect x="786" y="140" width="16" height="16" fill="#ffd9a0"/><rect x="802" y="140" width="16" height="16" fill="#ffd9a0"/>
+      <rect x="770" y="156" width="16" height="16" fill="#ffd9a0"/><rect x="786" y="156" width="16" height="16" fill="#ffe6b3"/><rect x="802" y="156" width="16" height="16" fill="#ffe6b3"/>
+      <rect x="770" y="172" width="16" height="16" fill="#ffd9a0"/><rect x="786" y="172" width="16" height="16" fill="#ffe0ae"/><rect x="802" y="172" width="16" height="16" fill="#ffd9a0"/>
     </g>
-
-    <!-- Cordillera lejana -->
+    <!-- MONTANAS CAPA 1: lejanas púrpura -->
+    <g opacity="0.6">
+      <polygon points="0,260 80,140 180,220 280,120 400,200 500,100 620,180 720,110 840,190 960,130 960,260" fill="url(#mtnFar)"/>
+      <polygon points="80,140 65,165 95,165" fill="#c8b8d8" opacity="0.5"/>
+      <polygon points="280,120 262,150 298,150" fill="#c8b8d8" opacity="0.5"/>
+      <polygon points="500,100 480,135 520,135" fill="#d0c0e0" opacity="0.6"/>
+      <polygon points="720,110 702,140 738,140" fill="#c8b8d8" opacity="0.5"/>
+      <polygon points="960,130 940,160 960,155" fill="#c8b8d8" opacity="0.4"/>
+    </g>
+    <!-- MONTANAS CAPA 2: medias -->
+    <g opacity="0.75">
+      <polygon points="0,280 100,170 220,240 350,155 480,230 580,160 700,220 800,165 920,230 960,180 960,280" fill="#2a2048"/>
+      <polygon points="100,170 80,200 120,200" fill="#b8a8c8" opacity="0.6"/>
+      <polygon points="350,155 328,188 372,188" fill="#c0b0d0" opacity="0.7"/>
+      <polygon points="580,160 560,192 600,192" fill="#b8a8c8" opacity="0.6"/>
+      <polygon points="800,165 780,195 820,195" fill="#c0b0d0" opacity="0.7"/>
+      <polygon points="220,240 200,220 240,225" fill="#1e1538" opacity="0.3"/>
+      <polygon points="480,230 460,210 500,215" fill="#1e1538" opacity="0.3"/>
+    </g>
+    <!-- MONTANAS CAPA 3: cercanas verde bosque -->
     <g>
-      <polygon points="0,296 150,238 300,296" fill="#3a2850"/>
-      <polygon points="150,238 128,266 172,266" fill="#c4b6d0"/>
-      <polygon points="260,296 420,230 580,296" fill="#342448"/>
-      <polygon points="420,230 396,260 444,260" fill="#d0c0e0"/>
-      <polygon points="540,296 700,240 860,296" fill="#3a2850"/>
-      <polygon points="700,240 678,268 722,268" fill="#c4b6d0"/>
-      <polygon points="820,296 960,234 960,296" fill="#342448"/>
-      <polygon points="0,296 120,244 240,296" fill="#443060"/>
-      <polygon points="120,244 100,270 140,270" fill="#d0c0e0"/>
-      <polygon points="620,296 760,246 900,296" fill="#443060"/>
-      <polygon points="760,246 738,272 782,272" fill="#c4b6d0"/>
+      <polygon points="0,290 60,190 160,250 260,175 380,240 460,185 560,235 660,180 780,240 880,195 960,230 960,290" fill="url(#mtnMid)"/>
+      <polygon points="60,190 40,220 80,220" fill="#d8e0d8" opacity="0.7"/>
+      <polygon points="50,200 35,218 65,218" fill="#e8f0e8" opacity="0.5"/>
+      <polygon points="260,175 235,210 285,210" fill="#d8e0d8" opacity="0.7"/>
+      <polygon points="248,188 228,208 268,208" fill="#e8f0e8" opacity="0.5"/>
+      <polygon points="460,185 440,215 480,215" fill="#d8e0d8" opacity="0.7"/>
+      <polygon points="450,195 435,212 465,212" fill="#e8f0e8" opacity="0.5"/>
+      <polygon points="660,180 640,212 680,212" fill="#d8e0d8" opacity="0.7"/>
+      <polygon points="650,192 635,210 665,210" fill="#e8f0e8" opacity="0.5"/>
+      <polygon points="160,250 140,225 180,230" fill="#0e180e" opacity="0.4"/>
+      <polygon points="380,240 360,218 400,222" fill="#0e180e" opacity="0.4"/>
+      <polygon points="560,235 540,215 580,218" fill="#0e180e" opacity="0.4"/>
     </g>
-
     <!-- SUELO -->
-    <g>
-      <rect x="0" y="282" width="960" height="20" fill="#1e1530"/>
-      <rect x="0" y="292" width="960" height="8" fill="#160f24"/>
-
-      <!-- Pinos alrededor de la cabaña -->
-      <use href="#pine" transform="translate(80,290) scale(0.7)"/>
-      <use href="#pine" transform="translate(130,288) scale(0.85)"/>
-      <use href="#pine" transform="translate(620,290) scale(0.75)"/>
-      <use href="#pine" transform="translate(680,288) scale(0.9)"/>
-      <use href="#pine" transform="translate(750,290) scale(0.65)"/>
-
-      <!-- CABAÑA CENTRAL (punto focal) -->
-      <use href="#cabin" transform="translate(380,290)"/>
-
-      <!-- Humo de la chimenea -->
-      <use href="#puff" transform="translate(496,182)"/>
-      <use href="#puff" transform="translate(500,178)" begin="1.5s"/>
-      <use href="#puff" transform="translate(494,185)" begin="3s"/>
-
-      <!-- Árboles lejanos -->
-      <use href="#treeSil" transform="translate(50,292)"/>
-      <use href="#treeSil" transform="translate(850,292)"/>
-      <use href="#treeSil" transform="translate(920,290)"/>
-    </g>
-
+    <rect x="0" y="282" width="960" height="20" fill="#0e1a0e"/>
+    <rect x="0" y="292" width="960" height="8" fill="#0a140a"/>
+    <!-- BOSQUE: pinos alrededor de la cabaña -->
+    <use href="#pineLarge" transform="translate(100,290)"/>
+    <use href="#pine" transform="translate(150,290)"/>
+    <use href="#pineSmall" transform="translate(185,290)"/>
+    <use href="#pine" transform="translate(220,290)"/>
+    <use href="#pineLarge" transform="translate(270,288)"/>
+    <use href="#pineSmall" transform="translate(310,290)"/>
+    <use href="#pine" transform="translate(340,290)"/>
+    <!-- CABAÑA CENTRO -->
+    <use href="#cabin" transform="translate(380,290)"/>
+    <use href="#puff" transform="translate(496,182)"/>
+    <use href="#puff" transform="translate(500,178)" begin="1.5s"/>
+    <use href="#puff" transform="translate(494,185)" begin="3s"/>
+    <!-- Más pinos al otro lado -->
+    <use href="#pine" transform="translate(560,290)"/>
+    <use href="#pineSmall" transform="translate(595,290)"/>
+    <use href="#pineLarge" transform="translate(640,288)"/>
+    <use href="#pine" transform="translate(690,290)"/>
+    <use href="#pineSmall" transform="translate(725,290)"/>
+    <use href="#pineLarge" transform="translate(770,290)"/>
+    <use href="#pine" transform="translate(820,290)"/>
+    <use href="#pineSmall" transform="translate(855,290)"/>
+    <use href="#pine" transform="translate(890,290)"/>
     <!-- CAMPOS -->
-    <g>
-      <polygon points="0,300 960,300 960,360 0,360" fill="url(#field)"/>
-      <rect x="0" y="312" width="960" height="4" fill="#3a2850" opacity="0.4"/>
-      <rect x="0" y="316" width="960" height="3" fill="#2a1a40"/>
-      <rect x="0" y="334" width="960" height="4" fill="#342448" opacity="0.3"/>
-      <rect x="0" y="348" width="960" height="3" fill="#2a1a3a"/>
-
-      <!-- Río -->
-      <polygon points="500,300 720,300 660,360 440,360" fill="url(#river)" opacity="0.7"/>
-      <use href="#shine" transform="translate(620,306)"/>
-      <use href="#shine" transform="translate(580,320)"/>
-      <use href="#shine" transform="translate(540,334)"/>
-      <use href="#shine" transform="translate(510,348)"/>
-      <use href="#shine" transform="translate(640,332)"/>
-
-      <!-- Nenúfares -->
-      <use href="#lily" transform="translate(560,330)"/>
-      <use href="#lily" transform="translate(620,344)"/>
-      <use href="#lily" transform="translate(500,318)"/>
-
-      <!-- Arbustos -->
-      <use href="#bush" transform="translate(200,330)"/>
-      <use href="#bush" transform="translate(800,326)"/>
-      <g fill="#1a1030">
-        <rect x="160" y="336" width="6" height="5"/>
-        <rect x="780" y="342" width="7" height="5"/>
-      </g>
+    <polygon points="0,300 960,300 960,360 0,360" fill="url(#field)"/>
+    <rect x="0" y="312" width="960" height="4" fill="#1a2a1a" opacity="0.3"/>
+    <rect x="0" y="334" width="960" height="4" fill="#142014" opacity="0.2"/>
+    <polygon points="500,300 720,300 660,360 440,360" fill="url(#river)" opacity="0.6"/>
+    <use href="#shine" transform="translate(620,306)"/>
+    <use href="#shine" transform="translate(580,320)"/>
+    <use href="#shine" transform="translate(540,334)"/>
+    <use href="#lily" transform="translate(560,330)"/>
+    <use href="#lily" transform="translate(620,344)"/>
+    <use href="#bush" transform="translate(200,330)"/>
+    <use href="#bush" transform="translate(800,326)"/>
+    <!-- Siluetas frente -->
+    <g fill="#060d06">
+      <path d="M0,360 L0,330 L14,346 L28,360 Z"/><path d="M930,360 L930,330 L944,346 L958,330 L958,360 Z"/>
+      <rect x="60" y="350" width="4" height="10"/><rect x="70" y="354" width="4" height="6"/>
+      <rect x="880" y="350" width="4" height="10"/><rect x="890" y="354" width="4" height="6"/>
     </g>
-
-    <!-- Siluetas al frente -->
-    <g fill="#0d0818">
-      <path d="M0,360 L0,328 L14,344 L28,360 Z"/>
-      <path d="M930,360 L930,328 L944,344 L958,328 L958,360 Z"/>
-      <rect x="60" y="348" width="4" height="12"/>
-      <rect x="70" y="352" width="4" height="8"/>
-      <rect x="880" y="348" width="4" height="12"/>
-      <rect x="890" y="352" width="4" height="8"/>
-    </g>
-
-    <!-- Luciérnagas -->
-    <g>
-      <use href="#firefly" transform="translate(300,280)"/>
-      <use href="#firefly" transform="translate(450,260)"/>
-      <use href="#firefly" transform="translate(550,276)"/>
-      <use href="#firefly" transform="translate(340,296)"/>
-      <use href="#firefly" transform="translate(650,288)"/>
-      <use href="#firefly" transform="translate(200,290)"/>
-    </g>
-
-    <!-- ========== TEXTO ========== -->
-    <text x="482" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#ff3333" opacity="0.35">
-      <animate attributeName="opacity" values="0;0.35;0.35" dur="0.6s" fill="freeze" begin="0.2s"/>
-      ARMANDO CARREÑO
-    </text>
-    <text x="478" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#33ccff" opacity="0.35">
-      <animate attributeName="opacity" values="0;0.35;0.35" dur="0.6s" fill="freeze" begin="0.2s"/>
-      ARMANDO CARREÑO
-    </text>
+    <use href="#firefly" transform="translate(300,280)"/>
+    <use href="#firefly" transform="translate(450,260)"/>
+    <use href="#firefly" transform="translate(550,276)"/>
+    <use href="#firefly" transform="translate(340,296)"/>
+    <use href="#firefly" transform="translate(650,288)"/>
+    <use href="#firefly" transform="translate(200,290)"/>
+    <!-- TEXTO -->
+    <text x="482" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#ff3333" opacity="0.35"><animate attributeName="opacity" values="0;0.35;0.35" dur="0.6s" fill="freeze" begin="0.2s"/>ARMANDO CARREÑO</text>
+    <text x="478" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#33ccff" opacity="0.35"><animate attributeName="opacity" values="0;0.35;0.35" dur="0.6s" fill="freeze" begin="0.2s"/>ARMANDO CARREÑO</text>
     <g filter="url(#glowStrong)">
-      <text x="482" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#07040e">
-        <animate attributeName="opacity" values="0;1;1" dur="0.6s" fill="freeze" begin="0.2s"/>
-        ARMANDO CARREÑO
-      </text>
-      <text x="480" y="34" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="url(#nameGlow)">
-        <animate attributeName="opacity" values="0;0.92;0.92" dur="0.6s" fill="freeze" begin="0.2s"/>
-        ARMANDO CARREÑO
-      </text>
+      <text x="482" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#07040e"><animate attributeName="opacity" values="0;1;1" dur="0.6s" fill="freeze" begin="0.2s"/>ARMANDO CARREÑO</text>
+      <text x="480" y="34" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="url(#nameGlow)"><animate attributeName="opacity" values="0;0.92;0.92" dur="0.6s" fill="freeze" begin="0.2s"/>ARMANDO CARREÑO</text>
     </g>
-    <g filter="url(#glow)">
-      <text x="480" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing="2" fill="#ffffff">
-        <animate attributeName="opacity" values="0;1;1" dur="0.8s" fill="freeze" begin="0.6s"/>
-        INGENIERO EN CIENCIAS DE LA COMPUTACIÓN
-      </text>
-    </g>
-    <g filter="url(#glowFirefly)">
-      <rect x="808" y="8" width="7" height="30" fill="#ffd9a0">
-        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+    <g filter="url(#glow)"><text x="480" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing="2" fill="#ffffff"><animate attributeName="opacity" values="0;1;1" dur="0.8s" fill="freeze" begin="0.6s"/>INGENIERO EN CIENCIAS DE LA COMPUTACIÓN</text></g>
+    <g filter="url(#glowFirefly)"><rect x="808" y="8" width="7" height="30" fill="#ffd9a0"><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect></g>
   </g>
-
-  <!-- CRT OVERLAY -->
   <rect width="960" height="360" fill="url(#scanlines)" pointer-events="none" opacity="0.7"/>
   <rect width="960" height="360" fill="url(#ditherNoise)" pointer-events="none" opacity="0.6"/>
-  <rect width="960" height="360" fill="url(#rgbShift)" pointer-events="none" opacity="0.5">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,4" dur="0.08s" repeatCount="indefinite"/>
-  </rect>
+  <rect width="960" height="360" fill="url(#rgbShift)" pointer-events="none" opacity="0.5"><animateTransform attributeName="transform" type="translate" values="0,0; 0,4" dur="0.08s" repeatCount="indefinite"/></rect>
   <rect width="960" height="360" fill="url(#vignette)" pointer-events="none"/>
-  <rect x="1" y="1" width="958" height="358" fill="none" stroke="rgba(255,200,100,0.08)" stroke-width="2" rx="8" ry="8" pointer-events="none">
-    <animate attributeName="stroke-opacity" values="0.05;0.12;0.05" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="0" y="0" width="960" height="3" fill="rgba(255,255,255,0.04)" pointer-events="none">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 0,360" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.04;0.08;0.04" dur="8s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="1" y="1" width="958" height="358" fill="none" stroke="rgba(255,200,100,0.08)" stroke-width="2" rx="8" ry="8" pointer-events="none"><animate attributeName="stroke-opacity" values="0.05;0.12;0.05" dur="3s" repeatCount="indefinite"/></rect>
+  <rect x="0" y="0" width="960" height="3" fill="rgba(255,255,255,0.04)" pointer-events="none"><animateTransform attributeName="transform" type="translate" values="0,0; 0,360" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.04;0.08;0.04" dur="8s" repeatCount="indefinite"/></rect>
 </svg>
