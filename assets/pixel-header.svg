@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Banner pixel art 8-bit: atardecer en el pueblo de Armando Carreño">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#181249"/>
-      <stop offset="0.35" stop-color="#3a2a74"/>
-      <stop offset="0.62" stop-color="#6f4398"/>
-      <stop offset="0.85" stop-color="#a05b92"/>
-      <stop offset="1" stop-color="#c06a85"/>
+      <stop offset="0" stop-color="#150e3d"/>
+      <stop offset="0.3" stop-color="#3c2870"/>
+      <stop offset="0.55" stop-color="#6f4398"/>
+      <stop offset="0.8" stop-color="#a8579b"/>
+      <stop offset="0.92" stop-color="#cf6b92"/>
+      <stop offset="1" stop-color="#e27c8c"/>
     </linearGradient>
     <linearGradient id="nameGlow" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#fff0c9"/>
@@ -16,38 +17,98 @@
       <stop offset="0" stop-color="#5a3a70"/>
       <stop offset="1" stop-color="#2a1740"/>
     </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d98aa0"/>
+      <stop offset="0.5" stop-color="#b06a9e"/>
+      <stop offset="1" stop-color="#5e3f86"/>
+    </linearGradient>
 
-    <!-- Casa del pueblo -->
+    <!-- Estrella -->
+    <g id="star">
+      <rect x="-2" y="-2" width="4" height="4" fill="#fff6d8">
+        <animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g id="starSmall">
+      <rect x="-1" y="-1" width="2" height="2" fill="#e8dcf5">
+        <animate attributeName="opacity" values="0.3;0.95;0.3" dur="1.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Nube esponjosa clara -->
+    <g id="cloudA">
+      <rect x="-34" y="0"   width="26" height="8"  fill="#e9b7d0"/>
+      <rect x="-26" y="-8"  width="20" height="8"  fill="#eec2d8"/>
+      <rect x="-6"  y="-12" width="18" height="10" fill="#f4cbe0"/>
+      <rect x="12"  y="-6"  width="22" height="8"  fill="#f0c5dc"/>
+      <rect x="-22" y="-5"  width="44" height="7"  fill="#fbd9ea"/>
+      <rect x="-4"  y="-13" width="8" height="5"   fill="#ffe3f0"/>
+    </g>
+    <!-- Nube esponjosa oscura -->
+    <g id="cloudB">
+      <rect x="-30" y="0"  width="22" height="8" fill="#9c6298"/>
+      <rect x="-22" y="-10" width="24" height="9" fill="#ac6fa6"/>
+      <rect x="6"   y="-8"  width="26" height="9" fill="#a565a2"/>
+      <rect x="-8"  y="2"   width="40" height="7" fill="#bc7eb0"/>
+    </g>
+
+    <!-- Ave volando -->
+    <g id="bird">
+      <path d="M -7,0 Q -3,-5 0,0 Q 3,-5 7,0" fill="none" stroke="#2a1750" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Estrella fugaz -->
+    <g id="meteor">
+      <line x1="0" y1="0" x2="-26" y2="13" stroke="#fff3d0" stroke-width="3">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 90,-48" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/>
+      </line>
+      <circle cx="0" cy="0" r="2" fill="#fff6d8">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 90,-48" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/>
+      </circle>
+    </g>
+
+    <!-- Casa del pueblo (detallada) -->
     <g id="house">
-      <rect x="-4" y="-34" width="42" height="34" fill="#4a3366"/>
-      <rect x="-4" y="-34" width="8" height="34" fill="#5b4278"/>
-      <rect x="28" y="-34" width="10" height="34" fill="#392452"/>
-      <polygon points="-14,-34 -14,-48 42,-48 38,-34" fill="#2c1d40"/>
-      <polygon points="-14,-34 -14,-46 0,-46 -2,-34" fill="#3d2a58"/>
-      <rect x="16" y="-50" width="6" height="14" fill="#241634"/>
-      <rect x="16" y="-56" width="3" height="8" fill="#241634"/>
-      <rect x="6" y="-36" width="9" height="11" fill="#ffb76e">
+      <rect x="-4" y="-34" width="44" height="34" fill="#4a3366"/>
+      <rect x="-4" y="-34" width="10" height="34" fill="#5d4478"/>
+      <rect x="30" y="-34" width="10" height="34" fill="#3b2656"/>
+      <polygon points="-16,-34 -16,-48 44,-48 40,-34" fill="#2c1d40"/>
+      <polygon points="-16,-34 -16,-46 0,-46 -2,-34" fill="#3d2a58"/>
+      <polygon points="40,-34 44,-48 40,-34" fill="#221636"/>
+      <rect x="17" y="-50" width="7" height="14" fill="#241634"/>
+      <rect x="17" y="-57" width="3" height="9" fill="#241634"/>
+      <rect x="7" y="-37" width="10" height="12" fill="#ffb76e">
         <animate attributeName="opacity" values="0.7;1;0.75;1" dur="3.8s" repeatCount="indefinite"/>
       </rect>
-      <rect x="26" y="-36" width="9" height="11" fill="#ffb76e">
+      <rect x="26" y="-37" width="10" height="12" fill="#ffb76e">
         <animate attributeName="opacity" values="0.9;0.6;0.85;0.7" dur="4.4s" repeatCount="indefinite"/>
       </rect>
+      <rect x="16" y="-25" width="8" height="25" fill="#33214a"/>
+      <rect x="23" y="-12" width="3" height="3" fill="#ffd9a0"/>
+      <polygon points="7,-25 17,-25 20,-12 2,-12" fill="#ffb76e" opacity="0.12">
+        <animate attributeName="opacity" values="0.08;0.16;0.08" dur="3.8s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="26,-25 36,-25 40,-12 22,-12" fill="#ffb76e" opacity="0.12">
+        <animate attributeName="opacity" values="0.16;0.08;0.16" dur="4.4s" repeatCount="indefinite"/>
+      </polygon>
     </g>
 
     <!-- Humo de chimenea -->
     <g id="puff">
       <rect x="-6" y="-4" width="12" height="7" fill="#d8c8cf">
-        <animateTransform attributeName="transform" type="translate" values="0,0; -9,-70" dur="3.4s" repeatCount="indefinite"/>
-        <animate attributeName="width" values="12;18;24" dur="3.4s" repeatCount="indefinite"/>
-        <animate attributeName="height" values="7;10;12" dur="3.4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.75;0.45;0" dur="3.4s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; -10,-76" dur="3.6s" repeatCount="indefinite"/>
+        <animate attributeName="width" values="12;19;26" dur="3.6s" repeatCount="indefinite"/>
+        <animate attributeName="height" values="7;10;13" dur="3.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0.45;0" dur="3.6s" repeatCount="indefinite"/>
       </rect>
     </g>
 
-    <!-- Brillo del sol en el agua -->
+    <!-- Reflejo del sol en el agua -->
     <g id="shine">
-      <rect x="-60" y="0" width="120" height="3" fill="#ffd9a0">
-        <animate attributeName="opacity" values="0.15;0.7;0.15" dur="1.6s" repeatCount="indefinite"/>
+      <rect x="-70" y="0" width="140" height="3" fill="#ffe0ae">
+        <animate attributeName="opacity" values="0.15;0.8;0.15" dur="1.4s" repeatCount="indefinite"/>
       </rect>
     </g>
 
@@ -55,42 +116,113 @@
     <g id="firefly">
       <rect x="-1" y="-1" width="3" height="3" fill="#ffd9a8">
         <animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate" values="0,0; 5,-7; 0,0" dur="5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 6,-8; 0,0" dur="5.5s" repeatCount="indefinite"/>
       </rect>
+    </g>
+
+    <!-- Arbusto -->
+    <g id="bush">
+      <rect x="-14" y="-6" width="28" height="7" fill="#3d2860"/>
+      <rect x="-10" y="-10" width="20" height="6" fill="#4a3170"/>
+      <rect x="-5" y="-13" width="10" height="5" fill="#583d80"/>
+    </g>
+
+    <!-- Nenúfar -->
+    <g id="lily">
+      <rect x="-6" y="-2" width="12" height="4" fill="#3f5f58"/>
+      <rect x="-3" y="-1" width="6" height="2" fill="#9a4a66"/>
+    </g>
+
+    <!-- Árbol lejano -->
+    <g id="treeSil">
+      <rect x="-1" y="-12" width="2" height="12" fill="#241538"/>
+      <rect x="-8" y="-20" width="16" height="9" fill="#33204e"/>
+      <rect x="-5" y="-28" width="10" height="9" fill="#3c2759"/>
+      <rect x="-2" y="-34" width="4" height="7" fill="#452e63"/>
     </g>
   </defs>
 
   <rect width="960" height="360" fill="url(#sky)"/>
 
-  <!-- Estrellas tenues -->
-  <g fill="#d9c6ef">
-    <rect x="70" y="24" width="3" height="3"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.2s" repeatCount="indefinite"/></rect>
-    <rect x="170" y="50" width="2" height="2"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.8s" repeatCount="indefinite"/></rect>
-    <rect x="250" y="18" width="3" height="3"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="1.9s" repeatCount="indefinite"/></rect>
-    <rect x="360" y="56" width="2" height="2"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.5s" repeatCount="indefinite"/></rect>
-    <rect x="440" y="28" width="3" height="3"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.1s" repeatCount="indefinite"/></rect>
-    <rect x="560" y="34" width="2" height="2"><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3s" repeatCount="indefinite"/></rect>
-    <rect x="880" y="40" width="3" height="3"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.4s" repeatCount="indefinite"/></rect>
-  </g>
-
-  <!-- Capas de nubes del atardecer (stratus) que se desplazan -->
-  <g fill="#c87e9e">
-    <rect x="0" y="188" width="320" height="10" opacity="0.55"><animateTransform attributeName="transform" type="translate" values="0,0; 40,0" dur="30s" repeatCount="indefinite"/></rect>
-    <rect x="520" y="198" width="300" height="8" opacity="0.5"><animateTransform attributeName="transform" type="translate" values="0,0; -40,0" dur="34s" repeatCount="indefinite"/></rect>
-    <rect x="120" y="212" width="260" height="9" opacity="0.45"><animateTransform attributeName="transform" type="translate" values="0,0; 34,0" dur="28s" repeatCount="indefinite"/></rect>
-    <rect x="700" y="206" width="260" height="7" opacity="0.5"><animateTransform attributeName="transform" type="translate" values="0,0; -34,0" dur="32s" repeatCount="indefinite"/></rect>
-  </g>
-
-  <!-- SOL: halo + disco + rayos -->
+  <!-- Cielo estrellado abundante -->
   <g>
-    <circle cx="560" cy="196" r="92" fill="#ffd9a0" opacity="0.10">
-      <animate attributeName="opacity" values="0.06;0.16;0.06" dur="5s" repeatCount="indefinite"/>
+    <use href="#star" transform="translate(50,30)"/>
+    <use href="#starSmall" transform="translate(90,64)"/>
+    <use href="#starSmall" transform="translate(120,22)"/>
+    <use href="#star" transform="translate(160,78)"/>
+    <use href="#starSmall" transform="translate(200,40)"/>
+    <use href="#starSmall" transform="translate(235,90)"/>
+    <use href="#star" transform="translate(270,26)"/>
+    <use href="#starSmall" transform="translate(305,60)"/>
+    <use href="#starSmall" transform="translate(340,20)"/>
+    <use href="#star" transform="translate(375,84)"/>
+    <use href="#starSmall" transform="translate(410,44)"/>
+    <use href="#starSmall" transform="translate(450,16)"/>
+    <use href="#star" transform="translate(488,66)"/>
+    <use href="#starSmall" transform="translate(520,30)"/>
+    <use href="#starSmall" transform="translate(560,80)"/>
+    <use href="#star" transform="translate(600,22)"/>
+    <use href="#starSmall" transform="translate(640,56)"/>
+    <use href="#starSmall" transform="translate(680,30)"/>
+    <use href="#star" transform="translate(720,72)"/>
+    <use href="#starSmall" transform="translate(760,24)"/>
+    <use href="#starSmall" transform="translate(795,60)"/>
+    <use href="#star" transform="translate(830,90)"/>
+    <use href="#starSmall" transform="translate(865,34)"/>
+    <use href="#star" transform="translate(905,68)"/>
+  </g>
+
+  <!-- Estrellas fugaces -->
+  <use href="#meteor" transform="translate(220,60)"/>
+  <use href="#meteor" transform="translate(700,90)"/>
+
+  <!-- Nubes esponjosas desplazándose -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-220,0; 1180,0" dur="70s" repeatCount="indefinite"/>
+    <use href="#cloudA" transform="translate(0,126)"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="1180,0; -260,0" dur="85s" repeatCount="indefinite"/>
+    <use href="#cloudB" transform="translate(0,158)"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-320,0; 1240,0" dur="95s" repeatCount="indefinite"/>
+    <use href="#cloudA" transform="translate(0,102)"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="1240,0; -300,0" dur="78s" repeatCount="indefinite"/>
+    <use href="#cloudA" transform="translate(0,182)" opacity="0.8"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-260,0; 1200,0" dur="110s" repeatCount="indefinite"/>
+    <use href="#cloudB" transform="translate(0,140)" opacity="0.85"/>
+  </g>
+
+  <!-- Aves cruzando el atardecer -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="90,92; 620,60" dur="18s" repeatCount="indefinite"/>
+    <use href="#bird"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="130,110; 640,84" dur="21s" repeatCount="indefinite" begin="4s"/>
+    <use href="#bird" transform="scale(0.8)"/>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="860,70; 300,96" dur="19s" repeatCount="indefinite" begin="9s"/>
+    <use href="#bird" transform="scale(-1,1)"/>
+  </g>
+
+  <!-- SOL: halo + rayos + disco -->
+  <g>
+    <circle cx="560" cy="196" r="96" fill="#ffd9a0" opacity="0.10">
+      <animate attributeName="opacity" values="0.06;0.17;0.06" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="560" cy="196" r="64" fill="#ffdca6" opacity="0.16">
-      <animate attributeName="opacity" values="0.10;0.22;0.10" dur="5s" repeatCount="indefinite"/>
+    <circle cx="560" cy="196" r="66" fill="#ffdca6" opacity="0.17">
+      <animate attributeName="opacity" values="0.11;0.23;0.11" dur="5s" repeatCount="indefinite"/>
     </circle>
-    <polygon points="560,96 560,196 600,180 600,88" fill="#ffd9a0" opacity="0.18"><animate attributeName="opacity" values="0.1;0.24;0.1" dur="4.5s" repeatCount="indefinite"/></polygon>
-    <polygon points="500,140 560,196 520,236 440,180" fill="#ffd9a0" opacity="0.12"><animate attributeName="opacity" values="0.06;0.2;0.06" dur="5.2s" repeatCount="indefinite"/></polygon>
+    <polygon points="560,92 560,196 606,182 606,86" fill="#ffd9a0" opacity="0.18"><animate attributeName="opacity" values="0.1;0.26;0.1" dur="4.4s" repeatCount="indefinite"/></polygon>
+    <polygon points="490,136 560,196 516,244 430,180" fill="#ffd9a0" opacity="0.12"><animate attributeName="opacity" values="0.06;0.2;0.06" dur="5.2s" repeatCount="indefinite"/></polygon>
+    <polygon points="628,132 560,196 600,246 680,182" fill="#ffd9a0" opacity="0.1"><animate attributeName="opacity" values="0.05;0.18;0.05" dur="5.8s" repeatCount="indefinite"/></polygon>
     <g>
       <rect x="530" y="164" width="18" height="18" fill="#ffca8c"/>
       <rect x="548" y="164" width="18" height="18" fill="#ffd9a0"/>
@@ -104,17 +236,22 @@
     </g>
   </g>
 
-  <!-- Cordillera lejana (lavanda) -->
+  <!-- Cordillera lejana con nieve y luz del sol -->
   <g>
     <polygon points="0,296 150,238 300,296" fill="#5b3f76"/>
+    <polygon points="150,238 128,266 172,266" fill="#e4d6ea"/>
     <polygon points="260,296 420,230 580,296" fill="#543c70"/>
+    <polygon points="420,230 396,260 444,260" fill="#e9dcec"/>
     <polygon points="540,296 700,240 860,296" fill="#5b3f76"/>
+    <polygon points="700,240 678,268 722,268" fill="#e4d6ea"/>
     <polygon points="820,296 960,234 960,296" fill="#543c70"/>
     <polygon points="0,296 120,244 240,296" fill="#6b4a84"/>
+    <polygon points="120,244 100,270 140,270" fill="#e9dcec"/>
     <polygon points="620,296 760,246 900,296" fill="#6b4a84"/>
+    <polygon points="760,246 738,272 782,272" fill="#e4d6ea"/>
   </g>
 
-  <!-- MEDIA: pueblo en la cresta + humo -->
+  <!-- MEDIA: pueblo en la cresta -->
   <g>
     <rect x="0" y="282" width="960" height="20" fill="#2c1c48"/>
     <rect x="0" y="292" width="960" height="8" fill="#241638"/>
@@ -123,17 +260,36 @@
     <use href="#house" transform="translate(248,289)"/>
     <use href="#house" transform="translate(330,286)"/>
     <use href="#house" transform="translate(420,282) scale(1.2)"/>
-    <use href="#house" transform="translate(470,283) scale(1.1)"/>
+    <use href="#house" transform="translate(472,284) scale(1.1)"/>
+    <use href="#house" transform="translate(552,286)"/>
     <use href="#house" transform="translate(660,286)"/>
     <use href="#house" transform="translate(750,288)"/>
     <use href="#house" transform="translate(838,286)"/>
 
-    <use href="#puff" transform="translate(322,234)"/>
-    <use href="#puff" transform="translate(578,234)"/>
-    <use href="#puff" transform="translate(778,234)"/>
+    <!-- cercas -->
+    <g fill="#2a1a44">
+      <rect x="180" y="284" width="2" height="10"/>
+      <rect x="190" y="284" width="2" height="10"/>
+      <rect x="200" y="284" width="2" height="10"/>
+      <rect x="182" y="284" width="20" height="2"/>
+      <rect x="600" y="285" width="2" height="9"/>
+      <rect x="610" y="285" width="2" height="9"/>
+      <rect x="602" y="285" width="12" height="2"/>
+    </g>
+
+    <!-- árboles con farol -->
+    <use href="#treeSil" transform="translate(120,292)"/>
+    <use href="#treeSil" transform="translate(700,292)"/>
+    <use href="#treeSil" transform="translate(880,292)"/>
+
+    <!-- humo -->
+    <use href="#puff" transform="translate(348,232)"/>
+    <use href="#puff" transform="translate(586,230)"/>
+    <use href="#puff" transform="translate(772,232)"/>
+    <use href="#puff" transform="translate(268,238)"/>
   </g>
 
-  <!-- CAMPOS en terrazas con reflejos del sol -->
+  <!-- CAMPOS: terrazas, río de reflejos y detalles -->
   <g>
     <polygon points="0,300 960,300 960,360 0,360" fill="url(#field)"/>
     <rect x="0" y="312" width="960" height="4" fill="#6a4a86" opacity="0.5"/>
@@ -141,29 +297,51 @@
     <rect x="0" y="334" width="960" height="4" fill="#6b4f8c" opacity="0.4"/>
     <rect x="0" y="348" width="960" height="3" fill="#583d78"/>
 
-    <use href="#shine" transform="translate(560,312)"/>
-    <use href="#shine" transform="translate(560,326)"/>
-    <use href="#shine" transform="translate(560,340)"/>
-    <use href="#shine" transform="translate(560,354)"/>
-    <use href="#shine" transform="translate(470,318)"/>
-    <use href="#shine" transform="translate(650,330)"/>
+    <!-- río de reflejos -->
+    <polygon points="300,300 620,300 540,360 240,360" fill="url(#river)" opacity="0.85"/>
+    <use href="#shine" transform="translate(560,306)"/>
+    <use href="#shine" transform="translate(520,320)"/>
+    <use href="#shine" transform="translate(480,334)"/>
+    <use href="#shine" transform="translate(440,348)"/>
+    <use href="#shine" transform="translate(430,320)"/>
+    <use href="#shine" transform="translate(580,332)"/>
+
+    <!-- nenúfares -->
+    <use href="#lily" transform="translate(400,330)"/>
+    <use href="#lily" transform="translate(470,344)"/>
+    <use href="#lily" transform="translate(350,318)"/>
+    <use href="#lily" transform="translate(520,352)"/>
+
+    <!-- arbustos y piedras -->
+    <use href="#bush" transform="translate(180,330)"/>
+    <use href="#bush" transform="translate(750,326)"/>
+    <use href="#bush" transform="translate(880,336)"/>
+    <g fill="#3a2550">
+      <rect x="150" y="336" width="6" height="5"/>
+      <rect x="740" y="342" width="7" height="5"/>
+      <rect x="860" y="348" width="5" height="5"/>
+    </g>
   </g>
 
-  <!-- Siluetas al frente (hierba / juncos) -->
+  <!-- Siluetas al frente -->
   <g fill="#1b0f2c">
-    <path d="M0,360 L0,330 L14,344 L28,360 Z"/>
-    <path d="M930,360 L930,330 L944,344 L958,330 L958,360 Z"/>
-    <rect x="60" y="350" width="4" height="10"/>
+    <path d="M0,360 L0,328 L14,344 L28,360 Z"/>
+    <path d="M930,360 L930,328 L944,344 L958,328 L958,360 Z"/>
+    <rect x="60" y="348" width="4" height="12"/>
     <rect x="70" y="352" width="4" height="8"/>
-    <rect x="880" y="350" width="4" height="10"/>
+    <rect x="82" y="350" width="3" height="10"/>
+    <rect x="880" y="348" width="4" height="12"/>
+    <rect x="890" y="352" width="4" height="8"/>
   </g>
 
-  <!-- Luciérnagas cálidas sobre el campo -->
+  <!-- Luciérnagas -->
   <g>
-    <use href="#firefly" transform="translate(300,304)"/>
-    <use href="#firefly" transform="translate(470,268)"/>
-    <use href="#firefly" transform="translate(710,294)"/>
-    <use href="#firefly" transform="translate(820,302)"/>
+    <use href="#firefly" transform="translate(260,306)"/>
+    <use href="#firefly" transform="translate(380,270)"/>
+    <use href="#firefly" transform="translate(520,296)"/>
+    <use href="#firefly" transform="translate(660,304)"/>
+    <use href="#firefly" transform="translate(740,288)"/>
+    <use href="#firefly" transform="translate(820,316)"/>
   </g>
 
   <!-- Texto central -->
@@ -172,7 +350,7 @@
     ARMANDO CARREÑO
   </text>
   <text x="480" y="38" text-anchor="middle" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="url(#nameGlow)">
-    <animate attributeName="opacity" values="0;0.9;0.9" dur="0.6s" fill="freeze" begin="0.2s"/>
+    <animate attributeName="opacity" values="0;0.92;0.92" dur="0.6s" fill="freeze" begin="0.2s"/>
     ARMANDO CARREÑO
   </text>
   <text x="480" y="86" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" letter-spacing="2" fill="#ffffff">
