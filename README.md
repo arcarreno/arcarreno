@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/pixel-header.svg" alt="Banner pixel art de Armando Carreño" width="90%">
+  <img src="assets/pixel-header.svg?v=2" alt="Banner pixel art de Armando Carreño" width="90%">
 </p>
 
 <div align="center">
