@@ -2,12 +2,12 @@
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#060418"/>
-      <stop offset="0.15" stop-color="#0d0a2a"/>
-      <stop offset="0.35" stop-color="#1a1050"/>
+      <stop offset="0.12" stop-color="#0d0a2a"/>
+      <stop offset="0.3" stop-color="#1a1050"/>
       <stop offset="0.5" stop-color="#3c2870"/>
-      <stop offset="0.65" stop-color="#6f4398"/>
-      <stop offset="0.8" stop-color="#a8579b"/>
-      <stop offset="0.92" stop-color="#cf6b92"/>
+      <stop offset="0.7" stop-color="#6f4398"/>
+      <stop offset="0.85" stop-color="#a8579b"/>
+      <stop offset="0.95" stop-color="#cf6b92"/>
       <stop offset="1" stop-color="#e27c8c"/>
     </linearGradient>
     <linearGradient id="nameGlow" x1="0" y1="0" x2="1" y2="0">
@@ -15,15 +15,18 @@
       <stop offset="0.5" stop-color="#ffc98a"/>
       <stop offset="1" stop-color="#f08f4f"/>
     </linearGradient>
-    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1a2a1a"/>
-      <stop offset="0.4" stop-color="#142014"/>
-      <stop offset="1" stop-color="#0a120a"/>
+    <linearGradient id="lakeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a3050"/>
+      <stop offset="0.15" stop-color="#142840"/>
+      <stop offset="0.4" stop-color="#0e1e30"/>
+      <stop offset="0.7" stop-color="#0a1620"/>
+      <stop offset="1" stop-color="#060e14"/>
     </linearGradient>
-    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#6090b0"/>
-      <stop offset="0.5" stop-color="#4a7090"/>
-      <stop offset="1" stop-color="#2a4060"/>
+    <linearGradient id="lakeSurface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a5878"/>
+      <stop offset="0.3" stop-color="#2a4868"/>
+      <stop offset="0.6" stop-color="#1a3858"/>
+      <stop offset="1" stop-color="#0e2840"/>
     </linearGradient>
     <linearGradient id="windowGlow" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#ffe6a0"/>
@@ -77,15 +80,45 @@
       <rect y="4" width="960" height="2" fill="rgba(0,0,255,0.04)"/>
       <rect y="6" width="960" height="2" fill="transparent"/>
     </pattern>
+    <!-- Dither patterns for snow/water -->
+    <pattern id="ditherLight" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect x="0" y="0" width="2" height="2" fill="rgba(255,255,255,0.15)"/>
+      <rect x="2" y="2" width="2" height="2" fill="rgba(255,255,255,0.15)"/>
+    </pattern>
+    <pattern id="ditherMed" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect x="0" y="0" width="2" height="2" fill="rgba(255,255,255,0.25)"/>
+      <rect x="2" y="2" width="2" height="2" fill="rgba(255,255,255,0.25)"/>
+      <rect x="2" y="0" width="2" height="2" fill="rgba(200,220,255,0.1)"/>
+      <rect x="0" y="2" width="2" height="2" fill="rgba(200,220,255,0.1)"/>
+    </pattern>
+    <pattern id="ditherSnow" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect x="0" y="0" width="2" height="2" fill="#e8eef5"/>
+      <rect x="2" y="2" width="2" height="2" fill="#e8eef5"/>
+      <rect x="2" y="0" width="2" height="2" fill="#d0d8e5"/>
+      <rect x="0" y="2" width="2" height="2" fill="#d0d8e5"/>
+    </pattern>
+    <pattern id="waterDither1" patternUnits="userSpaceOnUse" width="8" height="4">
+      <rect x="0" y="0" width="4" height="2" fill="rgba(100,140,180,0.2)"/>
+      <rect x="4" y="2" width="4" height="2" fill="rgba(80,120,160,0.15)"/>
+    </pattern>
+    <pattern id="waterDither2" patternUnits="userSpaceOnUse" width="6" height="3">
+      <rect x="0" y="0" width="3" height="1" fill="rgba(140,180,220,0.12)"/>
+      <rect x="3" y="1" width="3" height="1" fill="rgba(100,150,200,0.08)"/>
+      <rect x="1" y="2" width="3" height="1" fill="rgba(120,160,200,0.1)"/>
+    </pattern>
+    <!-- Star definitions -->
     <g id="star"><rect x="-2" y="-2" width="4" height="4" fill="#fff6d8" filter="url(#glowFirefly)"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/></rect></g>
     <g id="starSmall"><rect x="-1" y="-1" width="2" height="2" fill="#e8dcf5"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="1.8s" repeatCount="indefinite"/></rect></g>
+    <!-- Clouds -->
     <g id="cloudA"><rect x="-34" y="0" width="26" height="8" fill="#e9b7d0"/><rect x="-26" y="-8" width="20" height="8" fill="#eec2d8"/><rect x="-6" y="-12" width="18" height="10" fill="#f4cbe0"/><rect x="12" y="-6" width="22" height="8" fill="#f0c5dc"/><rect x="-22" y="-5" width="44" height="7" fill="#fbd9ea"/><rect x="-4" y="-13" width="8" height="5" fill="#ffe3f0"/></g>
     <g id="cloudB"><rect x="-30" y="0" width="22" height="8" fill="#9c6298"/><rect x="-22" y="-10" width="24" height="9" fill="#ac6fa6"/><rect x="6" y="-8" width="26" height="9" fill="#a565a2"/><rect x="-8" y="2" width="40" height="7" fill="#bc7eb0"/></g>
     <g id="bird"><path d="M -7,0 Q -3,-5 0,0 Q 3,-5 7,0" fill="none" stroke="#1a1030" stroke-width="2" stroke-linecap="round"/></g>
+    <!-- Meteor -->
     <g id="meteor">
       <line x1="0" y1="0" x2="-26" y2="13" stroke="#fff3d0" stroke-width="3" filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0,0; 90,-48" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/></line>
       <circle cx="0" cy="0" r="2" fill="#fff6d8" filter="url(#glowFirefly)"><animateTransform attributeName="transform" type="translate" values="0,0; 90,-48" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.8;1" dur="1.5s" repeatCount="indefinite" begin="0s; 11s; 22s"/></circle>
     </g>
+    <!-- Cabin -->
     <g id="cabin">
       <ellipse cx="70" cy="8" rx="90" ry="8" fill="#0a120a" opacity="0.4"/>
       <rect x="-2" y="-6" width="144" height="14" rx="2" fill="#352d3a"/>
@@ -127,37 +160,88 @@
       <circle cx="-12" cy="-10" r="2.5" fill="#5a3520" stroke="#4a2a18" stroke-width="0.8"/><circle cx="-6" cy="-10" r="2.5" fill="#6b4228" stroke="#4a2a18" stroke-width="0.8"/>
       <rect x="148" y="-10" width="8" height="8" fill="#8a4a2a"/><rect x="150" y="-16" width="4" height="7" fill="#2a5a2a"/>
     </g>
+    <!-- Smoke puff -->
     <g id="puff"><rect x="-6" y="-4" width="12" height="7" fill="#c0b8c4" opacity="0.6"><animateTransform attributeName="transform" type="translate" values="0,0; -8,-80" dur="4s" repeatCount="indefinite"/><animate attributeName="width" values="8;16;24" dur="4s" repeatCount="indefinite"/><animate attributeName="height" values="5;8;12" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0.3;0" dur="4s" repeatCount="indefinite"/></rect></g>
+    <!-- Sun shine -->
     <g id="shine"><rect x="-70" y="0" width="140" height="3" fill="#ffe0ae" filter="url(#glowFirefly)"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="1.4s" repeatCount="indefinite"/></rect></g>
+    <!-- Firefly -->
     <g id="firefly"><rect x="-1" y="-1" width="3" height="3" fill="#ffd9a8" filter="url(#glowFirefly)"><animate attributeName="opacity" values="0;1;0" dur="2.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0,0; 6,-8; 0,0" dur="5.5s" repeatCount="indefinite"/></rect></g>
-    <g id="pine">
-      <rect x="-2" y="-8" width="4" height="12" fill="#3a2010"/>
-      <polygon points="0,-42 -14,-22 14,-22" fill="#0e2a0e"/><polygon points="0,-38 -12,-20 12,-20" fill="#143a14"/>
-      <polygon points="0,-34 -16,-24 16,-24" fill="#0e2a0e"/><polygon points="0,-30 -10,-18 10,-18" fill="#143a14"/>
-      <polygon points="0,-26 -12,-16 12,-16" fill="#0e2a0e"/><polygon points="0,-22 -8,-14 8,-14" fill="#143a14"/>
-      <polygon points="0,-42 -4,-34 4,-34" fill="#d0d8e0" opacity="0.7"/>
-      <polygon points="-6,-28 0,-32 6,-28" fill="#d0d8e0" opacity="0.5"/>
-    </g>
-    <g id="pineSmall">
-      <rect x="-1" y="-6" width="3" height="8" fill="#3a2010"/>
-      <polygon points="0,-28 -8,-14 8,-14" fill="#0e2a0e"/><polygon points="0,-24 -6,-12 6,-12" fill="#143a14"/>
-      <polygon points="0,-20 -7,-14 7,-14" fill="#0e2a0e"/>
-      <polygon points="0,-30 -3,-24 3,-24" fill="#d0d8e0" opacity="0.6"/>
-    </g>
+    <!-- ===== PINE TREES WITH DETAILED SNOW ===== -->
+    <!-- Large pine with multi-tone snow -->
     <g id="pineLarge">
       <rect x="-3" y="-10" width="6" height="14" fill="#2a1808"/>
-      <polygon points="0,-56 -18,-30 18,-30" fill="#0a200a"/><polygon points="0,-50 -15,-26 15,-26" fill="#0e2a0e"/>
-      <polygon points="0,-44 -20,-32 20,-32" fill="#0a200a"/><polygon points="0,-38 -12,-24 12,-24" fill="#0e2a0e"/>
-      <polygon points="0,-32 -16,-26 16,-26" fill="#0a200a"/><polygon points="0,-26 -10,-20 10,-20" fill="#0e2a0e"/>
-      <polygon points="0,-56 -5,-46 5,-46" fill="#c0c8d0" opacity="0.7"/>
-      <polygon points="-8,-36 0,-42 8,-36" fill="#c0c8d0" opacity="0.5"/>
+      <!-- Branch layers (back to front) -->
+      <polygon points="0,-56 -18,-30 18,-30" fill="#0a1a0a"/>
+      <polygon points="0,-50 -15,-26 15,-26" fill="#0e240e"/>
+      <polygon points="0,-44 -20,-32 20,-32" fill="#0a1a0a"/>
+      <polygon points="0,-38 -12,-24 12,-24" fill="#0e240e"/>
+      <polygon points="0,-32 -16,-26 16,-26" fill="#0a1a0a"/>
+      <polygon points="0,-26 -10,-20 10,-20" fill="#0e240e"/>
+      <!-- Snow highlights on branch tips - layered for depth -->
+      <polygon points="0,-56 -6,-44 6,-44" fill="#d8e2ee" opacity="0.9"/>
+      <polygon points="-3,-48 0,-52 3,-48" fill="#e8f0f8" opacity="0.7"/>
+      <polygon points="-8,-38 -4,-42 0,-38" fill="#c8d4e2" opacity="0.6"/>
+      <polygon points="0,-38 4,-42 8,-38" fill="#c8d4e2" opacity="0.6"/>
+      <polygon points="-5,-30 -2,-34 1,-30" fill="#d0dce8" opacity="0.5"/>
+      <polygon points="1,-30 4,-34 7,-30" fill="#d0dce8" opacity="0.5"/>
+      <!-- Dithered snow edge for softness -->
+      <rect x="-10" y="-44" width="4" height="2" fill="#d8e2ee" opacity="0.4"/>
+      <rect x="6" y="-44" width="4" height="2" fill="#d8e2ee" opacity="0.4"/>
+      <rect x="-14" y="-34" width="4" height="2" fill="#d0dce8" opacity="0.35"/>
+      <rect x="10" y="-34" width="4" height="2" fill="#d0dce8" opacity="0.35"/>
+      <rect x="-8" y="-26" width="3" height="2" fill="#c8d4e2" opacity="0.3"/>
+      <rect x="5" y="-26" width="3" height="2" fill="#c8d4e2" opacity="0.3"/>
+      <!-- Shadow side snow (cooler/blue shifted) -->
+      <polygon points="2,-54 6,-46 10,-50" fill="#a0b0c8" opacity="0.3"/>
+      <polygon points="4,-40 8,-34 12,-38" fill="#90a0b8" opacity="0.25"/>
     </g>
+    <!-- Medium pine -->
+    <g id="pine">
+      <rect x="-2" y="-8" width="4" height="12" fill="#3a2010"/>
+      <polygon points="0,-42 -14,-22 14,-22" fill="#0e2a0e"/>
+      <polygon points="0,-38 -12,-20 12,-20" fill="#143a14"/>
+      <polygon points="0,-34 -16,-24 16,-24" fill="#0e2a0e"/>
+      <polygon points="0,-30 -10,-18 10,-18" fill="#143a14"/>
+      <polygon points="0,-26 -12,-16 12,-16" fill="#0e2a0e"/>
+      <polygon points="0,-22 -8,-14 8,-14" fill="#143a14"/>
+      <!-- Snow caps on each branch tier -->
+      <polygon points="0,-42 -5,-35 5,-35" fill="#dce4ee" opacity="0.85"/>
+      <polygon points="-3,-36 0,-39 3,-36" fill="#eaf2fa" opacity="0.6"/>
+      <polygon points="-6,-30 -2,-34 2,-30" fill="#d0dce8" opacity="0.5"/>
+      <polygon points="2,-30 5,-34 8,-30" fill="#d0dce8" opacity="0.5"/>
+      <polygon points="-4,-24 -1,-27 2,-24" fill="#c8d4e2" opacity="0.4"/>
+      <!-- Dither snow edges -->
+      <rect x="-8" y="-36" width="3" height="2" fill="#dce4ee" opacity="0.35"/>
+      <rect x="5" y="-36" width="3" height="2" fill="#dce4ee" opacity="0.35"/>
+      <rect x="-10" y="-28" width="3" height="2" fill="#d0dce8" opacity="0.3"/>
+      <rect x="7" y="-28" width="3" height="2" fill="#d0dce8" opacity="0.3"/>
+      <!-- Shadow snow -->
+      <polygon points="2,-40 5,-34 8,-38" fill="#98a8c0" opacity="0.3"/>
+      <polygon points="3,-30 6,-26 9,-30" fill="#8898b0" opacity="0.25"/>
+    </g>
+    <!-- Small pine -->
+    <g id="pineSmall">
+      <rect x="-1" y="-6" width="3" height="8" fill="#3a2010"/>
+      <polygon points="0,-28 -8,-14 8,-14" fill="#0e2a0e"/>
+      <polygon points="0,-24 -6,-12 6,-12" fill="#143a14"/>
+      <polygon points="0,-20 -7,-14 7,-14" fill="#0e2a0e"/>
+      <!-- Snow -->
+      <polygon points="0,-28 -4,-22 4,-22" fill="#dce4ee" opacity="0.8"/>
+      <polygon points="-2,-24 0,-26 2,-24" fill="#e8f0f8" opacity="0.55"/>
+      <polygon points="-3,-20 -1,-22 1,-20" fill="#d0dce8" opacity="0.4"/>
+      <rect x="-5" y="-24" width="2" height="2" fill="#dce4ee" opacity="0.3"/>
+      <rect x="3" y="-24" width="2" height="2" fill="#dce4ee" opacity="0.3"/>
+    </g>
+    <!-- Bush -->
     <g id="bush"><rect x="-14" y="-6" width="28" height="7" fill="#1a3a1a"/><rect x="-10" y="-10" width="20" height="6" fill="#1e441e"/><rect x="-5" y="-13" width="10" height="5" fill="#224a22"/></g>
+    <!-- Lily pad -->
     <g id="lily"><rect x="-6" y="-2" width="12" height="4" fill="#2a4a5a"/><rect x="-3" y="-1" width="6" height="2" fill="#6a4a5a"/></g>
   </defs>
   <g>
     <animate attributeName="opacity" values="1;0.985;1;0.99;1" dur="0.15s" repeatCount="indefinite"/>
+    <!-- SKY -->
     <rect width="960" height="360" fill="url(#sky)"/>
+    <!-- STARS -->
     <g>
       <use href="#star" transform="translate(50,20)"/><use href="#starSmall" transform="translate(90,50)"/>
       <use href="#starSmall" transform="translate(120,15)"/><use href="#star" transform="translate(160,65)"/>
@@ -173,16 +257,20 @@
       <use href="#starSmall" transform="translate(865,28)"/><use href="#star" transform="translate(905,56)"/>
       <use href="#star" transform="translate(530,14)"/><use href="#star" transform="translate(820,20)"/>
     </g>
+    <!-- METEORS -->
     <use href="#meteor" transform="translate(180,45)"/>
     <use href="#meteor" transform="translate(750,70)"/>
+    <!-- CLOUDS -->
     <g><animateTransform attributeName="transform" type="translate" values="-220,0; 1180,0" dur="70s" repeatCount="indefinite"/><use href="#cloudA" transform="translate(0,95)"/></g>
     <g><animateTransform attributeName="transform" type="translate" values="1180,0; -260,0" dur="85s" repeatCount="indefinite"/><use href="#cloudB" transform="translate(0,120)"/></g>
     <g><animateTransform attributeName="transform" type="translate" values="-320,0; 1240,0" dur="95s" repeatCount="indefinite"/><use href="#cloudA" transform="translate(0,80)"/></g>
     <g><animateTransform attributeName="transform" type="translate" values="1240,0; -300,0" dur="78s" repeatCount="indefinite"/><use href="#cloudA" transform="translate(0,145)" opacity="0.7"/></g>
     <g><animateTransform attributeName="transform" type="translate" values="-260,0; 1200,0" dur="110s" repeatCount="indefinite"/><use href="#cloudB" transform="translate(0,108)" opacity="0.8"/></g>
+    <!-- BIRDS -->
     <g><animateTransform attributeName="transform" type="translate" values="60,70; 580,50" dur="20s" repeatCount="indefinite"/><use href="#bird"/></g>
     <g><animateTransform attributeName="transform" type="translate" values="100,88; 600,68" dur="23s" repeatCount="indefinite" begin="5s"/><use href="#bird" transform="scale(0.7)"/></g>
     <g><animateTransform attributeName="transform" type="translate" values="880,55; 350,75" dur="21s" repeatCount="indefinite" begin="10s"/><use href="#bird" transform="scale(-1,1)"/></g>
+    <!-- SUN with rays -->
     <g filter="url(#glowStrong)">
       <circle cx="800" cy="170" r="100" fill="#ffd9a0" opacity="0.08"><animate attributeName="opacity" values="0.05;0.14;0.05" dur="5s" repeatCount="indefinite"/></circle>
       <circle cx="800" cy="170" r="70" fill="#ffdca6" opacity="0.14"><animate attributeName="opacity" values="0.09;0.2;0.09" dur="5s" repeatCount="indefinite"/></circle>
@@ -190,83 +278,201 @@
     <polygon points="800,60 800,170 850,155 850,55" fill="#ffd9a0" opacity="0.16"><animate attributeName="opacity" values="0.08;0.22;0.08" dur="4.4s" repeatCount="indefinite"/></polygon>
     <polygon points="720,110 800,170 750,220 660,155" fill="#ffd9a0" opacity="0.10"><animate attributeName="opacity" values="0.05;0.16;0.05" dur="5.2s" repeatCount="indefinite"/></polygon>
     <polygon points="870,105 800,170 845,222 920,157" fill="#ffd9a0" opacity="0.08"><animate attributeName="opacity" values="0.04;0.14;0.04" dur="5.8s" repeatCount="indefinite"/></polygon>
+    <!-- Sun pixel grid -->
     <g filter="url(#glow)">
       <rect x="770" y="140" width="16" height="16" fill="#ffca8c"/><rect x="786" y="140" width="16" height="16" fill="#ffd9a0"/><rect x="802" y="140" width="16" height="16" fill="#ffd9a0"/>
       <rect x="770" y="156" width="16" height="16" fill="#ffd9a0"/><rect x="786" y="156" width="16" height="16" fill="#ffe6b3"/><rect x="802" y="156" width="16" height="16" fill="#ffe6b3"/>
       <rect x="770" y="172" width="16" height="16" fill="#ffd9a0"/><rect x="786" y="172" width="16" height="16" fill="#ffe0ae"/><rect x="802" y="172" width="16" height="16" fill="#ffd9a0"/>
     </g>
-    <!-- MONTANAS CAPA 1: lejanas púrpura -->
-    <g opacity="0.6">
+    <!-- ===== MONTAÑAS CAPA 1: lejanas púrpura con nieve detallada ===== -->
+    <g opacity="0.65">
       <polygon points="0,260 80,140 180,220 280,120 400,200 500,100 620,180 720,110 840,190 960,130 960,260" fill="url(#mtnFar)"/>
-      <polygon points="80,140 65,165 95,165" fill="#c8b8d8" opacity="0.5"/>
-      <polygon points="280,120 262,150 298,150" fill="#c8b8d8" opacity="0.5"/>
-      <polygon points="500,100 480,135 520,135" fill="#d0c0e0" opacity="0.6"/>
-      <polygon points="720,110 702,140 738,140" fill="#c8b8d8" opacity="0.5"/>
+      <!-- Snow caps with multi-tone shading -->
+      <polygon points="80,140 62,168 98,168" fill="#c8b8d8" opacity="0.6"/>
+      <polygon points="80,140 68,158 92,158" fill="#d8c8e8" opacity="0.4"/>
+      <polygon points="72,155 80,140 88,155" fill="#e0d0f0" opacity="0.3"/>
+      <polygon points="280,120 258,155 302,155" fill="#c8b8d8" opacity="0.6"/>
+      <polygon points="280,120 265,145 295,145" fill="#d8c8e8" opacity="0.4"/>
+      <polygon points="272,148 280,120 288,148" fill="#e0d0f0" opacity="0.3"/>
+      <polygon points="500,100 478,140 522,140" fill="#d0c0e0" opacity="0.7"/>
+      <polygon points="500,100 485,128 515,128" fill="#ddd0f0" opacity="0.5"/>
+      <polygon points="490,132 500,100 510,132" fill="#e8ddf8" opacity="0.35"/>
+      <polygon points="720,110 700,145 740,145" fill="#c8b8d8" opacity="0.6"/>
+      <polygon points="720,110 708,135 732,135" fill="#d8c8e8" opacity="0.4"/>
+      <polygon points="712,138 720,110 728,138" fill="#e0d0f0" opacity="0.3"/>
       <polygon points="960,130 940,160 960,155" fill="#c8b8d8" opacity="0.4"/>
+      <!-- Dither snow edges on far mountains -->
+      <rect x="60" y="165" width="4" height="2" fill="#c8b8d8" opacity="0.25"/>
+      <rect x="96" y="165" width="4" height="2" fill="#c8b8d8" opacity="0.25"/>
+      <rect x="260" y="152" width="4" height="2" fill="#c8b8d8" opacity="0.25"/>
+      <rect x="298" y="152" width="4" height="2" fill="#c8b8d8" opacity="0.25"/>
+      <rect x="480" y="138" width="4" height="2" fill="#d0c0e0" opacity="0.3"/>
+      <rect x="518" y="138" width="4" height="2" fill="#d0c0e0" opacity="0.3"/>
     </g>
-    <!-- MONTANAS CAPA 2: medias -->
-    <g opacity="0.75">
+    <!-- ===== MONTAÑAS CAPA 2: medias con nieve y roca ===== -->
+    <g opacity="0.8">
       <polygon points="0,280 100,170 220,240 350,155 480,230 580,160 700,220 800,165 920,230 960,180 960,280" fill="#2a2048"/>
-      <polygon points="100,170 80,200 120,200" fill="#b8a8c8" opacity="0.6"/>
-      <polygon points="350,155 328,188 372,188" fill="#c0b0d0" opacity="0.7"/>
-      <polygon points="580,160 560,192 600,192" fill="#b8a8c8" opacity="0.6"/>
-      <polygon points="800,165 780,195 820,195" fill="#c0b0d0" opacity="0.7"/>
-      <polygon points="220,240 200,220 240,225" fill="#1e1538" opacity="0.3"/>
-      <polygon points="480,230 460,210 500,215" fill="#1e1538" opacity="0.3"/>
+      <!-- Snow with gradient tones -->
+      <polygon points="100,170 78,205 122,205" fill="#b8a8c8" opacity="0.7"/>
+      <polygon points="100,170 85,195 115,195" fill="#c8b8d8" opacity="0.5"/>
+      <polygon points="92,198 100,170 108,198" fill="#d4c4e4" opacity="0.35"/>
+      <polygon points="350,155 325,192 375,192" fill="#c0b0d0" opacity="0.75"/>
+      <polygon points="350,155 335,180 365,180" fill="#d0c0e0" opacity="0.55"/>
+      <polygon points="340,185 350,155 360,185" fill="#ddd0f0" opacity="0.35"/>
+      <polygon points="580,160 558,195 602,195" fill="#b8a8c8" opacity="0.7"/>
+      <polygon points="580,160 565,185 595,185" fill="#c8b8d8" opacity="0.5"/>
+      <polygon points="572,188 580,160 588,188" fill="#d4c4e4" opacity="0.35"/>
+      <polygon points="800,165 778,200 822,200" fill="#c0b0d0" opacity="0.75"/>
+      <polygon points="800,165 788,190 812,190" fill="#d0c0e0" opacity="0.55"/>
+      <polygon points="792,193 800,165 808,193" fill="#ddd0f0" opacity="0.35"/>
+      <!-- Rock patches (darker areas poking through snow) -->
+      <polygon points="220,240 200,218 240,225" fill="#1e1538" opacity="0.4"/>
+      <polygon points="215,230 220,240 225,228" fill="#2a1e48" opacity="0.3"/>
+      <polygon points="480,230 460,210 500,218" fill="#1e1538" opacity="0.4"/>
+      <polygon points="475,222 480,230 485,220" fill="#2a1e48" opacity="0.3"/>
+      <polygon points="700,220 685,205 715,210" fill="#1e1538" opacity="0.35"/>
+      <polygon points="920,230 905,215 935,218" fill="#1e1538" opacity="0.35"/>
+      <!-- Dither snow edges -->
+      <rect x="80" y="202" width="4" height="2" fill="#b8a8c8" opacity="0.3"/>
+      <rect x="118" y="202" width="4" height="2" fill="#b8a8c8" opacity="0.3"/>
+      <rect x="328" y="190" width="4" height="2" fill="#c0b0d0" opacity="0.35"/>
+      <rect x="370" y="190" width="4" height="2" fill="#c0b0d0" opacity="0.35"/>
+      <rect x="560" y="192" width="4" height="2" fill="#b8a8c8" opacity="0.3"/>
+      <rect x="598" y="192" width="4" height="2" fill="#b8a8c8" opacity="0.3"/>
     </g>
-    <!-- MONTANAS CAPA 3: cercanas verde bosque -->
+    <!-- ===== MONTAÑAS CAPA 3: cercanas con nieve detallada ===== -->
     <g>
       <polygon points="0,290 60,190 160,250 260,175 380,240 460,185 560,235 660,180 780,240 880,195 960,230 960,290" fill="url(#mtnMid)"/>
-      <polygon points="60,190 40,220 80,220" fill="#d8e0d8" opacity="0.7"/>
-      <polygon points="50,200 35,218 65,218" fill="#e8f0e8" opacity="0.5"/>
-      <polygon points="260,175 235,210 285,210" fill="#d8e0d8" opacity="0.7"/>
-      <polygon points="248,188 228,208 268,208" fill="#e8f0e8" opacity="0.5"/>
-      <polygon points="460,185 440,215 480,215" fill="#d8e0d8" opacity="0.7"/>
-      <polygon points="450,195 435,212 465,212" fill="#e8f0e8" opacity="0.5"/>
-      <polygon points="660,180 640,212 680,212" fill="#d8e0d8" opacity="0.7"/>
-      <polygon points="650,192 635,210 665,210" fill="#e8f0e8" opacity="0.5"/>
-      <polygon points="160,250 140,225 180,230" fill="#0e180e" opacity="0.4"/>
-      <polygon points="380,240 360,218 400,222" fill="#0e180e" opacity="0.4"/>
-      <polygon points="560,235 540,215 580,218" fill="#0e180e" opacity="0.4"/>
+      <!-- Snow caps - bright with layered tones -->
+      <polygon points="60,190 38,225 82,225" fill="#d0dcd8" opacity="0.8"/>
+      <polygon points="60,190 45,212 75,212" fill="#e0ece8" opacity="0.6"/>
+      <polygon points="50,215 60,190 70,215" fill="#eaf5f0" opacity="0.4"/>
+      <polygon points="260,175 235,215 285,215" fill="#d0dcd8" opacity="0.85"/>
+      <polygon points="260,175 242,202 278,202" fill="#e0ece8" opacity="0.65"/>
+      <polygon points="250,205 260,175 270,205" fill="#eaf5f0" opacity="0.4"/>
+      <polygon points="460,185 438,218 482,218" fill="#d0dcd8" opacity="0.8"/>
+      <polygon points="460,185 445,208 475,208" fill="#e0ece8" opacity="0.6"/>
+      <polygon points="450,210 460,185 470,210" fill="#eaf5f0" opacity="0.4"/>
+      <polygon points="660,180 638,215 682,215" fill="#d0dcd8" opacity="0.85"/>
+      <polygon points="660,180 645,205 675,205" fill="#e0ece8" opacity="0.65"/>
+      <polygon points="650,208 660,180 670,208" fill="#eaf5f0" opacity="0.4"/>
+      <!-- Snow drifts extending down slopes -->
+      <polygon points="38,225 30,238 55,232" fill="#c0ccc8" opacity="0.4"/>
+      <polygon points="82,225 90,238 65,232" fill="#c0ccc8" opacity="0.4"/>
+      <polygon points="235,215 225,228 250,222" fill="#c0ccc8" opacity="0.4"/>
+      <polygon points="285,215 295,228 270,222" fill="#c0ccc8" opacity="0.4"/>
+      <polygon points="438,218 428,232 455,225" fill="#c0ccc8" opacity="0.4"/>
+      <polygon points="482,218 492,232 465,225" fill="#c0ccc8" opacity="0.4"/>
+      <!-- Rock/shadow patches -->
+      <polygon points="160,250 140,225 180,232" fill="#0e180e" opacity="0.45"/>
+      <polygon points="155,240 160,250 165,238" fill="#142014" opacity="0.3"/>
+      <polygon points="380,240 360,218 400,225" fill="#0e180e" opacity="0.45"/>
+      <polygon points="375,230 380,240 385,228" fill="#142014" opacity="0.3"/>
+      <polygon points="560,235 540,215 580,220" fill="#0e180e" opacity="0.4"/>
+      <polygon points="780,240 762,222 798,228" fill="#0e180e" opacity="0.4"/>
+      <polygon points="880,195 862,212 898,215" fill="#0e180e" opacity="0.35"/>
+      <!-- Dither snow edges -->
+      <rect x="36" y="222" width="4" height="2" fill="#d0dcd8" opacity="0.35"/>
+      <rect x="78" y="222" width="4" height="2" fill="#d0dcd8" opacity="0.35"/>
+      <rect x="234" y="212" width="4" height="2" fill="#d0dcd8" opacity="0.4"/>
+      <rect x="280" y="212" width="4" height="2" fill="#d0dcd8" opacity="0.4"/>
+      <rect x="436" y="215" width="4" height="2" fill="#d0dcd8" opacity="0.35"/>
+      <rect x="478" y="215" width="4" height="2" fill="#d0dcd8" opacity="0.35"/>
+      <rect x="638" y="212" width="4" height="2" fill="#d0dcd8" opacity="0.4"/>
+      <rect x="678" y="212" width="4" height="2" fill="#d0dcd8" opacity="0.4"/>
+      <!-- Shadow-side snow (cooler blue shift per hue-shifting technique) -->
+      <polygon points="65,200 72,215 80,205" fill="#8898b0" opacity="0.3"/>
+      <polygon points="265,185 272,200 280,190" fill="#8898b0" opacity="0.3"/>
+      <polygon points="465,195 472,210 480,200" fill="#8898b0" opacity="0.3"/>
+      <polygon points="665,190 672,205 680,195" fill="#8898b0" opacity="0.3"/>
     </g>
-    <!-- SUELO -->
-    <rect x="0" y="282" width="960" height="20" fill="#0e1a0e"/>
-    <rect x="0" y="292" width="960" height="8" fill="#0a140a"/>
-    <!-- BOSQUE: pinos alrededor de la cabaña -->
-    <use href="#pineLarge" transform="translate(100,290)"/>
-    <use href="#pine" transform="translate(150,290)"/>
-    <use href="#pineSmall" transform="translate(185,290)"/>
-    <use href="#pine" transform="translate(220,290)"/>
-    <use href="#pineLarge" transform="translate(270,288)"/>
-    <use href="#pineSmall" transform="translate(310,290)"/>
-    <use href="#pine" transform="translate(340,290)"/>
+    <!-- ===== GROUND SHOULDER (transition to lake) ===== -->
+    <rect x="0" y="282" width="960" height="12" fill="#0e1a0e"/>
+    <rect x="0" y="290" width="960" height="6" fill="#0c160c"/>
+    <!-- ===== BOSQUE: pinos alrededor de la cabaña ===== -->
+    <use href="#pineLarge" transform="translate(50,290)"/>
+    <use href="#pine" transform="translate(100,290)"/>
+    <use href="#pineSmall" transform="translate(135,290)"/>
+    <use href="#pine" transform="translate(170,290)"/>
+    <use href="#pineLarge" transform="translate(220,288)"/>
+    <use href="#pineSmall" transform="translate(260,290)"/>
+    <use href="#pine" transform="translate(295,290)"/>
     <!-- CABAÑA CENTRO -->
     <use href="#cabin" transform="translate(380,290)"/>
     <use href="#puff" transform="translate(496,182)"/>
     <use href="#puff" transform="translate(500,178)" begin="1.5s"/>
     <use href="#puff" transform="translate(494,185)" begin="3s"/>
     <!-- Más pinos al otro lado -->
-    <use href="#pine" transform="translate(560,290)"/>
-    <use href="#pineSmall" transform="translate(595,290)"/>
-    <use href="#pineLarge" transform="translate(640,288)"/>
-    <use href="#pine" transform="translate(690,290)"/>
-    <use href="#pineSmall" transform="translate(725,290)"/>
-    <use href="#pineLarge" transform="translate(770,290)"/>
-    <use href="#pine" transform="translate(820,290)"/>
-    <use href="#pineSmall" transform="translate(855,290)"/>
-    <use href="#pine" transform="translate(890,290)"/>
-    <!-- CAMPOS -->
-    <polygon points="0,300 960,300 960,360 0,360" fill="url(#field)"/>
-    <rect x="0" y="312" width="960" height="4" fill="#1a2a1a" opacity="0.3"/>
-    <rect x="0" y="334" width="960" height="4" fill="#142014" opacity="0.2"/>
-    <polygon points="500,300 720,300 660,360 440,360" fill="url(#river)" opacity="0.6"/>
-    <use href="#shine" transform="translate(620,306)"/>
-    <use href="#shine" transform="translate(580,320)"/>
-    <use href="#shine" transform="translate(540,334)"/>
-    <use href="#lily" transform="translate(560,330)"/>
-    <use href="#lily" transform="translate(620,344)"/>
-    <use href="#bush" transform="translate(200,330)"/>
-    <use href="#bush" transform="translate(800,326)"/>
+    <use href="#pine" transform="translate(540,290)"/>
+    <use href="#pineSmall" transform="translate(575,290)"/>
+    <use href="#pineLarge" transform="translate(620,288)"/>
+    <use href="#pine" transform="translate(670,290)"/>
+    <use href="#pineSmall" transform="translate(705,290)"/>
+    <use href="#pineLarge" transform="translate(750,290)"/>
+    <use href="#pine" transform="translate(800,290)"/>
+    <use href="#pineSmall" transform="translate(835,290)"/>
+    <use href="#pine" transform="translate(870,290)"/>
+    <use href="#pineSmall" transform="translate(905,290)"/>
+    <!-- ===== LAGO FOOTER: full width ===== -->
+    <rect x="0" y="296" width="960" height="64" fill="url(#lakeGrad)"/>
+    <!-- Lake surface gradient overlay -->
+    <rect x="0" y="296" width="960" height="20" fill="url(#lakeSurface)" opacity="0.5"/>
+    <!-- Mountain reflections in lake -->
+    <g opacity="0.18" transform="translate(0,592) scale(1,-1)">
+      <polygon points="0,260 80,140 180,220 280,120 400,200 500,100 620,180 720,110 840,190 960,130 960,260" fill="#4a6080"/>
+    </g>
+    <g opacity="0.12" transform="translate(0,580) scale(1,-1)">
+      <polygon points="0,280 100,170 220,240 350,155 480,230 580,160 700,220 800,165 920,230 960,180 960,280" fill="#3a5070"/>
+    </g>
+    <!-- Tree reflections -->
+    <g opacity="0.15" transform="translate(0,580) scale(1,-1)">
+      <polygon points="50,290 38,268 62,268" fill="#1a3828"/>
+      <polygon points="220,288 205,262 235,262" fill="#1a3828"/>
+      <polygon points="620,288 605,262 635,262" fill="#1a3828"/>
+      <polygon points="750,290 735,265 765,265" fill="#1a3828"/>
+    </g>
+    <!-- Cabin reflection -->
+    <g opacity="0.12" transform="translate(0,580) scale(1,-1)">
+      <rect x="386" y="234" width="128" height="50" fill="#5a4530"/>
+    </g>
+    <!-- Sun reflection path -->
+    <g opacity="0.2">
+      <rect x="790" y="300" width="20" height="3" fill="#ffd9a0" rx="1"><animate attributeName="opacity" values="0.15;0.3;0.15" dur="2.5s" repeatCount="indefinite"/></rect>
+      <rect x="785" y="308" width="30" height="2" fill="#ffd9a0" rx="1" opacity="0.6"><animate attributeName="opacity" values="0.1;0.25;0.1" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="780" y="316" width="40" height="2" fill="#ffd9a0" rx="1" opacity="0.4"><animate attributeName="opacity" values="0.08;0.2;0.08" dur="3.5s" repeatCount="indefinite"/></rect>
+      <rect x="775" y="324" width="50" height="2" fill="#ffd9a0" rx="1" opacity="0.3"><animate attributeName="opacity" values="0.05;0.15;0.05" dur="4s" repeatCount="indefinite"/></rect>
+      <rect x="770" y="332" width="60" height="2" fill="#ffd9a0" rx="1" opacity="0.2"><animate attributeName="opacity" values="0.03;0.1;0.03" dur="4.5s" repeatCount="indefinite"/></rect>
+    </g>
+    <!-- Water dither patterns for surface texture -->
+    <rect x="0" y="296" width="960" height="64" fill="url(#waterDither1)" pointer-events="none"/>
+    <rect x="0" y="300" width="960" height="50" fill="url(#waterDither2)" pointer-events="none"/>
+    <!-- Water ripple lines -->
+    <g opacity="0.25">
+      <line x1="50" y1="308" x2="130" y2="308" stroke="#5a8ab0" stroke-width="1"/>
+      <line x1="200" y1="316" x2="300" y2="316" stroke="#4a7aa0" stroke-width="1"/>
+      <line x1="400" y1="312" x2="520" y2="312" stroke="#5a8ab0" stroke-width="1"/>
+      <line x1="600" y1="320" x2="700" y2="320" stroke="#4a7aa0" stroke-width="1"/>
+      <line x1="150" y1="328" x2="250" y2="328" stroke="#3a6a90" stroke-width="1"/>
+      <line x1="350" y1="336" x2="480" y2="336" stroke="#3a6a90" stroke-width="1"/>
+      <line x1="550" y1="340" x2="650" y2="340" stroke="#2a5a80" stroke-width="1"/>
+      <line x1="100" y1="344" x2="200" y2="344" stroke="#2a5a80" stroke-width="1"/>
+      <line x1="750" y1="348" x2="880" y2="348" stroke="#2a5a80" stroke-width="1"/>
+    </g>
+    <!-- Sparkle highlights on water -->
+    <g filter="url(#glowFirefly)">
+      <rect x="180" y="304" width="2" height="2" fill="#e0f0ff" opacity="0.5"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="2s" repeatCount="indefinite"/></rect>
+      <rect x="350" y="314" width="2" height="2" fill="#e0f0ff" opacity="0.4"><animate attributeName="opacity" values="0.15;0.6;0.15" dur="2.8s" repeatCount="indefinite"/></rect>
+      <rect x="520" y="308" width="2" height="2" fill="#e0f0ff" opacity="0.5"><animate attributeName="opacity" values="0.2;0.65;0.2" dur="2.3s" repeatCount="indefinite"/></rect>
+      <rect x="680" y="318" width="2" height="2" fill="#e0f0ff" opacity="0.4"><animate attributeName="opacity" values="0.15;0.55;0.15" dur="3.1s" repeatCount="indefinite"/></rect>
+      <rect x="830" y="310" width="2" height="2" fill="#e0f0ff" opacity="0.5"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="2.6s" repeatCount="indefinite"/></rect>
+      <rect x="100" y="326" width="2" height="2" fill="#e0f0ff" opacity="0.35"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="450" y="334" width="2" height="2" fill="#e0f0ff" opacity="0.3"><animate attributeName="opacity" values="0.1;0.45;0.1" dur="3.8s" repeatCount="indefinite"/></rect>
+    </g>
+    <use href="#lily" transform="translate(160,320)"/>
+    <use href="#lily" transform="translate(420,330)"/>
+    <use href="#lily" transform="translate(700,338)"/>
+    <use href="#bush" transform="translate(30,296)"/>
+    <use href="#bush" transform="translate(930,296)"/>
     <!-- Siluetas frente -->
     <g fill="#060d06">
       <path d="M0,360 L0,330 L14,346 L28,360 Z"/><path d="M930,360 L930,330 L944,346 L958,330 L958,360 Z"/>
@@ -279,7 +485,7 @@
     <use href="#firefly" transform="translate(340,296)"/>
     <use href="#firefly" transform="translate(650,288)"/>
     <use href="#firefly" transform="translate(200,290)"/>
-    <!-- TEXTO -->
+    <!-- ===== TEXTO ===== -->
     <text x="482" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#ff3333" opacity="0.35"><animate attributeName="opacity" values="0;0.35;0.35" dur="0.6s" fill="freeze" begin="0.2s"/>ARMANDO CARREÑO</text>
     <text x="478" y="36" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="bold" fill="#33ccff" opacity="0.35"><animate attributeName="opacity" values="0;0.35;0.35" dur="0.6s" fill="freeze" begin="0.2s"/>ARMANDO CARREÑO</text>
     <g filter="url(#glowStrong)">
@@ -289,6 +495,7 @@
     <g filter="url(#glow)"><text x="480" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing="2" fill="#ffffff"><animate attributeName="opacity" values="0;1;1" dur="0.8s" fill="freeze" begin="0.6s"/>INGENIERO EN CIENCIAS DE LA COMPUTACIÓN</text></g>
     <g filter="url(#glowFirefly)"><rect x="808" y="8" width="7" height="30" fill="#ffd9a0"><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect></g>
   </g>
+  <!-- CRT EFFECTS -->
   <rect width="960" height="360" fill="url(#scanlines)" pointer-events="none" opacity="0.7"/>
   <rect width="960" height="360" fill="url(#ditherNoise)" pointer-events="none" opacity="0.6"/>
   <rect width="960" height="360" fill="url(#rgbShift)" pointer-events="none" opacity="0.5"><animateTransform attributeName="transform" type="translate" values="0,0; 0,4" dur="0.08s" repeatCount="indefinite"/></rect>
