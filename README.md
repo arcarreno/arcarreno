@@ -47,34 +47,22 @@
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="33%" valign="top" style="background-color:#111a2e;border:1px solid #24314f;border-radius:12px;padding:16px 10px;">
-      <b style="color:#7cc7ff; font-size:13px; letter-spacing:1px;">LENGUAJES</b><br><br>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
-      <img src="https://img.shields.io/badge/JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=1a1a1a" alt="JavaScript">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3">
-    </td>
-    <td align="center" width="33%" valign="top" style="background-color:#111a2e;border:1px solid #24314f;border-radius:12px;padding:16px 10px;">
-      <b style="color:#b79bff; font-size:13px; letter-spacing:1px;">FRAMEWORKS</b><br><br>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React">
-      <img src="https://img.shields.io/badge/Node.js-20232A?style=flat&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
-      <img src="https://img.shields.io/badge/Vite-20232A?style=flat&logo=vite&logoColor=646CFF" alt="Vite">
-      <img src="https://img.shields.io/badge/Tailwind-20232A?style=flat&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind">
-      <img src="https://img.shields.io/badge/FastAPI-20232A?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
-    </td>
-    <td align="center" width="33%" valign="top" style="background-color:#111a2e;border:1px solid #24314f;border-radius:12px;padding:16px 10px;">
-      <b style="color:#ffc46f; font-size:13px; letter-spacing:1px;">DATOS &amp; IA</b><br><br>
-      <img src="https://img.shields.io/badge/Supabase-1C1C2B?style=flat&logo=supabase&logoColor=3ECF8E" alt="Supabase">
-      <img src="https://img.shields.io/badge/PostgreSQL-20232A?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
-      <img src="https://img.shields.io/badge/OpenCV-20232A?style=flat&logo=opencv&logoColor=5C3EE8" alt="OpenCV">
-      <img src="https://img.shields.io/badge/YOLO-20232A?style=flat&logo=ultralytics&logoColor=FF6B35" alt="YOLO">
-      <img src="https://img.shields.io/badge/Q--Learning-20232A?style=flat&logo=scikitlearn&logoColor=F7931E" alt="Q-Learning">
-    </td>
-  </tr>
-</table>
+<div style="background-color:#111a2e;border:1px solid #24314f;border-radius:14px;padding:20px 0 14px 0;">
+
+  <div style="color:#7cc7ff;font-size:12px;letter-spacing:3px;font-weight:600;">LENGUAJES</div>
+  <img src="assets/skills-lenguajes.svg?v=1" width="100%" alt="TypeScript, JavaScript, Python, HTML5 y CSS3">
+
+  <div style="height:16px"></div>
+
+  <div style="color:#b79bff;font-size:12px;letter-spacing:3px;font-weight:600;">FRAMEWORKS</div>
+  <img src="assets/skills-frameworks.svg?v=1" width="100%" alt="React, Node.js, Vite, Tailwind CSS y FastAPI">
+
+  <div style="height:16px"></div>
+
+  <div style="color:#ffc46f;font-size:12px;letter-spacing:3px;font-weight:600;">DATOS &amp; IA</div>
+  <img src="assets/skills-datos-ia.svg?v=1" width="100%" alt="Supabase, PostgreSQL, OpenCV, YOLO y Q-Learning">
+
+</div>
 
 </div>
 
