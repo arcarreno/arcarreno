@@ -59,58 +59,58 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>🗺️ Plataforma-Ciudadana</b><br>
+      <img src="assets/icons/openstreetmap.svg" alt="Mapa" width="24" height="24"><b>Plataforma-Ciudadana</b><br>
       <sub>CIVIL · TRANSPARENCIA · WEB</sub><br><br>
       Plataforma de atención y transparencia ciudadana para el Ayuntamiento de Puebla: solicitudes de obra pública, mapas interactivos y análisis geoespacial.<br><br>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React">
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
-      <img src="https://img.shields.io/badge/Supabase-1C1C2B?style=flat&logo=supabase&logoColor=3ECF8E" alt="Supabase"><br><br>
+      <img src="assets/icons/react.svg" alt="React" width="30" height="24">
+      <img src="assets/icons/typescript.svg" alt="TypeScript" width="30" height="24">
+      <img src="assets/icons/supabase.svg" alt="Supabase" width="30" height="24"><br><br>
       <a href="https://github.com/arcarreno/Plataforma-Ciudadana"><b>Ver código →</b></a>
     </td>
     <td width="50%" valign="top">
-      <b>🤖 Robot-Car-System</b><br>
+      <img src="assets/icons/espressif.svg" alt="Espressif" width="24" height="24"><b>Robot-Car-System</b><br>
       <sub>ROBÓTICA · VISIÓN · TIEMPO REAL</sub><br><br>
       Control de un robot car 4WD con ESP32-CAM: visión por computadora (YOLO + HSV) que detecta semáforos y flechas con rutas autónomas.<br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/OpenCV-20232A?style=flat&logo=opencv&logoColor=5C3EE8" alt="OpenCV">
-      <img src="https://img.shields.io/badge/FastAPI-20232A?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI"><br><br>
+      <img src="assets/icons/python.svg" alt="Python" width="30" height="24">
+      <img src="assets/icons/opencv.svg" alt="OpenCV" width="30" height="24">
+      <img src="assets/icons/fastapi.svg" alt="FastAPI" width="30" height="24"><br><br>
       <a href="https://github.com/arcarreno/Robot-Car-system"><b>Ver código →</b></a>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <b>🔎 OCR_Nominas</b><br>
+      <img src="assets/icons/googledocs.svg" alt="Documentos" width="24" height="24"><b>OCR_Nominas</b><br>
       <sub>OCR · AUTOMATIZACIÓN · ESCRITORIO</sub><br><br>
       Aplicación de escritorio que extrae y valida datos de recibos de nómina en PDF con OCR y exporta los resultados a Excel.<br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/OCR-20232A?style=flat&logo=tesseract&logoColor=6EB6F2" alt="OCR">
-      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React"><br><br>
+      <img src="assets/icons/python.svg" alt="Python" width="30" height="24">
+      <img src="assets/icons/ocr.svg" alt="OCR" width="30" height="24">
+      <img src="assets/icons/react.svg" alt="React" width="30" height="24"><br><br>
       <a href="https://github.com/arcarreno/OCR_Nominas"><b>Ver código →</b></a>
     </td>
     <td valign="top">
-      <b>🧠 Palillos</b><br>
+      <img src="assets/icons/chesscom.svg" alt="Juego de estrategia" width="24" height="24"><b>Palillos</b><br>
       <sub>IA · Q-LEARNING · ESTRATEGIA</sub><br><br>
       Juego de palillos (ajedrez de palillos) resuelto con Q-Learning: la máquina aprende la estrategia óptima jugando contra sí misma.<br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/Q--Learning-20232A?style=flat&logo=scikitlearn&logoColor=F7931E" alt="Q-Learning"><br><br>
+      <img src="assets/icons/python.svg" alt="Python" width="30" height="24">
+      <img src="assets/icons/scikitlearn.svg" alt="Q-Learning" width="30" height="24"><br><br>
       <a href="https://github.com/arcarreno/Palillos"><b>Ver código →</b></a>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <b>📄 Generador_Oficios</b><br>
+      <img src="assets/icons/libreofficewriter.svg" alt="Documentos" width="24" height="24"><b>Generador_Oficios</b><br>
       <sub>DOCUMENTOS · AUTOMATIZACIÓN · WEB</sub><br><br>
       Utilidad web para generar documentos oficiales (oficios) con datos dinámicos y prepararlos para impresión.<br><br>
-      <img src="https://img.shields.io/badge/JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=1a1a1a" alt="JavaScript">
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"><br><br>
+      <img src="assets/icons/javascript.svg" alt="JavaScript" width="30" height="24">
+      <img src="assets/icons/html5.svg" alt="HTML5" width="30" height="24"><br><br>
       <a href="https://github.com/arcarreno/Generador_Oficios"><b>Ver código →</b></a>
     </td>
     <td valign="top">
-      <b>🏛️ Semovinfra</b><br>
+      <img src="assets/icons/metrocdmx.svg" alt="Movilidad" width="24" height="24"><b>Semovinfra</b><br>
       <sub>GOBIERNO · TRANSPARENCIA · WEB</sub><br><br>
       Sitio de transparencia ciudadana de la Secretaría de Movilidad e Infraestructura, antecesor de Plataforma-Ciudadana.<br><br>
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3"><br><br>
+      <img src="assets/icons/html5.svg" alt="HTML5" width="30" height="24">
+      <img src="assets/icons/css3.svg" alt="CSS3" width="30" height="24"><br><br>
       <a href="https://github.com/arcarreno/Semovinfra"><b>Ver código →</b></a>
     </td>
   </tr>
