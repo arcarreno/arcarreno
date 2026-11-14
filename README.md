@@ -1,133 +1,207 @@
 <p align="center">
-  <img src="assets/pixel-header.svg?v=3" alt="Banner pixel art de Armando Carreño" width="90%">
+  <img src="assets/anime-header.svg?v=1" alt="Banner estilo anime de Armando Carreño" width="100%">
 </p>
 
 <div align="center">
 
-###  Hola, yo soy **Armando Carreño** 
+###  Hola, soy **Armando Carreño**
 **Ingeniero en Ciencias de la Computación · BUAP · Puebla, México**
 
-*Amo resolver problemas difíciles de **software, hardware, APIs y bases de datos**,
-y convertir ideas un poco locas en sistemas que funcionan de verdad.*
+<sub><i>Diseño sistemas que funcionan de verdad: software, hardware, visión artificial y datos.</i></sub>
 
 <br>
+
 <a href="https://www.linkedin.com/in/arcarreno">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 <a href="mailto:arancago24@gmail.com">
-  <img src="https://img.shields.io/badge/Email-FF5CA8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  <img src="https://img.shields.io/badge/Email-D1485F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
 </a>
 <a href="https://github.com/arcarreno">
-  <img src="https://img.shields.io/badge/GitHub-141A3E?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/GitHub-181B2E?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
 </div>
 
 <br>
-<p align="center"><img src="assets/pixel-divider.svg" alt="Divisor pixel art" width="100%"></p>
-<br>
+<p align="center"><img src="assets/anime-divider.svg?v=1" alt="Divisor decorativo" width="100%"></p>
 
-###  UN POCO SOBRE MÍ
+<h3 align="center"><span style="background-color:#111a2e;color:#f0f4ff;padding:8px 22px;border-radius:10px;border:1px solid #2b3a5e;letter-spacing:0.5px;">Sobre mí</span></h3>
 
-<div align="center" style="background-color:#141a3e;border:2px solid #00e5cc;border-radius:14px;padding:18px 22px;max-width:880px;margin:0 auto;color:#cfe9ff;text-align:left;line-height:1.6;font-size:15px;">
+<div align="center">
+<div align="left" style="background-color:#111a2e;border:1px solid #24314f;border-left:3px solid #ff8fbd;border-radius:12px;padding:18px 24px;max-width:840px;display:inline-block;text-align:left;color:#b9c7de;line-height:1.75;font-size:15px;">
 
 -  **Me obsesiona** resolver problemas que nadie más puede entender a la primera.
--  **Suelo meterme** con hardware, robótica, visión por computadora y sistemas en tiempo real.
+-  **Me meto** con hardware, robótica, visión por computadora y sistemas en tiempo real.
 -  Diseño **bases de datos y APIs** que aguantan el uso del mundo real.
--  Creo en el código **limpio, legible y que se pueda mantener** — programo para la siguiente persona que lo relea.
--  Stack que juego a diario: **TypeScript, Python, React, Node.js** y herramientas de visión artificial con **YOLO / OpenCV**.
+-  Creo en el código **limpio, legible y mantenible** — programo para la siguiente persona que lo relea.
+-  Stack que uso a diario: **TypeScript, Python, React, Node.js** y herramientas de visión artificial con **YOLO / OpenCV**.
 
 </div>
-
----
-
-###  STACK TECNOLÓGICO
-
-<div align="center">
-
-**Lenguajes**
-<br>
-![TypeScript](https://img.shields.io/badge/TypeScript-00E5CC?style=flat&logo=typescript&logoColor=0a0f24)
-![JavaScript](https://img.shields.io/badge/JavaScript-7CE7FF?style=flat&logo=javascript&logoColor=0a0f24)
-![Python](https://img.shields.io/badge/Python-FF5CA8?style=flat&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-FFC93C?style=flat&logo=html5&logoColor=0a0f24)
-![CSS3](https://img.shields.io/badge/CSS3-53FF8A?style=flat&logo=css3&logoColor=0a0f24)
-
-**Frameworks & Librerías**
-<br>
-![React](https://img.shields.io/badge/React-0B3A66?style=flat&logo=react&logoColor=7CE7FF)
-![Node.js](https://img.shields.io/badge/Node.js-0B3A66?style=flat&logo=node.js&logoColor=53FF8A)
-![Vite](https://img.shields.io/badge/Vite-0B3A66?style=flat&logo=vite&logoColor=7CE7FF)
-![Tailwind](https://img.shields.io/badge/Tailwind-0B3A66?style=flat&logo=tailwindcss&logoColor=00E5CC)
-
-  **Datos, Visión & Más**
-<br>
-![FastAPI](https://img.shields.io/badge/FastAPI-0B3A66?style=flat&logo=fastapi&logoColor=53FF8A)
-![Supabase](https://img.shields.io/badge/Supabase-0B3A66?style=flat&logo=supabase&logoColor=53FF8A)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B3A66?style=flat&logo=postgresql&logoColor=7CE7FF)
-![OpenCV](https://img.shields.io/badge/OpenCV-0B3A66?style=flat&logo=opencv&logoColor=FF5CA8)
-![YOLO](https://img.shields.io/badge/YOLO-0B3A66?style=flat&logo=ultralytics&logoColor=FFC93C)
-
 </div>
 
 <br>
-<p align="center"><img src="assets/pixel-divider.svg" alt="Divisor pixel art" width="100%"></p>
+<p align="center"><img src="assets/anime-divider.svg?v=1" alt="Divisor decorativo" width="100%"></p>
 
----
-
-### PROYECTOS DESTACADOS
+<h3 align="center"><span style="background-color:#111a2e;color:#f0f4ff;padding:8px 22px;border-radius:10px;border:1px solid #2b3a5e;letter-spacing:0.5px;">Stack tecnológico</span></h3>
 
 <div align="center">
 
-  | | |
-  |---|---|
-  | <div align="left" style="background-color:#141a3e;border:2px solid #7ce7ff;border-radius:14px;padding:12px 18px;min-height:150px;"><b>🗺️ Plataforma-Ciudadana</b><br><i>Plataforma de atención y transparencia ciudadana para el Ayuntamiento de Puebla: solicitudes de obra pública, mapas interactivos y análisis geoespacial.</i><br><br><img src="https://img.shields.io/badge/React-0B3A66?style=flat&logo=react&logoColor=7CE7FF"><img src="https://img.shields.io/badge/TypeScript-7CE7FF?style=flat&logo=typescript&logoColor=0a0f24"><img src="https://img.shields.io/badge/Supabase-53FF8A?style=flat&logo=supabase&logoColor=0a0f24"> <br><br><a href="https://github.com/arcarreno/Plataforma-Ciudadana"><img src="https://img.shields.io/badge/VER_CÓDIGO-00E5CC?style=for-the-badge&logo=github&logoColor=0a0f24"></a></div> | <div align="left" style="background-color:#141a3e;border:2px solid #ff5ca8;border-radius:14px;padding:12px 18px;min-height:220px;"><b>🤖 Robot-Car-System</b><br><i>Control de un robot car 4WD con ESP32-CAM: visión por computadora (YOLO + HSV) que detecta semáforos y flechas, con rutas autónomas.</i><br><br><img src="https://img.shields.io/badge/Python-00E5CC?style=flat&logo=python&logoColor=0a0f24"><img src="https://img.shields.io/badge/OpenCV-FF5CA8?style=flat&logo=opencv&logoColor=white"><img src="https://img.shields.io/badge/FastAPI-53FF8A?style=flat&logo=fastapi&logoColor=0a0f24"> <br><br><a href="https://github.com/arcarreno/Robot-Car-system"><img src="https://img.shields.io/badge/Ver_CÓDIGO-FF5CA8?style=for-the-badge&logo=github&logoColor=0a0f24"></a></div> |
-  | <div align="left" style="background-color:#141a3e;border:2px solid #ffc93c;border-radius:14px;padding:12px 18px;min-height:200px;"><b>🔎 OCR_Nominas</b><br><i>Aplicación de escritorio que extrae y valida datos de recibos de nómina (PDF) con OCR, y exporta los resultados a Excel.</i><br><br><img src="https://img.shields.io/badge/Python-00E5CC?style=flat&logo=python&logoColor=0a0f24"><img src="https://img.shields.io/badge/OCR-FF5CA8?style=flat&logo=tesseract&logoColor=white"><img src="https://img.shields.io/badge/React-00E5CC?style=flat&logo=react&logoColor=0a0f24"> <br><br><a href="https://github.com/arcarreno/OCR_Nominas"><img src="https://img.shields.io/badge/Ver_CÓDIGO-FFC93C?style=for-the-badge&logo=github&logoColor=0a0f24"></a></div> | <div align="left" style="background-color:#141a3e;border:2px solid #53ff8a;border-radius:14px;padding:12px 18px;min-height:200px;"><b>🧠 Palillos</b><br><i>Juego de los palillos (ajedrez de palillos) resuelto con Q-Learning: la máquina aprende la estrategia óptima jugando contra sí misma.</i><br><br><img src="https://img.shields.io/badge/Python-00E5CC?style=flat&logo=python&logoColor=0a0f24"><img src="https://img.shields.io/badge/Q--Learning-53FF8A?style=flat&logo=scikitlearn&logoColor=0a0f24"> <br><br><a href="https://github.com/arcarreno/Palillos"><img src="https://img.shields.io/badge/Ver_CÓDIGO-53FF8A?style=for-the-badge&logo=github&logoColor=0a0f24"></a></div> |
-  | <div align="left" style="background-color:#141a3e;border:2px solid #00e5cc;border-radius:14px;padding:12px 18px;min-height:180px;"><b>📄 Generador_Oficios</b><br><i>Utilidad web para generar documentos oficiales (oficios) con datos dinámicos y prepararlos para impresión.</i><br><br><img src="https://img.shields.io/badge/JavaScript-7CE7FF?style=flat&logo=javascript&logoColor=0a0f24"><img src="https://img.shields.io/badge/HTML-FFC93C?style=flat&logo=html5&logoColor=0a0f24"> <br><br><a href="https://github.com/arcarreno/Generador_Oficios"><img src="https://img.shields.io/badge/Ver_CÓDIGO-00E5CC?style=for-the-badge&logo=github&logoColor=0a0f24"></a></div> | <div align="left" style="background-color:#141a3e;border:2px solid #9fd8ff;border-radius:14px;padding:12px 18px;min-height:180px;"><b>🏛️ Semovinfra</b><br><i>Sitio web de transparencia ciudadana de la Secretaría de Movilidad e Infraestructura, antecesor de Plataforma-Ciudadana.</i><br><br><img src="https://img.shields.io/badge/HTML-00E5CC?style=flat&logo=html5&logoColor=0a0f24"><img src="https://img.shields.io/badge/CSS-53FF8A?style=flat&logo=css3&logoColor=0a0f24"> <br><br><a href="https://github.com/arcarreno/Semovinfra"><img src="https://img.shields.io/badge/Ver_CÓDIGO-7CE7FF?style=for-the-badge&logo=github&logoColor=0a0f24"></a></div> |
+<table>
+  <tr>
+    <td align="center" width="33%" valign="top" style="background-color:#111a2e;border:1px solid #24314f;border-radius:12px;padding:16px 10px;">
+      <b style="color:#7cc7ff; font-size:13px; letter-spacing:1px;">LENGUAJES</b><br><br>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
+      <img src="https://img.shields.io/badge/JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=1a1a1a" alt="JavaScript">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3">
+    </td>
+    <td align="center" width="33%" valign="top" style="background-color:#111a2e;border:1px solid #24314f;border-radius:12px;padding:16px 10px;">
+      <b style="color:#b79bff; font-size:13px; letter-spacing:1px;">FRAMEWORKS</b><br><br>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React">
+      <img src="https://img.shields.io/badge/Node.js-20232A?style=flat&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
+      <img src="https://img.shields.io/badge/Vite-20232A?style=flat&logo=vite&logoColor=646CFF" alt="Vite">
+      <img src="https://img.shields.io/badge/Tailwind-20232A?style=flat&logo=tailwindcss&logoColor=06B6D4" alt="Tailwind">
+      <img src="https://img.shields.io/badge/FastAPI-20232A?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI">
+    </td>
+    <td align="center" width="33%" valign="top" style="background-color:#111a2e;border:1px solid #24314f;border-radius:12px;padding:16px 10px;">
+      <b style="color:#ffc46f; font-size:13px; letter-spacing:1px;">DATOS &amp; IA</b><br><br>
+      <img src="https://img.shields.io/badge/Supabase-1C1C2B?style=flat&logo=supabase&logoColor=3ECF8E" alt="Supabase">
+      <img src="https://img.shields.io/badge/PostgreSQL-20232A?style=flat&logo=postgresql&logoColor=4169E1" alt="PostgreSQL">
+      <img src="https://img.shields.io/badge/OpenCV-20232A?style=flat&logo=opencv&logoColor=5C3EE8" alt="OpenCV">
+      <img src="https://img.shields.io/badge/YOLO-20232A?style=flat&logo=ultralytics&logoColor=FF6B35" alt="YOLO">
+      <img src="https://img.shields.io/badge/Q--Learning-20232A?style=flat&logo=scikitlearn&logoColor=F7931E" alt="Q-Learning">
+    </td>
+  </tr>
+</table>
 
 </div>
 
----
+<br>
+<p align="center"><img src="assets/anime-divider.svg?v=1" alt="Divisor decorativo" width="100%"></p>
+
+<h3 align="center"><span style="background-color:#111a2e;color:#f0f4ff;padding:8px 22px;border-radius:10px;border:1px solid #2b3a5e;letter-spacing:0.5px;">Proyectos destacados</span></h3>
 
 <div align="center">
 
-   **¿Quieres ver más?** Explora mi perfil completo en GitHub para descubrir proyectos de robótica, visión computacional, ciencia de datos y más.
-  <br><br>
-  <a href="https://github.com/arcarreno?tab=repositories">
-    <img src="https://img.shields.io/badge/Ver_todos_los_Proyectos-0B3A66?style=for-the-badge&logo=github&logoColor=7CE7FF">
+<table>
+  <tr>
+    <td width="50%" valign="top" style="padding:6px;border:none;">
+      <div align="left" style="background-color:#111a2e;border:1px solid #24314f;border-top:3px solid #7cc7ff;border-radius:12px;padding:16px 18px;min-height:210px;">
+        <b style="color:#ffffff; font-size:16px;">🗺️ Plataforma-Ciudadana</b><br>
+        <span style="color:#93a4c2; font-size:11px; letter-spacing:0.5px;">CIVIL · TRANSPARENCIA · WEB</span><br><br>
+        <span style="color:#a8b8d4; font-size:13.5px; line-height:1.6;">Plataforma de atención y transparencia ciudadana para el Ayuntamiento de Puebla: solicitudes de obra pública, mapas interactivos y análisis geoespacial.</span><br><br>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript">
+        <img src="https://img.shields.io/badge/Supabase-1C1C2B?style=flat&logo=supabase&logoColor=3ECF8E" alt="Supabase"><br><br>
+        <a href="https://github.com/arcarreno/Plataforma-Ciudadana" style="color:#7cc7ff; font-size:13.5px; font-weight:600; text-decoration:none;">Ver código →</a>
+      </div>
+    </td>
+    <td width="50%" valign="top" style="padding:6px;border:none;">
+      <div align="left" style="background-color:#111a2e;border:1px solid #24314f;border-top:3px solid #ff8fbd;border-radius:12px;padding:16px 18px;min-height:210px;">
+        <b style="color:#ffffff; font-size:16px;">🤖 Robot-Car-System</b><br>
+        <span style="color:#93a4c2; font-size:11px; letter-spacing:0.5px;">ROBÓTICA · VISIÓN · TIEMPO REAL</span><br><br>
+        <span style="color:#a8b8d4; font-size:13.5px; line-height:1.6;">Control de un robot car 4WD con ESP32-CAM: visión por computadora (YOLO + HSV) que detecta semáforos y flechas con rutas autónomas.</span><br><br>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/OpenCV-20232A?style=flat&logo=opencv&logoColor=5C3EE8" alt="OpenCV">
+        <img src="https://img.shields.io/badge/FastAPI-20232A?style=flat&logo=fastapi&logoColor=009688" alt="FastAPI"><br><br>
+        <a href="https://github.com/arcarreno/Robot-Car-system" style="color:#ff8fbd; font-size:13.5px; font-weight:600; text-decoration:none;">Ver código →</a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding:6px;border:none;">
+      <div align="left" style="background-color:#111a2e;border:1px solid #24314f;border-top:3px solid #ffc46f;border-radius:12px;padding:16px 18px;min-height:210px;">
+        <b style="color:#ffffff; font-size:16px;">🔎 OCR_Nominas</b><br>
+        <span style="color:#93a4c2; font-size:11px; letter-spacing:0.5px;">OCR · AUTOMATIZACIÓN · ESCRITORIO</span><br><br>
+        <span style="color:#a8b8d4; font-size:13.5px; line-height:1.6;">Aplicación de escritorio que extrae y valida datos de recibos de nómina en PDF con OCR y exporta los resultados a Excel.</span><br><br>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/OCR-20232A?style=flat&logo=tesseract&logoColor=6EB6F2" alt="OCR">
+        <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React"><br><br>
+        <a href="https://github.com/arcarreno/OCR_Nominas" style="color:#ffc46f; font-size:13.5px; font-weight:600; text-decoration:none;">Ver código →</a>
+      </div>
+    </td>
+    <td valign="top" style="padding:6px;border:none;">
+      <div align="left" style="background-color:#111a2e;border:1px solid #24314f;border-top:3px solid #b79bff;border-radius:12px;padding:16px 18px;min-height:210px;">
+        <b style="color:#ffffff; font-size:16px;">🧠 Palillos</b><br>
+        <span style="color:#93a4c2; font-size:11px; letter-spacing:0.5px;">IA · Q-LEARNING · ESTRATEGIA</span><br><br>
+        <span style="color:#a8b8d4; font-size:13.5px; line-height:1.6;">Juego de palillos (ajedrez de palillos) resuelto con Q-Learning: la máquina aprende la estrategia óptima jugando contra sí misma.</span><br><br>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/Q--Learning-20232A?style=flat&logo=scikitlearn&logoColor=F7931E" alt="Q-Learning"><br><br>
+        <a href="https://github.com/arcarreno/Palillos" style="color:#b79bff; font-size:13.5px; font-weight:600; text-decoration:none;">Ver código →</a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding:6px;border:none;">
+      <div align="left" style="background-color:#111a2e;border:1px solid #24314f;border-top:3px solid #6ee7b7;border-radius:12px;padding:16px 18px;min-height:210px;">
+        <b style="color:#ffffff; font-size:16px;">📄 Generador_Oficios</b><br>
+        <span style="color:#93a4c2; font-size:11px; letter-spacing:0.5px;">DOCUMENTOS · AUTOMATIZACIÓN · WEB</span><br><br>
+        <span style="color:#a8b8d4; font-size:13.5px; line-height:1.6;">Utilidad web para generar documentos oficiales (oficios) con datos dinámicos y prepararlos para impresión.</span><br><br>
+        <img src="https://img.shields.io/badge/JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=1a1a1a" alt="JavaScript">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"><br><br>
+        <a href="https://github.com/arcarreno/Generador_Oficios" style="color:#6ee7b7; font-size:13.5px; font-weight:600; text-decoration:none;">Ver código →</a>
+      </div>
+    </td>
+    <td valign="top" style="padding:6px;border:none;">
+      <div align="left" style="background-color:#111a2e;border:1px solid #24314f;border-top:3px solid #9fd8ff;border-radius:12px;padding:16px 18px;min-height:210px;">
+        <b style="color:#ffffff; font-size:16px;">🏛️ Semovinfra</b><br>
+        <span style="color:#93a4c2; font-size:11px; letter-spacing:0.5px;">GOBIERNO · TRANSPARENCIA · WEB</span><br><br>
+        <span style="color:#a8b8d4; font-size:13.5px; line-height:1.6;">Sitio de transparencia ciudadana de la Secretaría de Movilidad e Infraestructura, antecesor de Plataforma-Ciudadana.</span><br><br>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3"><br><br>
+        <a href="https://github.com/arcarreno/Semovinfra" style="color:#9fd8ff; font-size:13.5px; font-weight:600; text-decoration:none;">Ver código →</a>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<a href="https://github.com/arcarreno?tab=repositories">
+  <img src="https://img.shields.io/badge/Ver_todos_los_proyectos-181B2E?style=for-the-badge&logo=github&logoColor=white" alt="Ver todos los proyectos">
+</a>
+
+</div>
+
+<br>
+<p align="center"><img src="assets/anime-divider.svg?v=1" alt="Divisor decorativo" width="100%"></p>
+
+<h3 align="center"><span style="background-color:#111a2e;color:#f0f4ff;padding:8px 22px;border-radius:10px;border:1px solid #2b3a5e;letter-spacing:0.5px;">Estadísticas de GitHub</span></h3>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" valign="middle" style="padding:6px;border:none;">
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=arcarreno&layout=compact&theme=nightowl&hide_border=true" alt="Lenguajes más usados" width="320">
+    </td>
+    <td align="center" valign="middle" style="padding:6px;border:none;">
+      <img src="https://streak-stats.demolab.com/?user=arcarreno&theme=nightowl&hide_border=true" alt="Racha de contribuciones" width="500">
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arcarreno&theme=nightowl" alt="Resumen del perfil de GitHub" width="700">
+
+</div>
+
+<br>
+
+<div align="center" style="color:#93a4c2; font-size:13px; line-height:1.8;">
+
+  <a href="mailto:arancago24@gmail.com">
+    <img src="https://img.shields.io/badge/-arancago24@gmail.com-D1485F?style=flat-square&logo=gmail&logoColor=white" alt="arancago24@gmail.com">
+  </a>
+  <a href="https://github.com/arcarreno">
+    <img src="https://img.shields.io/badge/-arcarreno-181B2E?style=flat-square&logo=github&logoColor=white" alt="arcarreno">
   </a>
 
-</div>
-
-<br>
-<p align="center"><img src="assets/pixel-divider.svg" alt="Divisor pixel art" width="100%"></p>
-
----
-
-###  ESTADÍSTICAS DE GITHUB
-
-<div align="center">
-
- 
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=arcarreno&layout=compact&theme=radical&hide_border=true" width="42%">
-
   <br><br>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arcarreno&theme=radical&hide_border=true" width="50%">
-
-</div>
-
----
-
-<div align="center" style="color:#9fd8ff;font-size:13px;line-height:1.6;">
-
-  <br><br>
-
-  
-  [![email](https://img.shields.io/badge/-arancago24@gmail.com-FF5CA8?style=flat-square&logo=gmail&logoColor=white)](mailto:arancago24@gmail.com)
-  [![github](https://img.shields.io/badge/-arcarreno-141A3E?style=flat-square&logo=github&logoColor=white)](https://github.com/arcarreno)
-
-  <br>
- 
+  <sub>Hecho con <span style="color:#ff8fbd;">♥</span> en Puebla, México · <i>Ingeniería en Ciencias de la Computación</i></sub>
 
 </div>
