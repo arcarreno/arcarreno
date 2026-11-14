@@ -43,11 +43,11 @@
 
 ###  STACK TECNOLÓGICO
 
-<p align="center"><img src="assets/tech-lenguajes.svg?v=1" alt="TypeScript, JavaScript, Python, HTML5 y CSS3" width="100%"></p>
+<p align="center"><img src="assets/tech-lenguajes-2.svg?v=1" alt="TypeScript, JavaScript, Python, Java, C++, C, HTML5 y CSS3" width="100%"></p>
 <br>
-<p align="center"><img src="assets/tech-frameworks.svg?v=1" alt="React, Node.js, Vite, Tailwind CSS y FastAPI" width="100%"></p>
+<p align="center"><img src="assets/tech-frameworks-2.svg?v=1" alt="React, Node.js, Vite, Tailwind CSS y FastAPI" width="100%"></p>
 <br>
-<p align="center"><img src="assets/tech-datos-ia.svg?v=1" alt="Supabase, PostgreSQL, OpenCV, YOLO y Q-Learning" width="100%"></p>
+<p align="center"><img src="assets/tech-datos-ia-2.svg?v=1" alt="Supabase, PostgreSQL, OpenCV, YOLO, Q-Learning, Kaggle y Google Colab" width="100%"></p>
 
 <br>
 <p align="center"><img src="assets/anime-divider.svg?v=1" alt="Divisor decorativo" width="100%"></p>
