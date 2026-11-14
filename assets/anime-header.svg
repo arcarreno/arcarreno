@@ -1,400 +1,181 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Banner estilo anime: atardecer sobre el lago con montañas y pétalos de sakura">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Banner estilo anime: cabaña junto a cascada entre árboles en un valle tranquilo">
   <defs>
-    <!-- Cielo -->
-    <linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="262">
-      <stop offset="0"    stop-color="#0c0620"/>
-      <stop offset="0.16" stop-color="#1b0f3c"/>
-      <stop offset="0.34" stop-color="#3b1a60"/>
-      <stop offset="0.52" stop-color="#6b276f"/>
-      <stop offset="0.68" stop-color="#a63672"/>
-      <stop offset="0.82" stop-color="#d95f6b"/>
-      <stop offset="0.93" stop-color="#f79a72"/>
-      <stop offset="1"    stop-color="#ffd7a4"/>
+    <!-- Cielo suave -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe8ff"/>
+      <stop offset="45%" stop-color="#e8f4ff"/>
+      <stop offset="75%" stop-color="#f6fbff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
-
-    <!-- Sol -->
-    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0"    stop-color="#fff0c0" stop-opacity="0.85"/>
-      <stop offset="0.26" stop-color="#ffd487" stop-opacity="0.42"/>
-      <stop offset="0.55" stop-color="#ffab6f" stop-opacity="0.16"/>
-      <stop offset="1"    stop-color="#ff9d7a" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="sunDisc" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"   stop-color="#fffdf0"/>
-      <stop offset="0.45" stop-color="#ffe9ae"/>
-      <stop offset="0.8" stop-color="#ffc46f"/>
-      <stop offset="1"   stop-color="#ffa96a"/>
-    </linearGradient>
-
     <!-- Nubes -->
-    <linearGradient id="cloudWarm" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"   stop-color="#fff0f4"/>
-      <stop offset="0.3" stop-color="#ffc4d8"/>
-      <stop offset="0.62" stop-color="#e086ae"/>
-      <stop offset="1"   stop-color="#6d3379"/>
+    <linearGradient id="cloudGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e6f0ff"/>
     </linearGradient>
-    <linearGradient id="cloudCool" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"   stop-color="#c9a7d8"/>
-      <stop offset="0.45" stop-color="#8a5aa4"/>
-      <stop offset="1"   stop-color="#3f2160"/>
-    </linearGradient>
-    <linearGradient id="cloudDark" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0"   stop-color="#7c4a90"/>
-      <stop offset="1"   stop-color="#341a52"/>
-    </linearGradient>
-
     <!-- Agua -->
-    <linearGradient id="water" gradientUnits="userSpaceOnUse" x1="0" y1="262" x2="0" y2="400">
-      <stop offset="0"    stop-color="#96558c"/>
-      <stop offset="0.14" stop-color="#6b3679"/>
-      <stop offset="0.5"  stop-color="#3b2360"/>
-      <stop offset="1"    stop-color="#1c1137"/>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fd3ff"/>
+      <stop offset="100%" stop-color="#3fa9e8"/>
     </linearGradient>
-    <linearGradient id="sunPath" gradientUnits="userSpaceOnUse" x1="0" y1="262" x2="0" y2="400">
-      <stop offset="0"   stop-color="#ffeec2" stop-opacity="0.9"/>
-      <stop offset="0.45" stop-color="#ffc694" stop-opacity="0.38"/>
-      <stop offset="1"   stop-color="#ff9f7d" stop-opacity="0.04"/>
+    <!-- Humo cascada -->
+    <radialGradient id="mistGrad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </radialGradient>
+    <!-- Bosque -->
+    <linearGradient id="forestGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b6a3a"/>
+      <stop offset="100%" stop-color="#1e4d2c"/>
     </linearGradient>
-
+    <!-- Cabaña -->
+    <linearGradient id="cabinWood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d8a06a"/>
+      <stop offset="50%" stop-color="#b97a4a"/>
+      <stop offset="100%" stop-color="#8c5636"/>
+    </linearGradient>
+    <linearGradient id="cabinRoof" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6d4c2f"/>
+      <stop offset="100%" stop-color="#3e2a1a"/>
+    </linearGradient>
     <!-- Texto -->
-    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0"   stop-color="#fff6fc"/>
-      <stop offset="0.45" stop-color="#ffdcec"/>
-      <stop offset="1"   stop-color="#ffb0d2"/>
+    <linearGradient id="nameGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#2a6a9a"/>
     </linearGradient>
-
-    <!-- Pétalo -->
-    <linearGradient id="petalGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fff4f8"/>
-      <stop offset="1" stop-color="#ff93bd"/>
-    </linearGradient>
-
-    <!-- Filtros -->
-    <filter id="softBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="10"/>
+    <!-- Filtro suave -->
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="2"/>
     </filter>
-    <filter id="rayBlur" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
-
-    <!-- Nubes reutilizables -->
-    <g id="cloudWarm">
-      <path d="M-100,0 C-100,-15 -88,-27 -72,-29 C-66,-48 -44,-56 -28,-50 C-16,-67 8,-69 20,-56 C40,-63 58,-50 60,-33 C80,-33 94,-20 94,0 Z" fill="url(#cloudWarm)"/>
-      <path d="M-72,-29 C-66,-48 -44,-56 -28,-50 C-16,-67 8,-69 20,-56 C40,-63 58,-50 60,-33 C46,-43 30,-45 18,-36 C2,-51 -22,-51 -36,-40 C-50,-36 -62,-34 -72,-29 Z" fill="#fff4f8" opacity="0.75"/>
-      <path d="M-100,0 C-100,-15 -88,-27 -72,-29 C-66,-48 -44,-56 -28,-50 C-16,-67 8,-69 20,-56 C40,-63 58,-50 60,-33 C80,-33 94,-20 94,0 Z" fill="url(#cloudDark)" opacity="0.28" transform="translate(0,7)"/>
-    </g>
-    <g id="cloudCool">
-      <path d="M-100,0 C-100,-15 -88,-27 -72,-29 C-66,-48 -44,-56 -28,-50 C-16,-67 8,-69 20,-56 C40,-63 58,-50 60,-33 C80,-33 94,-20 94,0 Z" fill="url(#cloudCool)"/>
-      <path d="M-72,-29 C-66,-48 -44,-56 -28,-50 C-16,-67 8,-69 20,-56 C40,-63 58,-50 60,-33 C46,-43 30,-45 18,-36 C2,-51 -22,-51 -36,-40 C-50,-36 -62,-34 -72,-29 Z" fill="#ffd0e2" opacity="0.4"/>
-    </g>
-    <g id="cloudDark">
-      <path d="M-100,0 C-100,-15 -88,-27 -72,-29 C-66,-48 -44,-56 -28,-50 C-16,-67 8,-69 20,-56 C40,-63 58,-50 60,-33 C80,-33 94,-20 94,0 Z" fill="url(#cloudDark)"/>
-      <path d="M-72,-29 C-66,-48 -44,-56 -28,-50 C-16,-67 8,-69 20,-56 C40,-63 58,-50 60,-33 C46,-43 30,-45 18,-36 C2,-51 -22,-51 -36,-40 C-50,-36 -62,-34 -72,-29 Z" fill="#e0a3cd" opacity="0.35"/>
-    </g>
-
-    <!-- Pétalo reutilizable -->
-    <g id="petal">
-      <path d="M0,-5.4 C3.6,-3.2 4.8,1.2 2.8,4.3 C1.2,6.6 -1.2,6.6 -2.8,4.3 C-4.8,1.2 -3.6,-3.2 0,-5.4 Z" fill="url(#petalGrad)" stroke="#ffb8d4" stroke-width="0.4" stroke-opacity="0.6"/>
-    </g>
-
-    <!-- Pino -->
-    <g id="pine">
-      <path d="M0,-26 L-7,-12 L-4,-12 L-10,-2 L-3,-2 L-3,3 L3,3 L3,-2 L10,-2 L4,-12 L7,-12 Z"/>
-    </g>
-
-    <!-- Ave -->
-    <g id="bird">
-      <path d="M-7,0 Q-3,-5 0,0 Q3,-5 7,0" fill="none" stroke="#2c1a4c" stroke-width="1.8" stroke-linecap="round"/>
-    </g>
-
-    <!-- Estrella -->
-    <g id="star">
-      <circle r="1.6" fill="#fff4e2">
-        <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.2s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-    <g id="sparkle">
-      <path d="M0,-5 Q0.9,-0.9 5,0 Q0.9,0.9 0,5 Q-0.9,0.9 -5,0 Q-0.9,-0.9 0,-5 Z" fill="#fff6e6">
-        <animate attributeName="opacity" values="0;1;0.25;0" dur="4.6s" repeatCount="indefinite"/>
-      </path>
-    </g>
-
-    <!-- Recorte del cielo para los rayos -->
-    <clipPath id="skyClip"><rect width="1200" height="262"/></clipPath>
   </defs>
 
-  <!-- ============================================================
-       CIELO
-       ============================================================ -->
-  <rect width="1200" height="262" fill="url(#sky)"/>
+  <!-- Cielo -->
+  <rect width="1200" height="400" fill="url(#skyGrad)"/>
+  <!-- Brillo solar -->
+  <ellipse cx="950" cy="110" rx="180" ry="110" fill="#ffffff" opacity="0.18" filter="url(#soft)"/>
 
-  <!-- Estrellas -->
-  <g>
-    <use href="#star" transform="translate(52,42)"/>
-    <use href="#star" transform="translate(118,26)"/>
-    <use href="#star" transform="translate(186,54)"/>
-    <use href="#star" transform="translate(62,96)"/>
-    <use href="#star" transform="translate(150,118)"/>
-    <use href="#star" transform="translate(246,32)"/>
-    <use href="#star" transform="translate(962,36)"/>
-    <use href="#star" transform="translate(1042,60)"/>
-    <use href="#star" transform="translate(1122,28)"/>
-    <use href="#star" transform="translate(1158,88)"/>
-    <use href="#star" transform="translate(900,104)"/>
-    <use href="#star" transform="translate(1006,140)"/>
-    <use href="#star" transform="translate(1094,168)"/>
-    <use href="#star" transform="translate(838,26)"/>
-    <use href="#star" transform="translate(402,18)"/>
-    <use href="#star" transform="translate(752,34)"/>
-    <use href="#sparkle" transform="translate(88,150)"/>
-    <use href="#sparkle" transform="translate(1078,120)"/>
-    <use href="#sparkle" transform="translate(690,24)"/>
-    <use href="#sparkle" transform="translate(280,72)"/>
+  <!-- Nubes estáticas -->
+  <g fill="url(#cloudGrad)" opacity="0.9">
+    <ellipse cx="200" cy="120" rx="110" ry="40"/>
+    <ellipse cx="250" cy="100" rx="70" ry="28"/>
+    <ellipse cx="170" cy="130" rx="60" ry="24"/>
+    <ellipse cx="680" cy="90" rx="130" ry="48"/>
+    <ellipse cx="740" cy="70" rx="80" ry="32"/>
+    <ellipse cx="620" cy="110" rx="70" ry="26"/>
+    <ellipse cx="980" cy="140" rx="100" ry="38"/>
+    <ellipse cx="1050" cy="120" rx="60" ry="24"/>
   </g>
 
-  <!-- Sol -->
-  <g>
-    <circle cx="340" cy="178" r="190" fill="url(#sunGlow)"/>
-    <circle cx="340" cy="178" r="104" fill="url(#sunGlow)" opacity="0.75">
-      <animate attributeName="opacity" values="0.55;0.9;0.55" dur="6s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Montañas lejanas -->
+  <path d="M0,240 L0,260 Q120,210 260,230 Q400,250 540,220 Q680,190 820,230 Q960,260 1100,220 Q1200,200 1200,260 L1200,400 H0 Z" fill="#a8d0f0"/>
+  <path d="M0,250 L0,260 Q130,230 270,245 Q410,260 550,235 Q690,210 830,245 Q970,275 1110,240 Q1200,220 1200,260 L1200,400 H0 Z" fill="#7ab6e6"/>
+  <path d="M0,260 L0,260 Q140,250 280,260 Q420,270 560,250 Q700,230 840,260 Q980,285 1120,255 Q1200,240 1200,260 L1200,400 H0 Z" fill="#4a7ba6" opacity="0.6"/>
 
-    <!-- Resplandor difuso del sol -->
-    <circle cx="340" cy="178" r="54" fill="url(#sunDisc)"/>
-    <circle cx="340" cy="178" r="54" fill="#fff4cd" opacity="0.18" filter="url(#softBlur)"/>
-    <ellipse cx="340" cy="178" rx="120" ry="120" fill="#ffd9a0" opacity="0.14" filter="url(#softBlur)"/>
+  <!-- Valle y bosque -->
+  <!-- Colinas -->
+  <path d="M0,260 C150,240 300,280 500,255 C700,230 900,270 1200,250 L1200,400 H0 Z" fill="url(#forestGrad)"/>
+  <!-- Arboles grandes -->
+  <g fill="#1e4d2c">
+    <ellipse cx="80" cy="310" rx="45" ry="35"/>
+    <ellipse cx="120" cy="300" rx="55" ry="42"/>
+    <ellipse cx="160" cy="315" rx="38" ry="30"/>
+    <ellipse cx="220" cy="295" rx="60" ry="46"/>
+    <ellipse cx="280" cy="305" rx="48" ry="38"/>
+    <ellipse cx="340" cy="300" rx="52" ry="40"/>
+    <ellipse cx="400" cy="310" rx="44" ry="34"/>
+    <ellipse cx="460" cy="295" rx="50" ry="38"/>
+    <ellipse cx="520" cy="305" rx="46" ry="36"/>
+    <ellipse cx="580" cy="295" rx="58" ry="44"/>
+    <ellipse cx="640" cy="300" rx="50" ry="40"/>
+    <ellipse cx="700" cy="295" rx="54" ry="42"/>
+    <ellipse cx="760" cy="305" rx="48" ry="36"/>
+    <ellipse cx="820" cy="300" rx="52" ry="40"/>
+    <ellipse cx="880" cy="295" rx="46" ry="34"/>
+    <ellipse cx="940" cy="300" rx="50" ry="38"/>
+    <ellipse cx="1000" cy="295" rx="44" ry="34"/>
+    <ellipse cx="1080" cy="305" rx="48" ry="38"/>
+    <ellipse cx="1150" cy="300" rx="42" ry="32"/>
+  </g>
+  <!-- Troncos -->
+  <g fill="#3b2f2f">
+    <rect x="75" y="330" width="10" height="70"/>
+    <rect x="115" y="325" width="12" height="75"/>
+    <rect x="155" y="330" width="10" height="70"/>
+    <rect x="210" y="320" width="14" height="80"/>
+    <rect x="270" y="325" width="12" height="75"/>
+    <rect x="330" y="320" width="12" height="80"/>
+    <rect x="390" y="330" width="10" height="70"/>
+    <rect x="450" y="320" width="12" height="80"/>
+    <rect x="510" y="325" width="10" height="75"/>
+    <rect x="570" y="320" width="14" height="80"/>
+    <rect x="630" y="325" width="12" height="75"/>
+    <rect x="690" y="320" width="12" height="80"/>
+    <rect x="750" y="325" width="10" height="75"/>
+    <rect x="810" y="320" width="12" height="80"/>
+    <rect x="870" y="325" width="10" height="75"/>
+    <rect x="930" y="320" width="12" height="80"/>
+    <rect x="990" y="325" width="10" height="75"/>
+    <rect x="1070" y="320" width="12" height="80"/>
+    <rect x="1140" y="325" width="10" height="75"/>
   </g>
 
-  <!-- Nubes -->
-  <g opacity="0.75">
-    <animateTransform attributeName="transform" type="translate" values="-260,0; 1280,0" dur="130s" repeatCount="indefinite"/>
-    <use href="#cloudDark" transform="translate(140,116) scale(0.75)"/>
+  <!-- Río y cascada -->
+  <!-- Río principal -->
+  <path d="M-100,340 C200,360 400,320 650,340 C900,360 1100,330 1300,350 L1300,400 H-100 Z" fill="url(#waterGrad)"/>
+  <!-- Cascada -->
+  <path d="M860,200 L900,200 L920,260 L880,260 Z" fill="#6eb7e8"/>
+  <path d="M920,260 L920,350 L860,350 Z" fill="url(#waterGrad)"/>
+  <!-- Salpicaduras -->
+  <g fill="#ffffff" opacity="0.7">
+    <ellipse cx="890" cy="250" rx="18" ry="8"/>
+    <ellipse cx="905" cy="245" rx="12" ry="6"/>
+    <ellipse cx="875" cy="255" rx="10" ry="5"/>
   </g>
-  <g opacity="0.95">
-    <animateTransform attributeName="transform" type="translate" values="1300,0; -300,0" dur="165s" repeatCount="indefinite"/>
-    <use href="#cloudWarm" transform="translate(1090,132) scale(1.05)"/>
-  </g>
-  <g opacity="0.7">
-    <animateTransform attributeName="transform" type="translate" values="-320,0; 1320,0" dur="190s" repeatCount="indefinite"/>
-    <use href="#cloudCool" transform="translate(250,92) scale(0.6)"/>
-  </g>
-  <g opacity="0.92">
-    <animateTransform attributeName="transform" type="translate" values="1340,0; -340,0" dur="215s" repeatCount="indefinite"/>
-    <use href="#cloudWarm" transform="translate(470,224) scale(0.85)"/>
-  </g>
-  <g opacity="0.7">
-    <animateTransform attributeName="transform" type="translate" values="-380,0; 1380,0" dur="240s" repeatCount="indefinite"/>
-    <use href="#cloudWarm" transform="translate(900,210) scale(1.1)"/>
-  </g>
-  <g opacity="0.6">
-    <animateTransform attributeName="transform" type="translate" values="1400,0; -400,0" dur="265s" repeatCount="indefinite"/>
-    <use href="#cloudWarm" transform="translate(560,228) scale(0.55)"/>
-  </g>
-  <g opacity="0.5">
-    <animateTransform attributeName="transform" type="translate" values="-440,0; 1440,0" dur="290s" repeatCount="indefinite"/>
-    <use href="#cloudCool" transform="translate(1000,74) scale(0.5)"/>
-  </g>
+  <!-- Niebla cascada -->
+  <ellipse cx="890" cy="300" rx="70" ry="45" fill="url(#mistGrad)"/>
 
-  <!-- Aves -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="760,120; 1180,96" dur="26s" repeatCount="indefinite"/>
-    <use href="#bird"/>
-  </g>
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="800,138; 1200,118" dur="29s" begin="5s" repeatCount="indefinite"/>
-    <use href="#bird" transform="scale(0.75)"/>
-  </g>
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="1200,150; 820,132" dur="31s" begin="9s" repeatCount="indefinite"/>
-    <use href="#bird" transform="scale(-0.85,0.85)"/>
-  </g>
-
-  <!-- ============================================================
-       MONTAÑAS
-       ============================================================ -->
-  <!-- Cordillera lejana -->
-  <path d="M0,262 L0,216 Q55,198 110,210 Q165,222 215,190 Q258,162 300,196 Q332,222 372,226 Q424,230 470,202 Q520,176 570,200 Q628,224 684,204 Q740,184 796,204 Q852,224 908,204 Q964,184 1020,204 Q1076,224 1132,206 Q1170,194 1200,202 L1200,262 Z" fill="#8f66ad" opacity="0.42"/>
-
-  <!-- Cordillera media -->
-  <path d="M0,262 L0,242 Q90,226 170,242 Q250,258 330,238 Q410,218 490,238 Q570,258 650,242 Q730,226 810,240 Q870,250 930,230 Q985,211 1035,230 Q1105,254 1200,236 L1200,262 Z" fill="#4a3178" opacity="0.92"/>
-  <path d="M0,262 L0,242 Q90,226 170,242 Q250,258 330,238 Q410,218 490,238 Q570,258 650,242 Q730,226 810,240 Q870,250 930,230 Q985,211 1035,230 Q1105,254 1200,236" fill="none" stroke="#ffb894" stroke-width="1.4" stroke-opacity="0.35"/>
-
-  <!-- Cresta cercana -->
-  <path d="M0,262 L0,252 Q70,243 140,255 Q210,264 280,253 Q350,242 420,253 Q490,262 560,251 Q630,240 700,253 Q770,264 840,251 Q910,238 980,249 Q1050,260 1120,249 Q1170,242 1200,247 L1200,262 Z" fill="#241a4d"/>
-  <path d="M0,252 Q70,243 140,255 Q210,264 280,253 Q350,242 420,253 Q490,262 560,251 Q630,240 700,253 Q770,264 840,251 Q910,238 980,249 Q1050,260 1120,249 Q1170,242 1200,247" fill="none" stroke="#ffb894" stroke-width="1.2" stroke-opacity="0.28"/>
-
-  <!-- Pinos sobre la cresta -->
-  <g fill="#1b1240">
-    <use href="#pine" transform="translate(206,258) scale(0.9)"/>
-    <use href="#pine" transform="translate(262,256) scale(0.65)"/>
-    <use href="#pine" transform="translate(296,257) scale(0.5)"/>
-    <use href="#pine" transform="translate(628,254) scale(0.8)"/>
-    <use href="#pine" transform="translate(672,252) scale(0.6)"/>
-    <use href="#pine" transform="translate(1128,251) scale(0.75)"/>
-    <use href="#pine" transform="translate(1166,249) scale(0.55)"/>
-  </g>
-
-  <!-- ============================================================
-       AGUA
-       ============================================================ -->
-  <rect x="0" y="262" width="1200" height="138" fill="url(#water)"/>
-
-  <!-- Reflejo del cielo -->
-  <rect x="0" y="262" width="1200" height="24" fill="#c4698f" opacity="0.3"/>
-  <path d="M0,262 L1200,262 L1200,276 C1000,290 800,270 600,282 C420,292 200,270 0,284 Z" fill="#f2a37e" opacity="0.2"/>
-
-  <!-- Resplandor del horizonte -->
-  <ellipse cx="340" cy="264" rx="200" ry="18" fill="#ffc98e" opacity="0.28" filter="url(#softBlur)"/>
-  <rect x="0" y="260.6" width="1200" height="1.6" fill="#ffe0bb" opacity="0.22"/>
-
-  <!-- Columna de luz -->
-  <path d="M296,262 L384,262 L472,400 L208,400 Z" fill="url(#sunPath)" opacity="0.85" filter="url(#softBlur)"/>
-  <path d="M302,262 L378,262 L452,400 L228,400 Z" fill="url(#sunPath)" opacity="0.55"/>
-
-  <!-- Brillos -->
-  <g fill="#ffe6bf">
-    <rect x="288" y="272" width="104" height="2.4" rx="1.2" opacity="0.7">
-      <animate attributeName="opacity" values="0.25;0.75;0.25" dur="3.4s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="268" y="284" width="144" height="2.2" rx="1.1" opacity="0.55">
-      <animate attributeName="opacity" values="0.6;0.15;0.6" dur="4.1s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="252" y="298" width="176" height="2" rx="1" opacity="0.45">
-      <animate attributeName="opacity" values="0.15;0.55;0.15" dur="3.8s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="240" y="314" width="202" height="2" rx="1" opacity="0.35">
-      <animate attributeName="opacity" values="0.5;0.12;0.5" dur="4.6s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="226" y="332" width="230" height="1.8" rx="0.9" opacity="0.28">
-      <animate attributeName="opacity" values="0.1;0.42;0.1" dur="4.2s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="214" y="352" width="254" height="1.6" rx="0.8" opacity="0.2">
-      <animate attributeName="opacity" values="0.34;0.08;0.34" dur="5s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="204" y="374" width="276" height="1.5" rx="0.75" opacity="0.15">
-      <animate attributeName="opacity" values="0.08;0.3;0.08" dur="4.4s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <!-- Ondas del lago -->
-  <g stroke="#ffffff" stroke-opacity="0.07" stroke-linecap="round" fill="none">
-    <path d="M20,300 h120"/>
-    <path d="M540,290 h140"/>
-    <path d="M760,306 h180"/>
-    <path d="M600,322 h160"/>
-    <path d="M880,340 h200"/>
-    <path d="M480,346 h110"/>
-    <path d="M60,330 h90"/>
-    <path d="M660,366 h180"/>
-    <path d="M140,370 h120"/>
-    <path d="M980,290 h120"/>
-  </g>
-
-  <!-- Isla con árbol y muelle -->
-  <g>
-    <!-- muelle -->
-    <g fill="#140d29">
-      <rect x="792" y="341" width="98" height="6.5" rx="2.5"/>
-      <rect x="804" y="347" width="5" height="18" rx="2"/>
-      <rect x="868" y="347" width="5" height="18" rx="2"/>
-    </g>
-    <!-- persona de pie en el muelle -->
-    <g fill="#140d29">
-      <circle cx="812" cy="316" r="6.4"/>
-      <path d="M812,322.5 C805,322.5 801.5,327 801.5,333 L802,341 L822,341 L822.5,333 C822.5,327 819,322.5 812,322.5 Z"/>
-      <path d="M804,341 L803.5,353 L808.5,353 L811,342.5 L813.5,353 L818.5,353 L820,341 Z"/>
-    </g>
-    <!-- isla -->
-    <path d="M876,352 Q912,324 970,328 Q1018,332 1050,352 Z" fill="#140d29"/>
-    <!-- árbol -->
-    <g fill="#140d29">
-      <path d="M972,330 C970,318 968,306 968,296 L976,296 C976,308 977,318 979,330 Z"/>
-      <ellipse cx="942" cy="272" rx="33" ry="19"/>
-      <ellipse cx="986" cy="260" rx="30" ry="18"/>
-      <ellipse cx="964" cy="288" rx="27" ry="15"/>
-      <ellipse cx="1008" cy="284" rx="23" ry="13"/>
-      <ellipse cx="928" cy="292" rx="20" ry="11"/>
-    </g>
-    <g fill="#2b1b48" opacity="0.85">
-      <ellipse cx="938" cy="264" rx="18" ry="8"/>
-      <ellipse cx="982" cy="252" rx="15" ry="6"/>
-    </g>
-    <!-- reflejo -->
-    <g fill="#140d29" opacity="0.28">
-      <ellipse cx="962" cy="358" rx="72" ry="7"/>
-      <ellipse cx="840" cy="366" rx="52" ry="5"/>
+  <!-- Cabaña -->
+  <g transform="translate(180,280)">
+    <!-- Base -->
+    <rect x="-40" y="40" width="120" height="80" rx="6" fill="#d9c5a8" opacity="0.2"/>
+    <!-- Piso -->
+    <rect x="-35" y="70" width="110" height="40" fill="url(#cabinWood)"/>
+    <!-- Paredes -->
+    <rect x="-30" y="30" width="100" height="40" fill="#f2e8d9"/>
+    <!-- Techo -->
+    <polygon points="-45,30 0,0 85,30 70,70 -30,70" fill="url(#cabinRoof)"/>
+    <!-- Chimenea -->
+    <rect x="55" y="-20" width="12" height="28" fill="#5a4331"/>
+    <rect x="50" y="-30" width="22" height="12" fill="#3e2a1a"/>
+    <!-- Ventanas -->
+    <rect x="-18" y="38" width="22" height="18" fill="#cfe8ff" stroke="#2a6a9a" stroke-width="1.5"/>
+    <rect x="22" y="38" width="22" height="18" fill="#cfe8ff" stroke="#2a6a9a" stroke-width="1.5"/>
+    <!-- Puerta -->
+    <rect x="38" y="70" width="24" height="38" fill="#8c5636" stroke="#5a3a24" stroke-width="1"/>
+    <!-- Humo -->
+    <g fill="#ffffff" opacity="0.6">
+      <ellipse cx="60" cy="-45" rx="14" ry="8"/>
+      <ellipse cx="68" cy="-62" rx="10" ry="6"/>
     </g>
   </g>
 
-  <!-- Pétalos de sakura -->
-  <g>
-    <g><animateTransform attributeName="transform" type="translate" values="120,-20; 158,120; 118,270; 160,420" dur="13s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(1.1)"><animateTransform attributeName="transform" type="rotate" values="-30;40;-20;35" dur="13s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="300,-30; 336,140; 296,300; 340,420" dur="17s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(0.85)"><animateTransform attributeName="transform" type="rotate" values="20;-35;25;-15" dur="17s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="470,-25; 500,130; 462,290; 504,420" dur="15s" begin="3s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(1)"><animateTransform attributeName="transform" type="rotate" values="-15;45;-30;20" dur="15s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="640,-20; 672,150; 634,300; 676,420" dur="19s" begin="6s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(0.9)"><animateTransform attributeName="transform" type="rotate" values="35;-25;30;-35" dur="19s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="820,-30; 850,120; 812,280; 854,420" dur="16s" begin="2s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(1.15)"><animateTransform attributeName="transform" type="rotate" values="-40;20;-25;40" dur="16s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="980,-25; 1012,140; 974,290; 1016,420" dur="21s" begin="8s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(0.8)"><animateTransform attributeName="transform" type="rotate" values="10;-40;15;-20" dur="21s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="1120,-30; 1148,150; 1112,300; 1152,420" dur="18s" begin="5s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(1)"><animateTransform attributeName="transform" type="rotate" values="-25;35;-40;10" dur="18s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="220,-30; 250,160; 212,320; 254,420" dur="23s" begin="11s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(0.9)"><animateTransform attributeName="transform" type="rotate" values="30;-30;45;-25" dur="23s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="560,-30; 590,140; 552,290; 594,420" dur="20s" begin="9s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(0.75)"><animateTransform attributeName="transform" type="rotate" values="-35;25;-15;40" dur="20s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="760,-30; 790,150; 752,300; 794,420" dur="14s" begin="7s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(1.05)"><animateTransform attributeName="transform" type="rotate" values="15;-25;35;-30" dur="14s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="900,-30; 930,170; 892,330; 934,420" dur="24s" begin="13s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(0.85)"><animateTransform attributeName="transform" type="rotate" values="-20;40;-35;20" dur="24s" repeatCount="indefinite"/></use>
-    </g>
-    <g><animateTransform attributeName="transform" type="translate" values="60,-30; 92,160; 54,320; 96,420" dur="22s" begin="4s" repeatCount="indefinite"/>
-      <use href="#petal" transform="scale(0.7)"><animateTransform attributeName="transform" type="rotate" values="25;-35;20;-40" dur="22s" repeatCount="indefinite"/></use>
-    </g>
+  <!-- Camino -->
+  <path d="M40,340 C160,335 240,350 340,338" fill="none" stroke="#e8dccb" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+  <path d="M40,340 C160,335 240,350 340,338" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Aves pequeñas -->
+  <g fill="#2a4a6a">
+    <path d="M1000,130 Q1015,120 1030,130"/>
+    <path d="M1040,150 Q1055,140 1070,150"/>
   </g>
 
-  <!-- Viñeta y legibilidad -->
-  <radialGradient id="vig" cx="0.5" cy="0.58" r="0.78">
-    <stop offset="0.45" stop-color="#0b0620" stop-opacity="0"/>
-    <stop offset="1" stop-color="#0b0620" stop-opacity="0.42"/>
-  </radialGradient>
-  <rect width="1200" height="400" fill="url(#vig)"/>
-  <linearGradient id="topFade" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#0b0620" stop-opacity="0.5"/>
-    <stop offset="1" stop-color="#0b0620" stop-opacity="0"/>
-  </linearGradient>
-  <rect width="1200" height="190" fill="url(#topFade)"/>
-
-  <!-- Marco interior -->
-  <rect x="7" y="7" width="1186" height="386" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.5"/>
-
-  <!-- ============================================================
-       TIPOGRAFÍA
-       ============================================================ -->
+  <!-- Texto -->
   <g text-anchor="middle" font-family="'Segoe UI Semibold','Segoe UI',Helvetica,Arial,sans-serif">
-    <text x="600" y="90" font-size="47" font-weight="700" letter-spacing="7" fill="#ff9dc6" opacity="0.5" filter="url(#softBlur)">ARMANDO CARREÑO</text>
-    <text x="600" y="90" font-size="47" font-weight="700" letter-spacing="7" fill="url(#nameGrad)">ARMANDO CARREÑO</text>
-
-    <g stroke="#ffc9e0" stroke-opacity="0.7" stroke-width="1.2">
-      <line x1="392" y1="110" x2="556" y2="110"/>
-      <line x1="644" y1="110" x2="808" y2="110"/>
-    </g>
-    <path d="M600,103 L607,110 L600,117 L593,110 Z" fill="#ffd3e6"/>
-
-    <text x="600" y="140" font-size="15" font-weight="600" letter-spacing="4.5" fill="#ffe9f2" opacity="0.95">INGENIERO EN CIENCIAS DE LA COMPUTACIÓN</text>
-    <text x="600" y="167" font-size="11.5" font-weight="400" letter-spacing="3.4" fill="#c3a9de" opacity="0.9">PUEBLA, MÉXICO</text>
+    <text x="600" y="80" font-size="44" font-weight="700" letter-spacing="6" fill="#1e3a5f">ARMANDO CARREÑO</text>
+    <text x="600" y="115" font-size="14" font-weight="600" letter-spacing="3" fill="#2a6a9a">INGENIERO EN CIENCIAS DE LA COMPUTACIÓN</text>
+    <text x="600" y="135" font-size="11" font-weight="400" letter-spacing="2.5" fill="#5a7a9a">PUEBLA, MÉXICO</text>
   </g>
+
+  <!-- Marco sutil -->
+  <rect x="8" y="8" width="1184" height="384" rx="18" fill="none" stroke="#e6f2ff" stroke-width="1.5" opacity="0.6"/>
 </svg>
