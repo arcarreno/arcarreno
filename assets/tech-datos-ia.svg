@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="104" viewBox="0 0 1012 104" role="img" aria-label="DATOS & IA">
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="104" viewBox="0 0 1012 104" role="img" aria-label="DATOS &amp; IA">
   <defs>
     <linearGradient id="fade-datos" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#fff" stop-opacity="0"/>
@@ -60,7 +60,7 @@
   <rect x="0.5" y="0.5" width="1011" height="103" rx="16" fill="#111a2e" stroke="#24314f" stroke-width="1"/>
 
   <!-- Etiqueta -->
-  <text x="28" y="57" font-family="'Segoe UI Semibold','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.6" fill="#ffc46f">DATOS & IA</text>
+  <text x="28" y="57" font-family="'Segoe UI Semibold','Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.6" fill="#ffc46f">DATOS &amp; IA</text>
   <rect x="28" y="68" width="46" height="2" rx="1" fill="#ffc46f" opacity="0.55"/>
 
   <!-- Riel de iconos -->
