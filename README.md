@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/anime-header-v4.svg?v=1" alt="Banner estilo anime pictorico: la orilla de una playa tranquila con mar turquesa, palmeras y luz dorada" width="100%">
+  <img src="assets/anime-header-v5.svg?v=1" alt="Banner estilo anime pictorico: la orilla de una playa tranquila con mar turquesa, palmeras de hojas detalladas y luz dorada" width="100%">
 </p>
 
 <div align="center">
