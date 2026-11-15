@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/anime-header.svg?v=1" alt="Banner estilo anime de Armando Carreño" width="100%">
+  <img src="assets/anime-header-v2.svg?v=1" alt="Banner estilo anime: camino de arena hacia una playa tranquila con palmeras" width="100%">
 </p>
 
 <div align="center">
