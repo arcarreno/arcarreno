@@ -1,0 +1,656 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Banner estilo anime pictorico: la orilla de una playa tranquila al atardecer con mar turquesa, palmeras y luz dorada">
+  <defs>
+    <!-- ============ CIELO ============ -->
+    <linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="162">
+      <stop offset="0"    stop-color="#2a7cbd"/>
+      <stop offset="0.16" stop-color="#3f9ad0"/>
+      <stop offset="0.36" stop-color="#6cbde3"/>
+      <stop offset="0.58" stop-color="#a5dced"/>
+      <stop offset="0.78" stop-color="#dff0f1"/>
+      <stop offset="0.92" stop-color="#fdeecb"/>
+      <stop offset="1"    stop-color="#fff4d8"/>
+    </linearGradient>
+    <linearGradient id="skyGlow" gradientUnits="userSpaceOnUse" x1="0" y1="60" x2="0" y2="162">
+      <stop offset="0" stop-color="#fff6dc" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff1c9" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- ============ SOL ============ -->
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0"    stop-color="#fffdf2" stop-opacity="0.95"/>
+      <stop offset="0.13" stop-color="#fff0c4" stop-opacity="0.6"/>
+      <stop offset="0.34" stop-color="#ffdfa2" stop-opacity="0.28"/>
+      <stop offset="0.62" stop-color="#ffd493" stop-opacity="0.1"/>
+      <stop offset="1"    stop-color="#ffd08a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sunDisc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#fffef6"/>
+      <stop offset="0.6" stop-color="#fff5cc"/>
+      <stop offset="1"   stop-color="#ffd989"/>
+    </linearGradient>
+
+    <!-- ============ NUBES ============ -->
+    <linearGradient id="cloudLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#ffffff"/>
+      <stop offset="0.66" stop-color="#fdfdff"/>
+      <stop offset="1"    stop-color="#d9ecf7"/>
+    </linearGradient>
+
+    <!-- ============ MAR ============ -->
+    <linearGradient id="sea" gradientUnits="userSpaceOnUse" x1="0" y1="158" x2="0" y2="300">
+      <stop offset="0"    stop-color="#ffeec4"/>
+      <stop offset="0.08" stop-color="#bfe6e0"/>
+      <stop offset="0.24" stop-color="#74d1d5"/>
+      <stop offset="0.46" stop-color="#3cabca"/>
+      <stop offset="0.72" stop-color="#2688b2"/>
+      <stop offset="1"    stop-color="#1c6593"/>
+    </linearGradient>
+    <linearGradient id="seaShallow" gradientUnits="userSpaceOnUse" x1="0" y1="210" x2="0" y2="300">
+      <stop offset="0" stop-color="#a9ece0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#74e0cb" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="glitter" gradientUnits="userSpaceOnUse" x1="0" y1="158" x2="0" y2="300">
+      <stop offset="0"   stop-color="#fff8e0" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#ffeec0" stop-opacity="0.45"/>
+      <stop offset="1"   stop-color="#ffe6ae" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <!-- ============ ARENA ============ -->
+    <linearGradient id="wetSand" gradientUnits="userSpaceOnUse" x1="0" y1="264" x2="0" y2="312">
+      <stop offset="0"   stop-color="#e8cfa4"/>
+      <stop offset="0.5" stop-color="#dcc08e"/>
+      <stop offset="1"   stop-color="#e6cb98"/>
+    </linearGradient>
+    <linearGradient id="drySand" gradientUnits="userSpaceOnUse" x1="0" y1="280" x2="0" y2="400">
+      <stop offset="0"   stop-color="#f8ead0"/>
+      <stop offset="0.42" stop-color="#f0d9ab"/>
+      <stop offset="1"   stop-color="#dcb981"/>
+    </linearGradient>
+    <linearGradient id="sandSheen" gradientUnits="userSpaceOnUse" x1="0" y1="260" x2="0" y2="400">
+      <stop offset="0"   stop-color="#fff4d8" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#ffeec4" stop-opacity="0.12"/>
+      <stop offset="1"   stop-color="#ffe3b0" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- ============ VEGETACION ============ -->
+    <linearGradient id="trunkG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#6b4224"/>
+      <stop offset="0.34" stop-color="#b8834b"/>
+      <stop offset="0.6"  stop-color="#d7a066"/>
+      <stop offset="1"    stop-color="#6a4023"/>
+    </linearGradient>
+    <linearGradient id="frondG" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0"   stop-color="#71c871"/>
+      <stop offset="0.42" stop-color="#37935a"/>
+      <stop offset="1"   stop-color="#1d5f3d"/>
+    </linearGradient>
+    <linearGradient id="frondG2" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0"   stop-color="#93d98c"/>
+      <stop offset="0.5" stop-color="#4aa463"/>
+      <stop offset="1"   stop-color="#266d43"/>
+    </linearGradient>
+    <linearGradient id="frondDarkG" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0"   stop-color="#163f42"/>
+      <stop offset="0.6" stop-color="#0e2c31"/>
+      <stop offset="1"   stop-color="#0a2027"/>
+    </linearGradient>
+
+    <!-- ============ TEXTO ============ -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#0a3448"/>
+      <stop offset="0.5"  stop-color="#0f5a72"/>
+      <stop offset="1"    stop-color="#0a3448"/>
+    </linearGradient>
+
+    <!-- ============ FILTROS ============ -->
+    <filter id="softBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="hazeBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="foreBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5.5"/>
+    </filter>
+    <filter id="rayBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="wideBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+
+    <!-- ============ RECORTES ============ -->
+    <clipPath id="cloudBigClip">
+      <path d="M-122,0 C-122,-18 -106,-33 -86,-35 C-80,-59 -52,-69 -32,-61 C-18,-84 14,-86 30,-70 C52,-80 80,-65 82,-43 C106,-43 124,-24 124,0 Z"/>
+    </clipPath>
+    <clipPath id="cloudSmallClip">
+      <path d="M-70,0 C-70,-12 -60,-20 -48,-21 C-44,-36 -26,-42 -15,-37 C-6,-50 12,-51 22,-41 C36,-46 52,-36 53,-23 C64,-23 72,-13 72,0 Z"/>
+    </clipPath>
+    <clipPath id="seaClip">
+      <path d="M0,158 H1200 V268 C1000,286 800,296 600,282 C400,268 200,262 0,272 Z"/>
+    </clipPath>
+
+    <!-- ============ ELEMENTOS REUTILIZABLES ============ -->
+    <g id="cloudBig">
+      <g clip-path="url(#cloudBigClip)">
+        <path d="M-122,0 C-122,-18 -106,-33 -86,-35 C-80,-59 -52,-69 -32,-61 C-18,-84 14,-86 30,-70 C52,-80 80,-65 82,-43 C106,-43 124,-24 124,0 Z" fill="url(#cloudLight)"/>
+        <path d="M-86,-35 C-80,-59 -52,-69 -32,-61 C-18,-84 14,-86 30,-70 C52,-80 80,-65 82,-43 C66,-60 45,-62 28,-50 C8,-69 -24,-66 -42,-50 C-60,-42 -76,-38 -86,-35 Z" fill="#ffffff" opacity="0.92"/>
+        <ellipse cx="-4" cy="4" rx="128" ry="13" fill="#a6c3da" opacity="0.4" filter="url(#softBlur)"/>
+        <ellipse cx="52" cy="-3" rx="82" ry="9" fill="#ffe7bd" opacity="0.6" filter="url(#softBlur)"/>
+      </g>
+    </g>
+    <g id="cloudSmall">
+      <g clip-path="url(#cloudSmallClip)">
+        <path d="M-70,0 C-70,-12 -60,-20 -48,-21 C-44,-36 -26,-42 -15,-37 C-6,-50 12,-51 22,-41 C36,-46 52,-36 53,-23 C64,-23 72,-13 72,0 Z" fill="url(#cloudLight)"/>
+        <path d="M-48,-21 C-44,-36 -26,-42 -15,-37 C-6,-50 12,-51 22,-41 C36,-46 52,-36 53,-23 C40,-34 26,-34 14,-28 C2,-40 -16,-38 -26,-28 C-34,-24 -42,-22 -48,-21 Z" fill="#ffffff" opacity="0.88"/>
+        <ellipse cx="0" cy="3" rx="74" ry="8" fill="#a6c3da" opacity="0.38" filter="url(#softBlur)"/>
+        <ellipse cx="30" cy="-1" rx="46" ry="6" fill="#ffe7bd" opacity="0.55" filter="url(#softBlur)"/>
+      </g>
+    </g>
+    <g id="cloudWispy">
+      <path d="M-104,0 C-86,-9 -60,-12 -38,-9 C-18,-17 8,-13 24,-7 C50,-11 80,-6 104,0 Z" fill="#ffffff" opacity="0.6"/>
+      <path d="M-104,0 C-86,-9 -60,-12 -38,-9 C-18,-17 8,-13 24,-7 C50,-11 80,-6 104,0 Z" fill="#ffdfae" opacity="0.4"/>
+    </g>
+
+    <!-- Fronda iluminada -->
+    <g id="frond">
+      <path d="M0,0 C22,-17 52,-19 80,-6 C54,-3 25,0 0,0 Z" fill="url(#frondG)"/>
+      <path d="M0,0 C26,-5 54,-6 80,-6" fill="none" stroke="#1b5c39" stroke-width="1" stroke-opacity="0.4"/>
+      <path d="M6,-3 C26,-12 50,-14 72,-6 C48,-8 26,-6 6,-3 Z" fill="#9fdfa0" opacity="0.4"/>
+    </g>
+    <g id="frondLight">
+      <path d="M0,0 C22,-17 52,-19 80,-6 C54,-3 25,0 0,0 Z" fill="url(#frondG2)"/>
+      <path d="M0,0 C26,-5 54,-6 80,-6" fill="none" stroke="#1b5c39" stroke-width="1" stroke-opacity="0.32"/>
+    </g>
+    <!-- Fronda en silueta (primer plano) -->
+    <g id="frondDark">
+      <path d="M0,0 C22,-17 52,-19 80,-6 C54,-3 25,0 0,0 Z" fill="url(#frondDarkG)"/>
+      <path d="M0,0 C26,-5 54,-6 80,-6" fill="none" stroke="#7fc0c4" stroke-width="1.1" stroke-opacity="0.3"/>
+      <path d="M6,-3 C26,-12 50,-14 72,-6" fill="none" stroke="#9fd8d6" stroke-width="0.9" stroke-opacity="0.22"/>
+    </g>
+
+    <!-- Palmera iluminada -->
+    <g id="palmLit">
+      <path d="M-8,0 C-4,-42 4,-84 0,-126 L14,-128 C21,-84 12,-42 15,0 Z" fill="url(#trunkG)"/>
+      <path d="M-8,0 C-4,-42 4,-84 0,-126 L5,-127 C8,-84 1,-42 4,0 Z" fill="#5f3d20" opacity="0.45"/>
+      <g stroke="#6b4322" stroke-opacity="0.3" stroke-width="1.4" stroke-linecap="round">
+        <path d="M-5,-17 L12,-18"/>
+        <path d="M-3,-39 L14,-40"/>
+        <path d="M-1,-61 L16,-62"/>
+        <path d="M0,-83 L17,-84"/>
+        <path d="M0,-105 L16,-106"/>
+      </g>
+      <g>
+        <circle cx="3" cy="-131" r="4.6" fill="#63452a"/>
+        <circle cx="12" cy="-128" r="4" fill="#74502e"/>
+      </g>
+      <g transform="translate(7,-129)">
+        <g transform="rotate(-172)"><use href="#frondLight" transform="scale(0.78,0.78)"/></g>
+        <g transform="rotate(-138)"><use href="#frondLight" transform="scale(0.92,0.92)"/></g>
+        <g transform="rotate(-104)"><use href="#frond" transform="scale(1.04,1.04)"/></g>
+        <g transform="rotate(-70)"><use href="#frondLight" transform="scale(1.08,1.08)"/></g>
+        <g transform="rotate(-32)"><use href="#frond" transform="scale(1.02,1.02)"/></g>
+        <g transform="rotate(8)"><use href="#frond" transform="scale(0.96,0.96)"/></g>
+        <g transform="rotate(48)"><use href="#frond" transform="scale(0.86,0.86)"/></g>
+        <g transform="rotate(92)"><use href="#frond" transform="scale(0.76,0.76)"/></g>
+        <g transform="rotate(134)"><use href="#frondLight" transform="scale(0.66,0.66)"/></g>
+        <g transform="rotate(168)"><use href="#frond" transform="scale(0.58,0.58)"/></g>
+      </g>
+    </g>
+    <!-- Palmera en silueta, contraluz -->
+    <g id="palmDark">
+      <path d="M-8,0 C-4,-42 4,-84 0,-126 L14,-128 C21,-84 12,-42 15,0 Z" fill="#0d262c"/>
+      <path d="M15,0 C12,-42 21,-84 14,-128 L18,-128 C25,-84 17,-42 20,0 Z" fill="#ffcf8f" opacity="0.3"/>
+      <g stroke="#0a1f25" stroke-opacity="0.6" stroke-width="1.4" stroke-linecap="round">
+        <path d="M-4,-19 L13,-20"/>
+        <path d="M-2,-41 L15,-42"/>
+        <path d="M0,-63 L16,-64"/>
+        <path d="M1,-85 L17,-86"/>
+        <path d="M1,-107 L16,-108"/>
+      </g>
+      <g>
+        <circle cx="3" cy="-131" r="4.6" fill="#0a1f25"/>
+        <circle cx="12" cy="-128" r="4" fill="#0c2429"/>
+      </g>
+      <g transform="translate(7,-129)">
+        <g transform="rotate(-172)"><use href="#frondDark" transform="scale(0.78,0.78)"/></g>
+        <g transform="rotate(-138)"><use href="#frondDark" transform="scale(0.92,0.92)"/></g>
+        <g transform="rotate(-104)"><use href="#frondDark" transform="scale(1.04,1.04)"/></g>
+        <g transform="rotate(-70)"><use href="#frondDark" transform="scale(1.08,1.08)"/></g>
+        <g transform="rotate(-32)"><use href="#frondDark" transform="scale(1.02,1.02)"/></g>
+        <g transform="rotate(8)"><use href="#frondDark" transform="scale(0.96,0.96)"/></g>
+        <g transform="rotate(48)"><use href="#frondDark" transform="scale(0.86,0.86)"/></g>
+        <g transform="rotate(92)"><use href="#frondDark" transform="scale(0.76,0.76)"/></g>
+        <g transform="rotate(134)"><use href="#frondDark" transform="scale(0.66,0.66)"/></g>
+        <g transform="rotate(168)"><use href="#frondDark" transform="scale(0.58,0.58)"/></g>
+      </g>
+    </g>
+  </defs>
+
+  <!-- ============================================================
+       CIELO
+       ============================================================ -->
+  <rect width="1200" height="162" fill="url(#sky)"/>
+  <rect y="70" width="1200" height="92" fill="url(#skyGlow)"/>
+
+  <!-- Sol -->
+  <g>
+    <circle cx="1010" cy="130" r="215" fill="url(#sunGlow)"/>
+    <circle cx="1010" cy="130" r="42" fill="url(#sunDisc)" opacity="0.95"/>
+    <circle cx="1010" cy="130" r="48" fill="#fff9e2" opacity="0.3" filter="url(#softBlur)"/>
+  </g>
+
+  <!-- Rayos de luz -->
+  <g opacity="0.55" filter="url(#rayBlur)">
+    <path d="M1010,130 L680,162 L620,162 L990,124 Z" fill="#fff3d2" opacity="0.26"/>
+    <path d="M1010,130 L840,162 L796,162 L998,126 Z" fill="#fff3d2" opacity="0.2"/>
+    <path d="M1010,130 L1200,162 L1200,148 L1028,122 Z" fill="#fff3d2" opacity="0.16"/>
+  </g>
+
+  <!-- Nubes -->
+  <g opacity="0.95">
+    <animateTransform attributeName="transform" type="translate" values="-360,0; 1360,0" dur="215s" repeatCount="indefinite"/>
+    <use href="#cloudBig" transform="translate(700,104) scale(1)"/>
+  </g>
+  <g opacity="0.92">
+    <animateTransform attributeName="transform" type="translate" values="1360,0; -360,0" dur="265s" repeatCount="indefinite"/>
+    <use href="#cloudBig" transform="translate(1000,108) scale(1.05)"/>
+  </g>
+  <g opacity="0.82">
+    <animateTransform attributeName="transform" type="translate" values="-340,0; 1340,0" dur="300s" repeatCount="indefinite"/>
+    <use href="#cloudSmall" transform="translate(760,118) scale(0.78)"/>
+  </g>
+  <g opacity="0.85">
+    <animateTransform attributeName="transform" type="translate" values="1340,0; -340,0" dur="345s" repeatCount="indefinite"/>
+    <use href="#cloudSmall" transform="translate(260,122) scale(0.9)"/>
+  </g>
+  <g opacity="0.6">
+    <animateTransform attributeName="transform" type="translate" values="-360,0; 1360,0" dur="380s" repeatCount="indefinite"/>
+    <use href="#cloudWispy" transform="translate(620,146) scale(1.15)"/>
+  </g>
+  <g opacity="0.55">
+    <animateTransform attributeName="transform" type="translate" values="1360,0; -360,0" dur="420s" repeatCount="indefinite"/>
+    <use href="#cloudWispy" transform="translate(1150,140) scale(0.95)"/>
+  </g>
+  <g opacity="0.7">
+    <use href="#cloudSmall" transform="translate(420,152) scale(0.42)"/>
+    <use href="#cloudSmall" transform="translate(1120,154) scale(0.36)"/>
+    <use href="#cloudWispy" transform="translate(80,144) scale(0.8)"/>
+  </g>
+
+  <!-- Aves -->
+  <g opacity="0.45">
+    <animateTransform attributeName="transform" type="translate" values="640,138; 880,120" dur="34s" repeatCount="indefinite"/>
+    <use href="#bird" transform="scale(0.7)"/>
+  </g>
+  <g opacity="0.4">
+    <animateTransform attributeName="transform" type="translate" values="900,126; 700,140" dur="40s" begin="8s" repeatCount="indefinite"/>
+    <use href="#bird" transform="scale(-0.6,0.6)"/>
+  </g>
+
+  <!-- ============================================================
+       CABECERAS LEJANAS
+       ============================================================ -->
+  <path d="M0,158 L0,152 Q110,138 214,148 Q320,158 430,144 Q520,132 620,150 Q700,162 790,152 Q900,138 1010,152 Q1100,162 1200,150 L1200,158 Z" fill="#9db9c9" opacity="0.5"/>
+  <path d="M0,158 L0,154 Q140,146 280,152 Q420,158 560,150 Q700,142 840,152 Q980,162 1200,152 L1200,158 Z" fill="#7d9cb0" opacity="0.55"/>
+
+  <!-- Bruma calida sobre el horizonte -->
+  <rect y="138" width="1200" height="24" fill="url(#skyGlow)" opacity="0.9"/>
+
+  <!-- ============================================================
+       MAR
+       ============================================================ -->
+  <path d="M0,158 H1200 V268 C1000,286 800,296 600,282 C400,268 200,262 0,272 Z" fill="url(#sea)"/>
+  <path d="M0,210 C200,204 400,210 600,222 C800,234 1000,226 1200,214 L1200,272 C1000,288 800,298 600,284 C400,270 200,264 0,274 Z" fill="url(#seaShallow)" opacity="0.55"/>
+
+  <!-- Columna de sol sobre el agua -->
+  <g clip-path="url(#seaClip)">
+    <path d="M970,158 L1050,158 L1140,300 L868,300 Z" fill="url(#glitter)" opacity="0.62" filter="url(#softBlur)"/>
+    <g fill="#fffaea">
+      <rect x="988" y="164" width="44" height="2.4" rx="1.2" opacity="0.6"><animate attributeName="opacity" values="0.3;0.7;0.3" dur="4.2s" repeatCount="indefinite"/></rect>
+      <rect x="976" y="172" width="68" height="2.6" rx="1.3" opacity="0.5"><animate attributeName="opacity" values="0.6;0.25;0.6" dur="5.4s" begin="0.8s" repeatCount="indefinite"/></rect>
+      <rect x="958" y="182" width="104" height="2.8" rx="1.4" opacity="0.42"><animate attributeName="opacity" values="0.2;0.52;0.2" dur="6.4s" begin="1.6s" repeatCount="indefinite"/></rect>
+      <rect x="936" y="194" width="148" height="3" rx="1.5" opacity="0.35"><animate attributeName="opacity" values="0.48;0.14;0.48" dur="5.8s" begin="2.4s" repeatCount="indefinite"/></rect>
+      <rect x="908" y="208" width="196" height="3.2" rx="1.6" opacity="0.42"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="7s" begin="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="874" y="224" width="258" height="3.4" rx="1.7" opacity="0.34"><animate attributeName="opacity" values="0.55;0.15;0.55" dur="6.2s" begin="3s" repeatCount="indefinite"/></rect>
+      <rect x="834" y="242" width="330" height="3.6" rx="1.8" opacity="0.26"><animate attributeName="opacity" values="0.12;0.42;0.12" dur="8s" begin="2s" repeatCount="indefinite"/></rect>
+      <rect x="794" y="262" width="410" height="3.8" rx="1.9" opacity="0.2"><animate attributeName="opacity" values="0.42;0.1;0.42" dur="7.4s" begin="4s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <!-- Bandas de agua pintadas -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M20,182 h170" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2.6"><animate attributeName="stroke-opacity" values="0.06;0.28;0.06" dur="7.4s" repeatCount="indefinite"/></path>
+    <path d="M330,178 h190" stroke="#eafaff" stroke-opacity="0.18" stroke-width="2.2"><animate attributeName="stroke-opacity" values="0.24;0.05;0.24" dur="9s" begin="1.5s" repeatCount="indefinite"/></path>
+    <path d="M600,186 h150" stroke="#ffffff" stroke-opacity="0.16" stroke-width="2"><animate attributeName="stroke-opacity" values="0.05;0.24;0.05" dur="8.2s" begin="3s" repeatCount="indefinite"/></path>
+    <path d="M120,206 h200" stroke="#dff6ff" stroke-opacity="0.16" stroke-width="2.4"><animate attributeName="stroke-opacity" values="0.2;0.06;0.2" dur="6.6s" begin="2s" repeatCount="indefinite"/></path>
+    <path d="M420,214 h230" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2"><animate attributeName="stroke-opacity" values="0.04;0.22;0.04" dur="10s" begin="4s" repeatCount="indefinite"/></path>
+    <path d="M700,226 h200" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.8"><animate attributeName="stroke-opacity" values="0.2;0.05;0.2" dur="8.6s" begin="5s" repeatCount="indefinite"/></path>
+    <path d="M140,244 h170" stroke="#dff6ff" stroke-opacity="0.12" stroke-width="1.8"><animate attributeName="stroke-opacity" values="0.04;0.18;0.04" dur="11s" begin="2.5s" repeatCount="indefinite"/></path>
+    <path d="M860,250 h220" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.8"><animate attributeName="stroke-opacity" values="0.16;0.04;0.16" dur="9.6s" begin="6s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- Crestas de olas -->
+  <g stroke="#ffffff" stroke-opacity="0.5" stroke-linecap="round" fill="none" stroke-width="1.7">
+    <path d="M150,240 q14,-5 28,0 q14,5 28,0"><animate attributeName="stroke-opacity" values="0.18;0.6;0.18" dur="5.4s" repeatCount="indefinite"/></path>
+    <path d="M400,256 q16,-6 32,0 q16,6 32,0"><animate attributeName="stroke-opacity" values="0.5;0.14;0.5" dur="6.6s" begin="1.5s" repeatCount="indefinite"/></path>
+    <path d="M760,262 q15,-5 30,0 q15,5 30,0"><animate attributeName="stroke-opacity" values="0.16;0.55;0.16" dur="5.8s" begin="2.5s" repeatCount="indefinite"/></path>
+    <path d="M960,254 q16,-6 32,0 q16,6 32,0"><animate attributeName="stroke-opacity" values="0.45;0.1;0.45" dur="7.2s" begin="3.5s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- Embarcacion lejana -->
+  <g opacity="0.9">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,1.6; 0,0" dur="6.4s" repeatCount="indefinite"/>
+      <path d="M352,158 L352,138 L368,156 Z" fill="#fffef8"/>
+      <path d="M350,138 L350,158 L338,158 Z" fill="#f4faf9" opacity="0.9"/>
+      <path d="M336,158 L370,158 L367,162 L340,162 Z" fill="#3a6c86" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- Brillos -->
+  <g opacity="0.8">
+    <use href="#spark" transform="translate(998,168) scale(0.75)"><animate attributeName="opacity" values="0;0.95;0.2;0" dur="6s" repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(1026,196) scale(0.55)"><animate attributeName="opacity" values="0;0.85;0.15;0" dur="7s" begin="1.5s" repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(978,226) scale(0.5)"><animate attributeName="opacity" values="0;0.8;0.1;0" dur="8s" begin="3s" repeatCount="indefinite"/></use>
+    <use href="#spark" transform="translate(1058,214) scale(0.45)"><animate attributeName="opacity" values="0;0.7;0.1;0" dur="9s" begin="4s" repeatCount="indefinite"/></use>
+  </g>
+
+  <!-- ============================================================
+       ORILLA
+       ============================================================ -->
+  <path d="M0,272 C200,262 400,268 600,282 C800,296 1000,286 1200,268 L1200,290 C1000,308 800,318 600,304 C400,290 200,284 0,294 Z" fill="url(#wetSand)"/>
+  <path d="M0,294 C200,284 400,290 600,304 C800,318 1000,308 1200,290 L1200,400 L0,400 Z" fill="url(#drySand)"/>
+  <path d="M0,272 C200,262 400,268 600,282 C800,296 1000,286 1200,268 L1200,400 L0,400 Z" fill="url(#sandSheen)"/>
+
+  <!-- Reflejo del sol en la arena humeda -->
+  <g opacity="0.5" filter="url(#wideBlur)">
+    <ellipse cx="1014" cy="316" rx="46" ry="46" fill="#fff2c8"/>
+    <ellipse cx="1014" cy="366" rx="70" ry="34" fill="#ffe7ae" opacity="0.55"/>
+  </g>
+
+  <!-- Reflejo del cielo en la arena humeda -->
+  <g opacity="0.3" filter="url(#foreBlur)">
+    <path d="M60,276 C220,266 380,272 520,286 L520,300 C380,290 220,282 60,290 Z" fill="#bfe4f2"/>
+    <path d="M700,290 C840,298 980,292 1140,278 L1140,292 C980,304 840,312 700,302 Z" fill="#cfeaf4"/>
+  </g>
+
+  <!-- Espuma de la rompiente -->
+  <path d="M0,272 C200,262 400,268 600,282 C800,296 1000,286 1200,268" fill="none" stroke="#ffffff" stroke-opacity="0.92" stroke-width="5" stroke-linecap="round"/>
+  <path d="M0,279 C200,269 400,275 600,289 C800,303 1000,293 1200,275" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.14;0.55;0.14" dur="6.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,286 C200,276 400,282 600,296 C800,310 1000,300 1200,282" fill="none" stroke="#ffffff" stroke-opacity="0.24" stroke-width="2.4" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.06;0.34;0.06" dur="8.8s" begin="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,293 C200,283 400,289 600,303 C800,317 1000,307 1200,289" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.04;0.22;0.04" dur="11s" begin="4s" repeatCount="indefinite"/>
+  </path>
+  <!-- Encaje de espuma -->
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="140" cy="280" rx="16" ry="3"/>
+    <ellipse cx="330" cy="276" rx="13" ry="2.6"/>
+    <ellipse cx="520" cy="284" rx="18" ry="3.2"/>
+    <ellipse cx="740" cy="296" rx="14" ry="2.8"/>
+    <ellipse cx="940" cy="290" rx="16" ry="3"/>
+    <ellipse cx="1120" cy="276" rx="12" ry="2.6"/>
+  </g>
+
+  <!-- Rizos y textura de arena -->
+  <g fill="none" stroke="#c9a870" stroke-opacity="0.3" stroke-linecap="round" stroke-width="1.6">
+    <path d="M40,336 q46,-6 92,0"/>
+    <path d="M200,352 q50,-7 100,0"/>
+    <path d="M840,326 q44,-6 88,0"/>
+    <path d="M980,344 q48,-7 96,0"/>
+    <path d="M420,384 q56,-7 112,0"/>
+  </g>
+  <g fill="#fdf3da" opacity="0.55">
+    <ellipse cx="180" cy="312" rx="48" ry="6"/>
+    <ellipse cx="900" cy="306" rx="56" ry="7"/>
+    <ellipse cx="1080" cy="326" rx="40" ry="6"/>
+    <ellipse cx="70" cy="330" rx="34" ry="5"/>
+    <ellipse cx="620" cy="330" rx="46" ry="6"/>
+  </g>
+  <g fill="#c9a874" opacity="0.45">
+    <ellipse cx="300" cy="306" rx="9" ry="3.4"/>
+    <ellipse cx="760" cy="296" rx="7" ry="2.8"/>
+    <ellipse cx="980" cy="310" rx="10" ry="3.6"/>
+    <ellipse cx="140" cy="302" rx="6" ry="2.6"/>
+    <ellipse cx="470" cy="300" rx="5" ry="2"/>
+  </g>
+  <!-- Conchas -->
+  <g fill="#fff6e2" stroke="#dcc094" stroke-width="0.8">
+    <path d="M420,318 a5,4 0 0 1 10,0 a5,4 0 0 1 -10,0 Z"/>
+    <path d="M860,310 a4,3.2 0 0 1 8,0 a4,3.2 0 0 1 -8,0 Z"/>
+    <path d="M232,314 a3.6,3 0 0 1 7.2,0 a3.6,3 0 0 1 -7.2,0 Z"/>
+  </g>
+
+  <!-- ============================================================
+       PALMERAS DE MEDIO PLANO
+       ============================================================ -->
+  <!-- Palmera principal, contraluz del sol -->
+  <g transform="translate(1082,322)">
+    <ellipse cx="8" cy="4" rx="52" ry="10" fill="#a87f45" opacity="0.28"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-0.9;1.2;-0.9" dur="8.5s" repeatCount="indefinite"/>
+      <use href="#palmDark" transform="scale(1.56)"/>
+    </g>
+  </g>
+
+  <!-- Palmera izquierda -->
+  <g transform="translate(178,300)">
+    <ellipse cx="6" cy="4" rx="40" ry="8" fill="#b58a4e" opacity="0.26"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="1;-1.2;1" dur="9.6s" repeatCount="indefinite"/>
+      <use href="#palmLit" transform="scale(0.92)"/>
+    </g>
+  </g>
+
+  <!-- Palmera lejana -->
+  <g transform="translate(560,290)">
+    <ellipse cx="3" cy="2" rx="20" ry="4" fill="#b58a4e" opacity="0.22"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-1.5;1.5;-1.5" dur="7.4s" repeatCount="indefinite"/>
+      <use href="#palmLit" transform="scale(0.42)"/>
+    </g>
+  </g>
+
+  <!-- Sombrero de playa -->
+  <g transform="translate(352,318)">
+    <ellipse cx="0" cy="2" rx="30" ry="5" fill="#b58a4e" opacity="0.22"/>
+    <path d="M0,0 L0,-32" stroke="#a9713f" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-30,-30 A30,30 0 0 1 30,-30 Z" fill="#f6faf9"/>
+    <path d="M0,-30 L0,-60 A30,30 0 0 0 -30,-30 Z" fill="#3aa8b6"/>
+    <path d="M0,-30 L0,-60 A30,30 0 0 1 30,-30 Z" fill="#3aa8b6"/>
+    <path d="M-30,-30 A30,30 0 0 1 30,-30" fill="none" stroke="#dfeaea" stroke-width="1.4"/>
+    <g fill="#f6faf9">
+      <circle cx="-30" cy="-30" r="4"/>
+      <circle cx="-15" cy="-52" r="4"/>
+      <circle cx="0" cy="-60" r="4"/>
+      <circle cx="15" cy="-52" r="4"/>
+      <circle cx="30" cy="-30" r="4"/>
+    </g>
+  </g>
+
+  <!-- Toalla -->
+  <g transform="translate(268,332)">
+    <path d="M0,0 L26,-6 L30,-4 L4,2 Z" fill="#ef6f6b"/>
+    <path d="M2,-1 L28,-6" stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.6"/>
+  </g>
+
+  <!-- Rocas -->
+  <g>
+    <path d="M60,378 C74,360 100,357 112,367 C119,372 116,375 110,375 L64,375 C57,375 55,375 60,378 Z" fill="#9aa7ab"/>
+    <path d="M60,378 C74,364 94,360 106,366 C90,366 72,370 62,376 Z" fill="#c6d0d3" opacity="0.85"/>
+  </g>
+
+  <!-- Sombras largas de las palmeras sobre la arena -->
+  <g fill="#a36f36" opacity="0.3" filter="url(#foreBlur)">
+    <path d="M1090,324 C1010,342 902,372 792,400 L900,400 C1000,372 1058,346 1100,326 Z"/>
+    <path d="M184,302 C120,320 40,360 0,382 L0,398 C60,378 130,340 194,306 Z" opacity="0.7"/>
+  </g>
+  <g fill="#a36f36" opacity="0.22" filter="url(#softBlur)">
+    <path d="M1086,336 C1010,356 940,378 880,400 L930,400 C990,378 1050,356 1096,336 Z"/>
+    <path d="M1084,348 C1030,364 990,382 960,400 L1000,400 C1030,382 1066,364 1090,348 Z"/>
+  </g>
+
+  <!-- Huellas en la arena -->
+  <g fill="#b4894c" opacity="0.28">
+    <ellipse cx="470" cy="386" rx="7" ry="3" transform="rotate(-24,470,386)"/>
+    <ellipse cx="500" cy="372" rx="6.6" ry="2.8" transform="rotate(-24,500,372)"/>
+    <ellipse cx="528" cy="359" rx="6" ry="2.6" transform="rotate(-24,528,359)"/>
+    <ellipse cx="553" cy="347" rx="5.4" ry="2.4" transform="rotate(-24,553,347)"/>
+    <ellipse cx="576" cy="336" rx="4.8" ry="2.1" transform="rotate(-24,576,336)"/>
+    <ellipse cx="597" cy="326" rx="4.2" ry="1.9" transform="rotate(-24,597,326)"/>
+    <ellipse cx="616" cy="317" rx="3.6" ry="1.7" transform="rotate(-24,616,317)"/>
+    <ellipse cx="633" cy="309" rx="3" ry="1.5" transform="rotate(-24,633,309)"/>
+  </g>
+
+  <!-- Charcos de arena humeda -->
+  <g opacity="0.35">
+    <ellipse cx="500" cy="330" rx="52" ry="6" fill="#b9d9e2"/>
+    <ellipse cx="742" cy="350" rx="38" ry="5" fill="#b9d9e2"/>
+    <ellipse cx="270" cy="318" rx="44" ry="5" fill="#b9d9e2"/>
+  </g>
+
+  <!-- Sombrilla cerrada -->
+  <g transform="translate(946,300) rotate(14)">
+    <path d="M0,0 L0,-40" stroke="#a9713f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-5,-40 C-5,-60 5,-60 5,-40 Z" fill="#2f8f96"/>
+    <path d="M-2.4,-40 C-2.4,-58 2.4,-58 2.4,-40 Z" fill="#3aa8b6"/>
+  </g>
+
+  <!-- Madera varada -->
+  <g transform="translate(806,314) rotate(-7)">
+    <path d="M-40,0 C-20,-7 20,-7 44,-2 L42,3 C18,-1 -18,2 -38,5 Z" fill="#8a5f3a"/>
+    <path d="M-30,-1 C-12,-5 14,-5 32,-2" fill="none" stroke="#5f3f24" stroke-width="1.4" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- ============================================================
+       MARCO EN SILUETA (primer plano, estilo Steam)
+       ============================================================ -->
+  <!-- Corona de palmera izquierda (primer plano) -->
+  <g transform="translate(-56,-52)">
+    <g transform="rotate(-26)"><use href="#frondDark" transform="scale(2.9,2.9)"/></g>
+    <g transform="rotate(2)"><use href="#frondDark" transform="scale(2.7,2.7)"/></g>
+    <g transform="rotate(32)"><use href="#frondDark" transform="scale(2.4,2.4)"/></g>
+    <g transform="rotate(62)"><use href="#frondDark" transform="scale(2,2)"/></g>
+    <g transform="rotate(-58)"><use href="#frondDark" transform="scale(2.3,2.3)"/></g>
+    <path d="M-10,-62 C-4,-40 2,-16 0,4 L14,4 C16,-16 10,-42 4,-62 Z" fill="#0b2128"/>
+  </g>
+
+  <!-- Corona de palmera derecha (primer plano) -->
+  <g transform="translate(1258,-46)">
+    <g transform="rotate(154)"><use href="#frondDark" transform="scale(3,3)"/></g>
+    <g transform="rotate(180)"><use href="#frondDark" transform="scale(2.8,2.8)"/></g>
+    <g transform="rotate(206)"><use href="#frondDark" transform="scale(2.5,2.5)"/></g>
+    <g transform="rotate(232)"><use href="#frondDark" transform="scale(2.1,2.1)"/></g>
+    <g transform="rotate(126)"><use href="#frondDark" transform="scale(2.4,2.4)"/></g>
+    <path d="M10,-56 C4,-34 -2,-10 0,10 L-14,10 C-16,-10 -10,-36 -4,-56 Z" fill="#0b2128"/>
+  </g>
+
+  <!-- Rocas oscuras en primer plano -->
+  <g opacity="0.97">
+    <path d="M0,400 L0,346 C42,334 88,344 108,366 C122,382 114,400 106,400 Z" fill="#0d2a2f"/>
+    <path d="M106,400 C114,380 144,364 182,362 C222,360 244,378 248,400 Z" fill="#0a2227"/>
+    <path d="M0,346 C42,334 88,344 108,366" fill="none" stroke="#c9a06a" stroke-width="2.2" stroke-opacity="0.55"/>
+    <path d="M106,400 C114,380 144,364 182,362" fill="none" stroke="#c9a06a" stroke-width="2" stroke-opacity="0.4"/>
+    <path d="M1200,400 L1200,338 C1162,328 1118,340 1098,362 C1086,376 1092,400 1100,400 Z" fill="#0d2a2f"/>
+    <path d="M1100,400 C1090,374 1058,358 1020,358 C982,358 964,378 960,400 Z" fill="#0a2227"/>
+    <path d="M1200,338 C1162,328 1118,340 1098,362" fill="none" stroke="#ffd9a0" stroke-width="2.4" stroke-opacity="0.5"/>
+    <path d="M1100,400 C1090,374 1058,358 1020,358" fill="none" stroke="#ffd9a0" stroke-width="2" stroke-opacity="0.35"/>
+  </g>
+  <!-- Matas de hierba en primer plano -->
+  <g fill="none" stroke-linecap="round" opacity="0.97">
+    <g stroke="#0d2a2f">
+      <path d="M42,400 Q32,362 18,338" stroke-width="7"/>
+      <path d="M64,400 Q66,354 74,326" stroke-width="6"/>
+      <path d="M88,400 Q100,366 120,344" stroke-width="5.4"/>
+      <path d="M1120,400 Q1110,356 1092,330" stroke-width="7"/>
+      <path d="M1146,400 Q1152,352 1166,326" stroke-width="6"/>
+      <path d="M1170,400 Q1182,364 1200,344" stroke-width="5.4"/>
+    </g>
+    <g stroke="#1b4449" opacity="0.9">
+      <path d="M26,400 Q14,374 -2,358" stroke-width="4.6"/>
+      <path d="M100,400 Q112,372 134,358" stroke-width="4"/>
+      <path d="M1190,400 Q1200,372 1216,360" stroke-width="4.4"/>
+    </g>
+  </g>
+
+  <!-- ============================================================
+       ACABADO
+       ============================================================ -->
+  <!-- Bruma en la orilla: separa los planos -->
+  <g opacity="0.45" filter="url(#wideBlur)">
+    <path d="M0,276 C200,266 400,272 600,286 C800,300 1000,290 1200,272" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.55"/>
+    <path d="M0,290 C200,280 400,286 600,300 C800,314 1000,304 1200,286" fill="none" stroke="#ffe9c4" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+  </g>
+
+  <!-- Destello de lente -->
+  <g opacity="0.18">
+    <circle cx="930" cy="112" r="14" fill="#ffe9b0"/>
+    <circle cx="820" cy="86" r="8" fill="#ffd9a0"/>
+    <circle cx="700" cy="62" r="5" fill="#ffe4b8"/>
+    <circle cx="1160" cy="176" r="11" fill="#ffd9a0"/>
+  </g>
+
+  <!-- Gradacion calida de color -->
+  <linearGradient id="warmGrade" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0"    stop-color="#ffcf8a" stop-opacity="0"/>
+    <stop offset="0.62" stop-color="#ffcf8a" stop-opacity="0.05"/>
+    <stop offset="1"    stop-color="#ffd79a" stop-opacity="0.16"/>
+  </linearGradient>
+  <rect width="1200" height="400" fill="url(#warmGrade)"/>
+  <radialGradient id="vig" cx="0.52" cy="0.5" r="0.78">
+    <stop offset="0.42" stop-color="#0b3a4a" stop-opacity="0"/>
+    <stop offset="1"    stop-color="#07242e" stop-opacity="0.42"/>
+  </radialGradient>
+  <rect width="1200" height="400" fill="url(#vig)"/>
+  <linearGradient id="topFade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0b3a4a" stop-opacity="0.26"/>
+    <stop offset="1" stop-color="#0b3a4a" stop-opacity="0"/>
+  </linearGradient>
+  <rect width="1200" height="150" fill="url(#topFade)"/>
+
+  <!-- Motas doradas en la luz -->
+  <g fill="#fff3cf">
+    <g><animateTransform attributeName="transform" type="translate" values="948,260; 868,200; 918,140; 988,96" dur="22s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="2.6" opacity="0.7"><animate attributeName="opacity" values="0;0.8;0.2;0" dur="6s" repeatCount="indefinite"/></circle>
+    </g>
+    <g><animateTransform attributeName="transform" type="translate" values="1068,240; 988,180; 1028,120" dur="27s" begin="5s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="2" opacity="0.6"><animate attributeName="opacity" values="0;0.75;0.15;0" dur="7s" begin="1.5s" repeatCount="indefinite"/></circle>
+    </g>
+    <g><animateTransform attributeName="transform" type="translate" values="848,300; 768,230; 808,170" dur="30s" begin="10s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="2.3" opacity="0.65"><animate attributeName="opacity" values="0;0.7;0.2;0" dur="6.5s" begin="2s" repeatCount="indefinite"/></circle>
+    </g>
+    <g><animateTransform attributeName="transform" type="translate" values="1118,300; 1048,230; 1078,170" dur="33s" begin="7s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="1.8" opacity="0.55"><animate attributeName="opacity" values="0;0.65;0.15;0" dur="8s" begin="3s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- Grano pictorico -->
+  <rect width="1200" height="400" filter="url(#grain)" opacity="0.055"/>
+
+  <!-- Marco interior -->
+  <rect x="7" y="7" width="1186" height="386" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1.5"/>
+
+  <!-- ============================================================
+       TIPOGRAFIA
+       ============================================================ -->
+  <g text-anchor="middle" font-family="'Segoe UI Semibold','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="600" y="80" font-size="46" font-weight="700" letter-spacing="7" fill="url(#nameGrad)" paint-order="stroke" stroke="#ffffff" stroke-opacity="0.82" stroke-width="6.5" stroke-linejoin="round">ARMANDO CARREÑO</text>
+
+    <g stroke="#ffffff" stroke-opacity="0.9" stroke-width="1.8">
+      <line x1="392" y1="100" x2="556" y2="100"/>
+      <line x1="644" y1="100" x2="808" y2="100"/>
+    </g>
+    <path d="M600,92 L609,100 L600,108 L591,100 Z" fill="#0e5570" opacity="0.9"/>
+
+    <text x="600" y="130" font-size="15" font-weight="700" letter-spacing="4.5" fill="#11566c" paint-order="stroke" stroke="#ffffff" stroke-opacity="0.8" stroke-width="4.5" stroke-linejoin="round">INGENIERO EN CIENCIAS DE LA COMPUTACIÓN</text>
+    <text x="600" y="156" font-size="11.5" font-weight="400" letter-spacing="3.4" fill="#2a6f85" paint-order="stroke" stroke="#ffffff" stroke-opacity="0.68" stroke-width="3.8" stroke-linejoin="round">PUEBLA, MÉXICO</text>
+  </g>
+</svg>
